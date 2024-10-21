@@ -1,1 +1,4030 @@
+<!-- var_dump($_POST) -->
+<div id="content">
+ 
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CSS3 transform: rotate</title>
+    <meta charset="UTF-8" />
+    <link href="style.css"
+          type="text/css" rel="stylesheet" />
+
+<?php
+
+
+
+
+
+
+//**********************************************  memory  back START   ***********************************************//
+
+ if( $_POST['but_1'] ==true  ||   $_POST['but_x'] ==true   || $_POST['frez_no_1']==true ){  //|| $_POST['but_1'] !=true
+ 
+
+$arrayx1 =range(1,50);
+shuffle ( $arrayx1  );
+$numx1[] = $arrayx1  ;
+$nr_1_1=$numx1[0][0];
+$nr_1_2=$numx1[0][1];
+$nr_1_3=$numx1[0][2];
+$nr_1_4=$numx1[0][3];
+$nr_1_5=$numx1[0][4];
+$zh1 = array();
+$zh1[a]=$nr_1_1;
+$zh1[b]=$nr_1_2;
+$zh1[c]=$nr_1_3;
+$zh1[d]=$nr_1_4;
+$zh1[e]=$nr_1_5;
+sort($zh1);
+$rex1=$zh1;
+$start_1_1 =$rex1[0];
+$start_1_2 =$rex1[1];
+$start_1_3 =$rex1[2];
+$start_1_4 =$rex1[3];
+$start_1_5 =$rex1[4];
+
+$zufall_1_1=$start_1_1;
+$zufall_1_2=$start_1_2;
+$zufall_1_3=$start_1_3;
+$zufall_1_4=$start_1_4;
+$zufall_1_5=$start_1_5; 
+
+
+$arrayx_sub_1 =range(1,9);
+shuffle ( $arrayx_sub_1  );
+$numx_sub_1[] = $arrayx_sub_1  ;
+$nr_sub_1_1=$numx_sub_1[0][0];
+$nr_sub_1_2=$numx_sub_1[0][1];
+$zh_sub_1 = array();
+$zh_sub_1[a]=$nr_sub_1_1;
+$zh_sub_1[b]=$nr_sub_1_2;
+sort($zh_sub_1);
+$rex_sub_1=$zh_sub_1;
+$start_sub_1_1 =$rex_sub_1[0];
+$start_sub_1_2 =$rex_sub_1[1];
+$zufall_sub_1_1=$start_sub_1_1;
+$zufall_sub_1_2=$start_sub_1_2;
+ }
+
+ 
+ if($_POST['but_2'] ==true || $_POST['but_x'] ==true || $_POST['frez_no_2']==true){
+$arrayx2 =range(1,50);
+shuffle ( $arrayx2  );
+$numx2[] = $arrayx2  ;
+$nr_2_1=$numx2[0][0];
+$nr_2_2=$numx2[0][1];
+$nr_2_3=$numx2[0][2];
+$nr_2_4=$numx2[0][3];
+$nr_2_5=$numx2[0][4];
+$zh2 = array();
+$zh2[a]=$nr_2_1;
+$zh2[b]=$nr_2_2;
+$zh2[c]=$nr_2_3;
+$zh2[d]=$nr_2_4;
+$zh2[e]=$nr_2_5;
+sort($zh2);
+$rex2=$zh2;
+$start_2_1 =$rex2[0];
+$start_2_2 =$rex2[1];
+$start_2_3 =$rex2[2];
+$start_2_4 =$rex2[3];
+$start_2_5 =$rex2[4];
+$zufall_2_1=$start_2_1;
+$zufall_2_2=$start_2_2;
+$zufall_2_3=$start_2_3;
+$zufall_2_4=$start_2_4;
+$zufall_2_5=$start_2_5; 
+
+
+$arrayx_sub_2 =range(1,9);
+shuffle ( $arrayx_sub_2  );
+$numx_sub_2[] = $arrayx_sub_2  ;
+$nr_sub_2_1=$numx_sub_2[0][0];
+$nr_sub_2_2=$numx_sub_2[0][1];
+$zh_sub_2 = array();
+$zh_sub_2[a]=$nr_sub_2_1;
+$zh_sub_2[b]=$nr_sub_2_2;
+sort($zh_sub_2);
+$rex_sub_2=$zh_sub_2;
+$start_sub_2_1 =$rex_sub_2[0];
+$start_sub_2_2 =$rex_sub_2[1];
+$zufall_sub_2_1=$start_sub_2_1;
+$zufall_sub_2_2=$start_sub_2_2;
+}
+
+if($_POST['but_3'] ==true || $_POST['but_x'] ==true || $_POST['frez_no_3']==true){
+$arrayx3 =range(1,50);
+shuffle ( $arrayx3  );
+$numx3[] = $arrayx3  ;
+$nr_3_1=$numx3[0][0];
+$nr_3_2=$numx3[0][1];
+$nr_3_3=$numx3[0][2];
+$nr_3_4=$numx3[0][3];
+$nr_3_5=$numx3[0][4];
+$zh3 = array();
+$zh3[a]=$nr_3_1;
+$zh3[b]=$nr_3_2;
+$zh3[c]=$nr_3_3;
+$zh3[d]=$nr_3_4;
+$zh3[e]=$nr_3_5;
+sort($zh3);
+$rex3=$zh3;
+$start_3_1 =$rex3[0];
+$start_3_2 =$rex3[1];
+$start_3_3 =$rex3[2];
+$start_3_4 =$rex3[3];
+$start_3_5 =$rex3[4];
+$zufall_3_1=$start_3_1;
+$zufall_3_2=$start_3_2;
+$zufall_3_3=$start_3_3;
+$zufall_3_4=$start_3_4;
+$zufall_3_5=$start_3_5; 
+
+$arrayx_sub_3 =range(1,9);
+shuffle ( $arrayx_sub_3  );
+$numx_sub_3[] = $arrayx_sub_3  ;
+$nr_sub_3_1=$numx_sub_3[0][0];
+$nr_sub_3_2=$numx_sub_3[0][1];
+$zh_sub_3 = array();
+$zh_sub_3[a]=$nr_sub_3_1;
+$zh_sub_3[b]=$nr_sub_3_2;
+sort($zh_sub_3);
+$rex_sub_3=$zh_sub_3;
+$start_sub_3_1 =$rex_sub_3[0];
+$start_sub_3_2 =$rex_sub_3[1];
+$zufall_sub_3_1=$start_sub_3_1;
+$zufall_sub_3_2=$start_sub_3_2;
+}
+
+
+if($_POST['but_4'] ==true || $_POST['but_x'] ==true || $_POST['frez_no_4']==true){
+$arrayx4 =range(1,50);
+shuffle ( $arrayx4  );
+$numx4[] = $arrayx4  ;
+$nr_4_1=$numx4[0][0];
+$nr_4_2=$numx4[0][1];
+$nr_4_3=$numx4[0][2];
+$nr_4_4=$numx4[0][3];
+$nr_4_5=$numx4[0][4];
+$zh4 = array();
+$zh4[a]=$nr_4_1;
+$zh4[b]=$nr_4_2;
+$zh4[c]=$nr_4_3;
+$zh4[d]=$nr_4_4;
+$zh4[e]=$nr_4_5;
+sort($zh4);
+$rex4=$zh4;
+$start_4_1 =$rex4[0];
+$start_4_2 =$rex4[1];
+$start_4_3 =$rex4[2];
+$start_4_4 =$rex4[3];
+$start_4_5 =$rex4[4];
+$zufall_4_1=$start_4_1;
+$zufall_4_2=$start_4_2;
+$zufall_4_3=$start_4_3;
+$zufall_4_4=$start_4_4;
+$zufall_4_5=$start_4_5;
+
+$arrayx_sub_4 =range(1,9);
+shuffle ( $arrayx_sub_4  );
+$numx_sub_4[] = $arrayx_sub_4  ;
+$nr_sub_4_1=$numx_sub_4[0][0];
+$nr_sub_4_2=$numx_sub_4[0][1];
+$zh_sub_4 = array();
+$zh_sub_4[a]=$nr_sub_4_1;
+$zh_sub_4[b]=$nr_sub_4_2;
+sort($zh_sub_4);
+$rex_sub_4=$zh_sub_4;
+$start_sub_4_1 =$rex_sub_4[0];
+$start_sub_4_2 =$rex_sub_4[1];
+$zufall_sub_4_1=$start_sub_4_1;
+$zufall_sub_4_2=$start_sub_4_2;
+}
+
+
+if($_POST['but_5'] ==true || $_POST['but_x'] ==true || $_POST['frez_no_5']==true){
+$arrayx5 =range(1,50);
+shuffle ( $arrayx5  );
+$numx5[] = $arrayx5  ;
+$nr_5_1=$numx5[0][0];
+$nr_5_2=$numx5[0][1];
+$nr_5_3=$numx5[0][2];
+$nr_5_4=$numx5[0][3];
+$nr_5_5=$numx5[0][4];
+$zh5 = array();
+$zh5[a]=$nr_5_1;
+$zh5[b]=$nr_5_2;
+$zh5[c]=$nr_5_3;
+$zh5[d]=$nr_5_4;
+$zh5[e]=$nr_5_5;
+sort($zh5);
+$rex5=$zh5;
+$start_5_1 =$rex5[0];
+$start_5_2 =$rex5[1];
+$start_5_3 =$rex5[2];
+$start_5_4 =$rex5[3];
+$start_5_5 =$rex5[4];
+$zufall_5_1=$start_5_1;
+$zufall_5_2=$start_5_2;
+$zufall_5_3=$start_5_3;
+$zufall_5_4=$start_5_4;
+$zufall_5_5=$start_5_5; 
+
+$arrayx_sub_5 =range(1,9);
+shuffle ( $arrayx_sub_5  );
+$numx_sub_5[] = $arrayx_sub_5  ;
+$nr_sub_5_1=$numx_sub_5[0][0];
+$nr_sub_5_2=$numx_sub_5[0][1];
+$zh_sub_5 = array();
+$zh_sub_5[a]=$nr_sub_5_1;
+$zh_sub_5[b]=$nr_sub_5_2;
+sort($zh_sub_5);
+$rex_sub_5=$zh_sub_5;
+$start_sub_5_1 =$rex_sub_5[0];
+$start_sub_5_2 =$rex_sub_5[1];
+$zufall_sub_5_1=$start_sub_5_1;
+$zufall_sub_5_2=$start_sub_5_2;
+}
+
+
+if($_POST['but_6'] ==true || $_POST['but_x'] ==true || $_POST['frez_no_6']==true){
+$arrayx6 =range(1,50);
+shuffle ( $arrayx6  );
+$numx6[] = $arrayx6  ;
+$nr_6_1=$numx6[0][0];
+$nr_6_2=$numx6[0][1];
+$nr_6_3=$numx6[0][2];
+$nr_6_4=$numx6[0][3];
+$nr_6_5=$numx6[0][4];
+$zh6 = array();
+$zh6[a]=$nr_6_1;
+$zh6[b]=$nr_6_2;
+$zh6[c]=$nr_6_3;
+$zh6[d]=$nr_6_4;
+$zh6[e]=$nr_6_5;
+sort($zh6);
+$rex6=$zh6;
+$start_6_1 =$rex6[0];
+$start_6_2 =$rex6[1];
+$start_6_3 =$rex6[2];
+$start_6_4 =$rex6[3];
+$start_6_5 =$rex6[4];
+$zufall_6_1=$start_6_1;
+$zufall_6_2=$start_6_2;
+$zufall_6_3=$start_6_3;
+$zufall_6_4=$start_6_4;
+$zufall_6_5=$start_6_5; 
+
+$arrayx_sub_6 =range(1,9);
+shuffle ( $arrayx_sub_6  );
+$numx_sub_6[] = $arrayx_sub_6  ;
+$nr_sub_6_1=$numx_sub_6[0][0];
+$nr_sub_6_2=$numx_sub_6[0][1];
+$zh_sub_6 = array();
+$zh_sub_6[a]=$nr_sub_6_1;
+$zh_sub_6[b]=$nr_sub_6_2;
+sort($zh_sub_6);
+$rex_sub_6=$zh_sub_6;
+$start_sub_6_1 =$rex_sub_6[0];
+$start_sub_6_2 =$rex_sub_6[1];
+$zufall_sub_6_1=$start_sub_6_1;
+$zufall_sub_6_2=$start_sub_6_2;
+}
+
+
+//**********************************************  memory  back END   ***********************************************//
+
+
+//**     numbers  array from  saved button  START  **//     ** no pass test 
+ 
+//** shuffel number 1 START **// 
+
+
+/*
+
+if($_POST['frez_no_1']==true){
+
+
+$shuf_1="./text/feld_shuffle_1.txt"; 
+$array_shuff_1= file($shuf_1); 
+ 
+foreach ($array_shuff_1 as $shu_1[]){}
+$zufall_1_1=$array_shuff_1[0];
+$zufall_1_2=$array_shuff_1[1];
+$zufall_1_3=$array_shuff_1[2];
+$zufall_1_4=$array_shuff_1[3];
+$zufall_1_5=$array_shuff_1[4];
+
+$zufall_sub_1_1=$array_shuff_1[5];
+$zufall_sub_1_2=$array_shuff_1[6];
+
+
+
+
+
+	}
+
+*/
+
+//** shuffel number 1 END **// 
+
+
+
+
+//**     numbers  array from  saved button  END  **// 
+
+
+
+
+
+
+//**     save numbers of shuffle green button STRAT **/
+
+
+if($_POST['but_1']==true){
+$no_1=$_POST['to_freeze_1_1'];
+$no_2=$_POST['to_freeze_1_2'];
+$no_3=$_POST['to_freeze_1_3'];
+$no_4=$_POST['to_freeze_1_4'];
+$no_5=$_POST['to_freeze_1_5'];
+$no_6=$_POST['to_freeze_sub_1_1'];
+$no_7=$_POST['to_freeze_sub_1_2'];
+$inhalt2 ="".$no_1."\n".$no_2."\n".$no_3."\n".$no_4."\n".$no_5."\n".$no_6."\n".$no_7."\n";
+
+$handle2 = fopen ('./text/feld_shuffle_1.txt', 'w');
+fwrite ($handle2, $inhalt2);
+fclose ($handle2);
+}
+
+if($_POST['but_2']==true){
+$no_1=$_POST['to_freeze_2_1'];
+$no_2=$_POST['to_freeze_2_2'];
+$no_3=$_POST['to_freeze_2_3'];
+$no_4=$_POST['to_freeze_2_4'];
+$no_5=$_POST['to_freeze_2_5'];
+$no_6=$_POST['to_freeze_sub_2_1'];
+$no_7=$_POST['to_freeze_sub_2_2'];
+$inhalt2 ="".$no_1."\n".$no_2."\n".$no_3."\n".$no_4."\n".$no_5."\n".$no_6."\n".$no_7."\n";
+
+$handle2 = fopen ('./text/feld_shuffle_2.txt', 'w');
+fwrite ($handle2, $inhalt2);
+fclose ($handle2);
+}
+
+if($_POST['but_3']==true){
+$no_1=$_POST['to_freeze_3_1'];
+$no_2=$_POST['to_freeze_3_2'];
+$no_3=$_POST['to_freeze_3_3'];
+$no_4=$_POST['to_freeze_3_4'];
+$no_5=$_POST['to_freeze_3_5'];
+$no_6=$_POST['to_freeze_sub_3_1'];
+$no_7=$_POST['to_freeze_sub_3_2'];
+$inhalt2 ="".$no_1."\n".$no_2."\n".$no_3."\n".$no_4."\n".$no_5."\n".$no_6."\n".$no_7."\n";
+
+$handle2 = fopen ('./text/feld_shuffle_3.txt', 'w');
+fwrite ($handle2, $inhalt2);
+fclose ($handle2);
+}
+
+if($_POST['but_4']==true){
+$no_1=$_POST['to_freeze_4_1'];
+$no_2=$_POST['to_freeze_4_2'];
+$no_3=$_POST['to_freeze_4_3'];
+$no_4=$_POST['to_freeze_4_4'];
+$no_5=$_POST['to_freeze_4_5'];
+$no_6=$_POST['to_freeze_sub_4_1'];
+$no_7=$_POST['to_freeze_sub_4_2'];
+$inhalt2 ="".$no_1."\n".$no_2."\n".$no_3."\n".$no_4."\n".$no_5."\n".$no_6."\n".$no_7."\n";
+
+$handle2 = fopen ('./text/feld_shuffle_4.txt', 'w');
+fwrite ($handle2, $inhalt2);
+fclose ($handle2);
+}
+
+if($_POST['but_5']==true){
+$no_1=$_POST['to_freeze_5_1'];
+$no_2=$_POST['to_freeze_5_2'];
+$no_3=$_POST['to_freeze_5_3'];
+$no_4=$_POST['to_freeze_5_4'];
+$no_5=$_POST['to_freeze_5_5'];
+$no_6=$_POST['to_freeze_sub_5_1'];
+$no_7=$_POST['to_freeze_sub_5_2'];
+$inhalt2 ="".$no_1."\n".$no_2."\n".$no_3."\n".$no_4."\n".$no_5."\n".$no_6."\n".$no_7."\n";
+
+$handle2 = fopen ('./text/feld_shuffle_5.txt', 'w');
+fwrite ($handle2, $inhalt2);
+fclose ($handle2);
+}
+
+if($_POST['but_6']==true){
+$no_1=$_POST['to_freeze_6_1'];
+$no_2=$_POST['to_freeze_6_2'];
+$no_3=$_POST['to_freeze_6_3'];
+$no_4=$_POST['to_freeze_6_4'];
+$no_5=$_POST['to_freeze_6_5'];
+$no_6=$_POST['to_freeze_sub_6_1'];
+$no_7=$_POST['to_freeze_sub_6_2'];
+$inhalt2 ="".$no_1."\n".$no_2."\n".$no_3."\n".$no_4."\n".$no_5."\n".$no_6."\n".$no_7."\n";
+
+$handle2 = fopen ('./text/feld_shuffle_6.txt', 'w');
+fwrite ($handle2, $inhalt2);
+fclose ($handle2);
+}
+
+//**     save numbers of shuffle green button END **/
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/** Freeze  ON/OFF START **/ 
+
+$info_freeze_1=file_get_contents("./text/feld_freeze_info_1.txt"); 
+$info_freeze_2=file_get_contents("./text/feld_freeze_info_2.txt"); 
+$info_freeze_3=file_get_contents("./text/feld_freeze_info_3.txt"); 
+$info_freeze_4=file_get_contents("./text/feld_freeze_info_4.txt"); 
+$info_freeze_5=file_get_contents("./text/feld_freeze_info_5.txt"); 
+$info_freeze_6=file_get_contents("./text/feld_freeze_info_6.txt"); 
+$freeze_save_1=$info_freeze_1; 
+$freeze_save_2=$info_freeze_2; 
+$freeze_save_3=$info_freeze_3; 
+$freeze_save_4=$info_freeze_4; 
+$freeze_save_5=$info_freeze_5; 
+$freeze_save_6=$info_freeze_6; 
+
+
+
+//**     freeze 1 submit START       **//
+if($_POST['frez_yes_1'] ){
+	
+$datei = './text/feld_freeze_info_1.txt';
+@chmod( $datei, 0777 ); //0777 0666
+clearstatcache ();
+
+$chmod = decoct( fileperms ( $datei ) );
+
+// echo 'CHMOD nachher: ' . $chmod; 
+$dateinamen = './text/feld_freeze_info_1.txt';
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+
+$inhalt ="no";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_1.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+	} 
+	
+if($_POST['frez_no_1'] && $_POST['no_but'] !=true ){
+	
+$datei = './text/feld_freeze_info_1.txt';
+@chmod( $datei, 0777 ); //0777 0666
+clearstatcache ();
+
+$chmod = decoct( fileperms ( $datei ) );
+
+// echo 'CHMOD nachher: ' . $chmod; 
+$dateinamen = './text/feld_freeze_info_1.txt';
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+
+$inhalt ="yes";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_1.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+$no_1="$zufall_1_1";
+$no_2="$zufall_1_2";
+$no_3="$zufall_1_3";
+$no_4="$zufall_1_4";
+$no_5="$zufall_1_5";
+$no_6="$zufall_sub_1_1";
+$no_7="$zufall_sub_1_2";
+
+
+$inhalt2 ="".$no_1."\n".$no_2."\n".$no_3."\n".$no_4."\n".$no_5."\n".$no_6."\n".$no_7."\n";
+
+$handle2 = fopen ('./text/feld_1.txt', 'w');
+fwrite ($handle2, $inhalt2);
+fclose ($handle2);
+
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+	}
+if($_POST['no_but']){
+$inhalt ="no";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_1.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+
+	}	
+//**     freeze 1 submit END       **// 
+
+
+//**     freeze 2 submit START       **//
+ if($_POST['frez_yes_2'] ){
+	
+$datei = './text/feld_freeze_info_2.txt';
+@chmod( $datei, 0777 ); //0777 0666
+clearstatcache ();
+
+$chmod = decoct( fileperms ( $datei ) );
+
+// echo 'CHMOD nachher: ' . $chmod; 
+$dateinamen = './text/feld_freeze_info_2.txt';
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+
+$inhalt ="no";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_2.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+	} 
+	
+if($_POST['frez_no_2'] && $_POST['no_but'] !=true ){
+	
+$datei = './text/feld_freeze_info_2.txt';
+@chmod( $datei, 0777 ); //0777 0666
+clearstatcache ();
+
+$chmod = decoct( fileperms ( $datei ) );
+
+// echo 'CHMOD nachher: ' . $chmod; 
+$dateinamen = './text/feld_freeze_info_2.txt';
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+
+$inhalt ="yes";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_2.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+
+$no_1="$zufall_2_1";
+$no_2="$zufall_2_2";
+$no_3="$zufall_2_3";
+$no_4="$zufall_2_4";
+$no_5="$zufall_2_5";
+$no_6="$zufall_sub_2_1";
+$no_7="$zufall_sub_2_2";
+
+
+$inhalt2 ="".$no_1."\n".$no_2."\n".$no_3."\n".$no_4."\n".$no_5."\n".$no_6."\n".$no_7."\n";
+
+$handle2 = fopen ('./text/feld_2.txt', 'w');
+fwrite ($handle2, $inhalt2);
+fclose ($handle2);
+
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+	}
+if($_POST['no_but']){
+$inhalt ="no";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_2.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+
+	}	
+//**     freeze 2 submit END       **//	
+
+
+//**     freeze 3 submit START       **//
+ if($_POST['frez_yes_3'] ){
+	
+$datei = './text/feld_freeze_info_3.txt';
+@chmod( $datei, 0777 ); //0777 0666
+clearstatcache ();
+
+$chmod = decoct( fileperms ( $datei ) );
+
+// echo 'CHMOD nachher: ' . $chmod; 
+$dateinamen = './text/feld_freeze_info_3.txt';
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+
+$inhalt ="no";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_3.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+	} 
+	
+if($_POST['frez_no_3'] && $_POST['no_but'] !=true ){
+	
+$datei = './text/feld_freeze_info_3.txt';
+@chmod( $datei, 0777 ); //0777 0666
+clearstatcache ();
+
+$chmod = decoct( fileperms ( $datei ) );
+
+// echo 'CHMOD nachher: ' . $chmod; 
+$dateinamen = './text/feld_freeze_info_3.txt';
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+
+$inhalt ="yes";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_3.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+
+$no_1="$zufall_3_1";
+$no_2="$zufall_3_2";
+$no_3="$zufall_3_3";
+$no_4="$zufall_3_4";
+$no_5="$zufall_3_5";
+$no_6="$zufall_sub_3_1";
+$no_7="$zufall_sub_3_2";
+
+
+$inhalt2 ="".$no_1."\n".$no_2."\n".$no_3."\n".$no_4."\n".$no_5."\n".$no_6."\n".$no_7."\n";
+
+$handle2 = fopen ('./text/feld_3.txt', 'w');
+fwrite ($handle2, $inhalt2);
+fclose ($handle2);
+
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+	}
+if($_POST['no_but']){
+$inhalt ="no";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_3.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+
+	}	
+//**     freeze 3 submit END       **//	
+
+
+
+//**     freeze 4 submit START       **//
+ if($_POST['frez_yes_4'] ){
+	
+$datei = './text/feld_freeze_info_4.txt';
+@chmod( $datei, 0777 ); //0777 0666
+clearstatcache ();
+
+$chmod = decoct( fileperms ( $datei ) );
+
+// echo 'CHMOD nachher: ' . $chmod; 
+$dateinamen = './text/feld_freeze_info_4.txt';
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+
+$inhalt ="no";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_4.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+	} 
+	
+if($_POST['frez_no_4'] && $_POST['no_but'] !=true ){
+	
+$datei = './text/feld_freeze_info_4.txt';
+@chmod( $datei, 0777 ); //0777 0666
+clearstatcache ();
+
+$chmod = decoct( fileperms ( $datei ) );
+
+// echo 'CHMOD nachher: ' . $chmod; 
+$dateinamen = './text/feld_freeze_info_4.txt';
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+
+$inhalt ="yes";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_4.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+
+$no_1="$zufall_4_1";
+$no_2="$zufall_4_2";
+$no_3="$zufall_4_3";
+$no_4="$zufall_4_4";
+$no_5="$zufall_4_5";
+$no_6="$zufall_sub_4_1";
+$no_7="$zufall_sub_4_2";
+
+
+$inhalt2 ="".$no_1."\n".$no_2."\n".$no_3."\n".$no_4."\n".$no_5."\n".$no_6."\n".$no_7."\n";
+
+$handle2 = fopen ('./text/feld_4.txt', 'w');
+fwrite ($handle2, $inhalt2);
+fclose ($handle2);
+
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+	}
+if($_POST['no_but']){
+$inhalt ="no";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_4.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+}
+//**     freeze 4 submit END       **//	
+
+
+
+//**     freeze 5 submit START       **//
+ if($_POST['frez_yes_5'] ){
+	
+$datei = './text/feld_freeze_info_5.txt';
+@chmod( $datei, 0777 ); //0777 0666
+clearstatcache ();
+
+$chmod = decoct( fileperms ( $datei ) );
+
+// echo 'CHMOD nachher: ' . $chmod; 
+$dateinamen = './text/feld_freeze_info_5.txt';
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+
+$inhalt ="no";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_5.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+	} 
+	
+if($_POST['frez_no_5'] && $_POST['no_but'] !=true ){
+	
+$datei = './text/feld_freeze_info_5.txt';
+@chmod( $datei, 0777 ); //0777 0666
+clearstatcache ();
+
+$chmod = decoct( fileperms ( $datei ) );
+
+// echo 'CHMOD nachher: ' . $chmod; 
+$dateinamen = './text/feld_freeze_info_5.txt';
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+
+$inhalt ="yes";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_5.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+
+$no_1="$zufall_5_1";
+$no_2="$zufall_5_2";
+$no_3="$zufall_5_3";
+$no_4="$zufall_5_4";
+$no_5="$zufall_5_5";
+$no_6="$zufall_sub_5_1";
+$no_7="$zufall_sub_5_2";
+
+
+$inhalt2 ="".$no_1."\n".$no_2."\n".$no_3."\n".$no_4."\n".$no_5."\n".$no_6."\n".$no_7."\n";
+
+$handle2 = fopen ('./text/feld_5.txt', 'w');
+fwrite ($handle2, $inhalt2);
+fclose ($handle2);
+
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+	}
+if($_POST['no_but']){
+$inhalt ="no";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_5.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+}
+//**     freeze 5 submit END       **//	
+
+
+//echo $to_freeze;	
+
+//**     freeze 6 submit START       **//
+
+ if($_POST['frez_yes_6'] ){
+	
+$datei = './text/feld_freeze_info_6.txt';
+@chmod( $datei, 0777 ); //0777 0666
+clearstatcache ();
+
+$chmod = decoct( fileperms ( $datei ) );
+
+// echo 'CHMOD nachher: ' . $chmod; 
+$dateinamen = './text/feld_freeze_info_6.txt';
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+
+$inhalt ="no";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_6.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+	} 
+
+if($_POST['frez_no_6'] && $_POST['no_but'] !=true ){
+	
+$datei = './text/feld_freeze_info_6.txt';
+@chmod( $datei, 0777 ); //0777 0666
+clearstatcache ();
+
+$chmod = decoct( fileperms ( $datei ) );
+
+// echo 'CHMOD nachher: ' . $chmod; 
+$dateinamen = './text/feld_freeze_info_6.txt';
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+
+$inhalt ="yes";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_6.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+//$to_freeze=$_POST['to_freeze_1'];
+//$no_1=$to_freeze;
+$no_1="$zufall_6_1";
+$no_2="$zufall_6_2";
+$no_3="$zufall_6_3";
+$no_4="$zufall_6_4";
+$no_5="$zufall_6_5";
+$no_6="$zufall_sub_6_1";
+$no_7="$zufall_sub_6_2";
+
+
+
+$inhalt2 ="".$no_1."\n".$no_2."\n".$no_3."\n".$no_4."\n".$no_5."\n".$no_6."\n".$no_7."\n";
+
+$handle2 = fopen ('./text/feld_6.txt', 'w');
+fwrite ($handle2, $inhalt2);
+fclose ($handle2);
+
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+	}
+if($_POST['no_but']){
+$inhalt ="no";
+
+ 
+$handle = fopen ('./text/feld_freeze_info_6.txt', 'w');
+fwrite ($handle, $inhalt);
+fclose ($handle);
+echo'<meta http-equiv="refresh" content="0; URL=http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">';	
+
+
+	}	
+//**     freeze 6 submit END       **//	
+	
+ /** Freeze ON/OFF END **/
+ 
+//*****************   memory DOC OF SAVED Numbers  START   *****************// 
+
+
+/**  memory text block 1 START **/
+
+$dateinamen_1 = './text/feld_freeze_info_1.txt';
+ $handle_1 = fopen ($dateinamen_1, "r");
+$inhalt_1 = fread ($handle_1, filesize ($dateinamen_1));
+fclose ($handle_1);
+
+if($inhalt_1=="yes"){
+	
+$datei="./text/feld_1.txt"; 
+$array= file($datei); 
+$array2= file($datei); 
+
+foreach ($array as $txt4[]){}
+$sorta_1=array();
+$sorta_1[0]=$txt4[0];
+$sorta_1[1]=$txt4[1];
+$sorta_1[2]=$txt4[2];
+$sorta_1[3]=$txt4[3];
+$sorta_1[4]=$txt4[4];
+
+
+sort($sorta_1,1);
+
+$new_sort_1=$sorta_1;
+$zufall_1_1=$new_sort_1[0]; 
+$zufall_1_2=$new_sort_1[1];
+$zufall_1_3=$new_sort_1[2];
+$zufall_1_4=$new_sort_1[3];
+$zufall_1_5=$new_sort_1[4];
+
+
+foreach ($array2 as $txt5[]){}
+$sorta_2=array();
+$sorta_2[0]=$txt5[5];
+$sorta_3[0]=$txt5[6];
+sort($sorta_2);
+$new_sort2_1=$sorta_2;
+$new_sort2_2=$sorta_3;
+$a=$new_sort2_1[0][0];
+$b=$new_sort2_2[0][0];
+
+
+$sortierung=array($a,$b);
+sort($sortierung);
+$zufall_sub_1_1=$sortierung[0]; 
+$zufall_sub_1_2=$sortierung[1]; 
+
+
+
+}
+
+
+/**  memory text block 1 ENDE **/ 
+
+
+
+
+/**  memory text block 2 START **/
+
+$dateinamen_2 = './text/feld_freeze_info_2.txt';
+ $handle_2 = fopen ($dateinamen_2, "r");
+$inhalt_2 = fread ($handle_2, filesize ($dateinamen_2));
+fclose ($handle_2);
+
+if($inhalt_2=="yes"){
+	
+$datei="./text/feld_2.txt"; 
+$array= file($datei); 
+$array2= file($datei); 
+
+foreach ($array as $txt2_4[]){}
+$sorta_1=array();
+$sorta_1[0]=$txt2_4[0];
+$sorta_1[1]=$txt2_4[1];
+$sorta_1[2]=$txt2_4[2];
+$sorta_1[3]=$txt2_4[3];
+$sorta_1[4]=$txt2_4[4];
+
+
+sort($sorta_1,1);
+
+$new_sort2_1=$sorta_1;
+$zufall_2_1=$new_sort2_1[0]; 
+$zufall_2_2=$new_sort2_1[1];
+$zufall_2_3=$new_sort2_1[2];
+$zufall_2_4=$new_sort2_1[3];
+$zufall_2_5=$new_sort2_1[4];
+
+
+foreach ($array2 as $txt2_5[]){}
+$sorta_2=array();
+$sorta_2[0]=$txt2_5[5];
+$sorta_3[0]=$txt2_5[6];
+sort($sorta_2);
+$new_sort2_1=$sorta_2;
+$new_sort2_2=$sorta_3;
+$a=$new_sort2_1[0][0];
+$b=$new_sort2_2[0][0];
+
+
+$sortierung=array($a,$b);
+sort($sortierung);
+$zufall_sub_2_1=$sortierung[0]; 
+$zufall_sub_2_2=$sortierung[1]; 
+
+
+
+}
+
+
+/**  memory text block 2 ENDE **/ 
+
+
+/**  memory text block 3 START **/
+
+$dateinamen_3 = './text/feld_freeze_info_3.txt';
+ $handle_3 = fopen ($dateinamen_3, "r");
+$inhalt_3 = fread ($handle_3, filesize ($dateinamen_3));
+fclose ($handle_3);
+
+if($inhalt_3=="yes"){
+	
+$datei="./text/feld_3.txt"; 
+$array= file($datei); 
+$array2= file($datei); 
+
+foreach ($array as $txt3_4[]){}
+$sorta_1=array();
+$sorta_1[0]=$txt3_4[0];
+$sorta_1[1]=$txt3_4[1];
+$sorta_1[2]=$txt3_4[2];
+$sorta_1[3]=$txt3_4[3];
+$sorta_1[4]=$txt3_4[4];
+
+
+sort($sorta_1,1);
+
+$new_sort_1=$sorta_1;
+$zufall_3_1=$new_sort_1[0]; 
+$zufall_3_2=$new_sort_1[1];
+$zufall_3_3=$new_sort_1[2];
+$zufall_3_4=$new_sort_1[3];
+$zufall_3_5=$new_sort_1[4];
+
+
+foreach ($array2 as $txt3_5[]){}
+$sorta_2=array();
+$sorta_2[0]=$txt3_5[5];
+$sorta_3[0]=$txt3_5[6];
+sort($sorta_2);
+$new_sort2_1=$sorta_2;
+$new_sort2_2=$sorta_3;
+$a=$new_sort2_1[0][0];
+$b=$new_sort2_2[0][0];
+
+
+$sortierung=array($a,$b);
+sort($sortierung);
+$zufall_sub_3_1=$sortierung[0]; 
+$zufall_sub_3_2=$sortierung[1]; 
+
+
+
+}
+
+
+/**  memory text block 3 ENDE **/ 
+
+
+
+/**  memory text block 4 START **/
+
+$dateinamen_4 = './text/feld_freeze_info_4.txt';
+ $handle_4 = fopen ($dateinamen_4, "r");
+$inhalt_4 = fread ($handle_4, filesize ($dateinamen_4));
+fclose ($handle_4);
+
+if($inhalt_4=="yes"){
+	
+$datei="./text/feld_4.txt"; 
+$array= file($datei); 
+$array2= file($datei); 
+
+foreach ($array as $txt4_4[]){}
+$sorta_1=array();
+$sorta_1[0]=$txt4_4[0];
+$sorta_1[1]=$txt4_4[1];
+$sorta_1[2]=$txt4_4[2];
+$sorta_1[3]=$txt4_4[3];
+$sorta_1[4]=$txt4_4[4];
+
+
+sort($sorta_1,1);
+
+$new_sort_1=$sorta_1;
+$zufall_4_1=$new_sort_1[0]; 
+$zufall_4_2=$new_sort_1[1];
+$zufall_4_3=$new_sort_1[2];
+$zufall_4_4=$new_sort_1[3];
+$zufall_4_5=$new_sort_1[4];
+
+
+foreach ($array2 as $txt4_5[]){}
+$sorta_2=array();
+$sorta_2[0]=$txt4_5[5];
+$sorta_3[0]=$txt4_5[6];
+sort($sorta_2);
+$new_sort2_1=$sorta_2;
+$new_sort2_2=$sorta_3;
+$a=$new_sort2_1[0][0];
+$b=$new_sort2_2[0][0];
+
+
+$sortierung=array($a,$b);
+sort($sortierung);
+$zufall_sub_4_1=$sortierung[0]; 
+$zufall_sub_4_2=$sortierung[1]; 
+
+
+
+}
+
+
+/**  memory text block 4 ENDE **/ 
+
+
+/**  memory text block 5 START **/
+
+$dateinamen_5 = './text/feld_freeze_info_5.txt';
+ $handle_5 = fopen ($dateinamen_5, "r");
+$inhalt_5 = fread ($handle_5, filesize ($dateinamen_5));
+fclose ($handle_5);
+
+if($inhalt_5=="yes"){
+	
+$datei="./text/feld_5.txt"; 
+$array= file($datei); 
+$array2= file($datei); 
+
+foreach ($array as $txt5_4[]){}
+$sorta_1=array();
+$sorta_1[0]=$txt5_4[0];
+$sorta_1[1]=$txt5_4[1];
+$sorta_1[2]=$txt5_4[2];
+$sorta_1[3]=$txt5_4[3];
+$sorta_1[4]=$txt5_4[4];
+
+
+sort($sorta_1,1);
+
+$new_sort_1=$sorta_1;
+$zufall_5_1=$new_sort_1[0]; 
+$zufall_5_2=$new_sort_1[1];
+$zufall_5_3=$new_sort_1[2];
+$zufall_5_4=$new_sort_1[3];
+$zufall_5_5=$new_sort_1[4];
+
+
+foreach ($array2 as $txt5_5[]){}
+$sorta_2=array();
+$sorta_2[0]=$txt5_5[5];
+$sorta_3[0]=$txt5_5[6];
+sort($sorta_2);
+$new_sort2_1=$sorta_2;
+$new_sort2_2=$sorta_3;
+$a=$new_sort2_1[0][0];
+$b=$new_sort2_2[0][0];
+
+
+$sortierung=array($a,$b);
+sort($sortierung);
+$zufall_sub_5_1=$sortierung[0]; 
+$zufall_sub_5_2=$sortierung[1]; 
+
+
+
+}
+
+
+/**  memory text block 5 ENDE **/ 
+
+
+
+/**  memory text block 6 START **/
+
+$dateinamen_6 = './text/feld_freeze_info_6.txt';
+ $handle_6 = fopen ($dateinamen_6, "r");
+$inhalt_6 = fread ($handle_6, filesize ($dateinamen_6));
+fclose ($handle_6);
+
+if($inhalt_6=="yes"){
+	
+$datei="./text/feld_6.txt"; 
+$array= file($datei); 
+$array2= file($datei); 
+
+foreach ($array as $txt6_4[]){}
+$sorta_1=array();
+$sorta_1[0]=$txt6_4[0];
+$sorta_1[1]=$txt6_4[1];
+$sorta_1[2]=$txt6_4[2];
+$sorta_1[3]=$txt6_4[3];
+$sorta_1[4]=$txt6_4[4];
+
+
+sort($sorta_1,1);
+
+$new_sort_1=$sorta_1;
+$zufall_6_1=$new_sort_1[0]; 
+$zufall_6_2=$new_sort_1[1];
+$zufall_6_3=$new_sort_1[2];
+$zufall_6_4=$new_sort_1[3];
+$zufall_6_5=$new_sort_1[4];
+
+
+foreach ($array2 as $txt6_5[]){}
+$sorta_2=array();
+$sorta_2[0]=$txt6_5[5];
+$sorta_3[0]=$txt6_5[6];
+sort($sorta_2);
+$new_sort2_1=$sorta_2;
+$new_sort2_2=$sorta_3;
+$a=$new_sort2_1[0][0];
+$b=$new_sort2_2[0][0];
+
+
+$sortierung=array($a,$b);
+sort($sortierung);
+$zufall_sub_6_1=$sortierung[0]; 
+$zufall_sub_6_2=$sortierung[1]; 
+
+
+
+}
+
+
+/**  memory text block 6 ENDE **/ 
+
+//*****************   memory DOC OF SAVED Numbers  END   *****************// 
+	
+
+
+
+	
+	
+	
+		  
+
+
+
+
+
+$reihe_1="100";
+$reihe_2="200";
+$reihe_3="200";
+$reihe_4="400";
+
+
+$st_1="#box1 {
+	position:relative;
+	z-index:3;
+    background-color: none;
+    left: ".$reihe_1."px;
+	top: 60px;
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}";
+$st_2="#box2 {
+	position:relative;
+	z-index:3;
+    background-color: none;
+    left: ".$reihe_1."px;
+	top: 34px;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}";
+$st_3="#box3 {
+	position:relative;
+    z-index:3;
+	background-color: none;
+    left: ".$reihe_1."px;
+	top: 8px;
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}";
+$st_4="#box4 {
+	position:relative;
+	z-index:3;
+    background-color: none;
+    left: ".$reihe_1."px;
+	top: -18.5px;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}";
+$st_5="#box5 {
+	position:relative;
+	z-index:3;
+    background-color: none;
+    left: ".$reihe_1."px;
+	top: -45px;
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}";
+$box_pos_x="-46";
+$box_pos_y="0";
+$zahl=6;
+$zahl2=11;
+$zahl3=51;
+$first_tr=array(1,6,11,16,21,26,31,36,41,46);
+$first[] =$first_tr;
+$last_tr=array(5,10,15,20,25,30,35,40,45,50);
+$last[] =$last_tr;
+$lotto="#lotto {position:absolute;margin-top:16px;margin-left:200px;width:490px;height:325px;border-color:black;border:1px solid; }";
+$lotto2="#lotto2 {position:absolute;z-index:4;margin-top:-137px;margin-left:45px;width:490px;height:325px;border-color:black;border:0px solid; }";
+$hintergrundblau="#hintergrundblau {position:absolute;margin:9px;width:474px;height:307px;background: rgba(26, 74, 146, 0.75);}"; /*background-color:#1a4a92;*/
+$feld_rot1="#feld_rot1 {margin-top:83px;margin-left:-386px;width:62px;height:186px;border-color:white;border:0px solid;}";
+$feld_rot2="#feld_rot2 {margin-top:-186px;margin-left:-242px;width:62px;height:186px;border-color:white;border:0px solid;}";
+$feld_rot3="#feld_rot3 {margin-top:-186px;margin-left:-98px;width:62px;height:186px;border-color:white;border:0px solid;}";
+$feld_rot4="#feld_rot4 {margin-top:-186px;margin-left:44px;width:62px;height:186px;border-color:white;border:0px solid;}";
+$feld_rot5="#feld_rot5 {margin-top:-186px;margin-left:188px;width:62px;height:186px;border-color:white;border:0px solid;}";
+$feld_rot6="#feld_rot6 {margin-top:-186px;margin-left:330px;width:62px;height:186px;border-color:white;border:0px solid;}";
+$feld_zahl1="#feld_zahl1 {position:relative;z-index:4;margin-top:-2px;margin-left:-2px;width:8px;height:8px;border-color:white;border:1px solid;}";/*border:1px;*/
+$feld_zahl2="#feld_zahl2 {position:relative;z-index:4;margin-top:-2px;margin-left:-2px;width:8px;height:8px;border-color:white;border:1px solid;}";/*border:1px;*/
+$feld_zahl3="#feld_zahl3 {position:relative;z-index:4;margin-top:-2px;margin-left:-2px;width:8px;height:8px;border-color:white;border:1px solid;}";/*border:1px;*/
+$feld_zahl4="#feld_zahl4 {position:relative;z-index:4;margin-top:-2px;margin-left:-2px;width:8px;height:8px;border-color:white;border:1px solid;}";/*border:1px;*/
+$feld_zahl5="#feld_zahl5 {position:relative;z-index:4;margin-top:-2px;margin-left:-2px;width:8px;height:8px;border-color:white;border:1px solid;}";
+$feld_zahl6="#feld_zahl6 {position:relative;z-index:4;margin-top:-2px;margin-left:-2px;width:8px;height:8px;border-color:white;border:1px solid;}";/*border:1px;*/
+$numeric="#numeric{width:7px;height:10.1750px;}";
+
+?>
+<style type="text/css">
+<!--
+<?=$st_1?>
+<?=$st_2?>
+<?=$st_3?>
+<?=$st_4?>
+<?=$st_5?>
+<?=$lotto?>
+<?=$hintergrundblau?>
+<?=$feld_rot1?>
+<?=$feld_rot2?>
+<?=$feld_rot3?>
+<?=$feld_rot4?>
+<?=$feld_rot5?>
+<?=$feld_rot6?>
+<?=$feld_zahl1?>
+<?=$feld_zahl2?>
+<?=$feld_zahl3?>
+<?=$feld_zahl4?>
+<?=$feld_zahl5?>
+<?=$feld_zahl6?>
+<?=$numeric?>
+<?=$lotto2?>
+-->
+</style>
+<!--
+<script type="text/javascript">
+var sec = 1;
+function updateDiv()
+{
+	 $('#testdiv').load(document.getElementById('all_six').submit()); 
+ 
+}
+ window.setInterval("updateDiv()", (sec * 3000));
+
+</script>
+-->
+
+
+
+
+
+
+<!--
+
+<script type="text/javascript">
+
+  
+    
+	var request = null;
+
+	// Ajaxfunktion start
+	function send() {
+        
+       
+		// Request erstellen mit Browserweise Mo/Sa/Op vs. IE
+		if (window.XMLHttpRequest) {
+            // Mo / Sa / Op
+			request = new XMLHttpRequest(); 
+		} else if (window.ActiveXObject) {
+			try {
+                // IE 5 und tiefer
+				request = new ActiveXObject('Msxml2.XMLHTTP'); 
+			} catch (e) {
+				try {
+				    // IE 6 und höher
+					request = new ActiveXObject('Microsoft.XMLHTTP'); 
+				} catch (e) {}
+			}
+		}
+
+		// Ist der request wirklich da?
+		if (!request) {
+            alert("FEHLER! Konnte Request nicht erstellen!");
+        return false;
+        } else {
+            // Im Formular angegebene Datei öffnen, Sendemethode POST, Asynchrone Übertragung
+            request.open('post', ajaxform.action, true);
+            // Header senden
+            request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            // Alle Posts außer dem Sendebutton (letztes Element) in die Variable str schreiben
+            str='';
+            for (var i = 0; i < ajaxform.elements.length-1; i++) {
+                str+=ajaxform.elements[i].name+'='+ajaxform.elements[i].value+'';
+                t=i+2;
+
+                if(document.ajaxform.elements[t]) {
+                    str+='&';
+                }
+
+            }
+
+            // Request senden
+            request.send(str);
+            // Request verwenden wenn readystate geändert
+            request.onreadystatechange = defineRequest;
+        }
+    }  
+
+	// Request auswerten
+	function defineRequest() {
+		switch (request.readyState) {
+			// wenn der readyState 4 und der request.status 200 ist, dann ist alles korrekt gelaufen
+			case 4:
+				if (request.status != 200) {
+					alert("Der Request wurde abgeschlossen, ist aber nicht OK\nFehler:"+request.status);
+				} else {
+					var content = request.responseText;
+					// den Inhalt des Requests in das <div> schreiben
+					document.getElementById('content').innerHTML = content;
+                    
+                    // Formularfelder vom typ text oder textarea löschen
+                    for (var i = 0; i < ajaxform.elements.length-1; i++) {
+                        if(ajaxform.elements[i].type=='text' || ajaxform.elements[i].type=='textarea') {
+                            ajaxform.elements[i].value='';
+                        }
+                                             
+                    }
+				}
+				break;
+			default:
+				break;
+		}
+	}
+ 
+  </script>
+-->  
+
+
+
+  
+<!--    
+<script type="text/javascript">
+function countdown() {
+		startDatum=new Date();
+		timeRefresh('countdown()',200);
+		onLoad=("document.all_six.submit"),(500);
+		}
+		
+
+</script>
+
+
+ <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+
+
+<!-- 
+
+<script type="text/javascript">
+var sec = 1;
+function updateDiv()
+{
+    <!--   $('#testdiv').load('rotates.php'); -->
+	<!-- $('#testdiv').load('rotate.php'); -->
+	 <!--   $('#testdiv').load(document.getElementById('all_six').submit()); -->
+	<!--  onLoad="document.all_six.submit(1000);" -->
+<!-- }
+ window.setInterval("updateDiv()", (sec * 1000)); 
+
+
+
+</script>
+-->
+
+
+</head>
+<!--
+
+setTimeout("document.getElementById('all_six').submit()",2000);
+scroll="auto" onLoad="countdown()"
+setTimeout('countdown()',200);
+setInterval("document.all_six.submit"), 1000);
+onLoad="document.all_six.submit(5000);"
+onLoad="timedRefresh(5000);"
+
+ -->
+<body>
+
+ 
+
+<div class="verlauf2"></div>
+<div class="verlauf"></div>
+<div class="verlauf_abdeck"></div>
+<div class="verlauf2_abdeck"></div>
+
+<div align="center" id="lotto" class="noprint">
+
+<div id="hintergrundblau" class="noprint">
+<!-- ------------            Field 1 START              ---------------- -->
+<div align="center" id="feld_rot1" class="noprint">
+
+
+<table style="position:absolute;margin-left:0px;margin-top:-2px;" width="65" height="65" class="noprint">
+
+<?php for($count2 = 1; $count2 < $zahl2; $count2++){?>
+<tr align="center" height="10">
+<?php 
+for($count = 1; $count < $zahl; $count++){?>
+<td>
+<div id="feld_zahl1"></div>
+</td>
+
+<?php }
+?>
+</tr>
+<?php }?>
+</table>
+
+
+
+
+<table border="0" width="65"  class="noprint">
+
+<?php
+
+for($count3 = 1;$count3<$zahl3;$count3++){ ?>
+<?php $a=0;$a<51;$a++; while($a<51){ ?>
+
+<?php if($count3 == $first[0][$a++]  ){
+	
+	echo"<tr id='numeric' align='center' >";}}?>
+<?php if($zufall_1_1==true && $zufall_1_1 == $count3 || $zufall_1_2==true && $zufall_1_2 == $count3 || $zufall_1_3==true && $zufall_1_3 == $count3 || $zufall_1_4==true && $zufall_1_4 == $count3 || $zufall_1_5==true && $zufall_1_5 == $count3){echo"<td   align='center'  style='position:relative;z-index:7;font-size:5px;color:black;'><div  style='position:absolute;width:8px;height:8px;background-color:red;margin-top:-5px;margin-left:-0.5px;'><div style='position:absolute;margin-top:1.4px;margin-left:1.875px;'>$count3</div></div></td>";}else{echo"<td   align='center' style='font-size:5px;'><div><div style='margin-top:0.125px;margin-left:-1px;'>$count3</div></div></td>";}?>
+<?php $a=0;$a<51;$a++; while($a<51){ ?>
+<?php if($count3 == $last[0][$a++]  ){echo"</tr>";}}?>
+<?php  }?>
+
+</tr>
+</table>
+
+
+
+</div>
+<!-- ------------            Field 1 END             ---------------- -->
+
+
+<!-- ------------            Field 2 START              ---------------- -->
+<div  align="center" id="feld_rot2">
+
+
+<table style="position:absolute;margin-left:0px;margin-top:-2px;" width="65" class="noprint">
+
+<?php for($count2 = 1; $count2 < $zahl2; $count2++){?>
+<tr align="center" height="10">
+<?php 
+for($count = 1; $count < $zahl; $count++){?>
+<td>
+<div id="feld_zahl2"></div>
+</td>
+
+<?php }
+?>
+</tr>
+<?php }?>
+</table>
+
+
+
+
+<table border="0" width="65" class="noprint">
+
+<?php
+
+for($count3 = 1;$count3<$zahl3;$count3++){ ?>
+<?php $a=0;$a<51;$a++; while($a<51){ ?>
+
+<?php if($count3 == $first[0][$a++]  ){
+	
+	echo"<tr  id='numeric' align='center' >";}}?>
+<?php if($zufall_2_1==true && $zufall_2_1 == $count3 || $zufall_2_2==true && $zufall_2_2 == $count3 || $zufall_2_3==true && $zufall_2_3 == $count3 || $zufall_2_4==true && $zufall_2_4 == $count3 || $zufall_2_5==true && $zufall_2_5 == $count3 ){echo"<td   align='center'  style='position:relative;z-index:7;font-size:5px;color:black;'><div  style='position:absolute;width:8px;height:8px;background-color:red;margin-top:-5px;margin-left:-0.5px;'><div style='position:absolute;margin-top:1.4px;margin-left:1.875px;'>$count3</div></div></td>";}else{echo"<td   align='center' style='font-size:5px;'><div><div style='margin-top:0.125px;margin-left:-1px;'>$count3</div></div></td>";}?>
+<?php $a=0;$a<51;$a++; while($a<51){ ?>
+<?php if($count3 == $last[0][$a++]  ){echo"</tr>";}}?>
+<?php  }?>
+
+
+
+</tr>
+</table>
+
+
+
+</div>
+<!-- ------------            Field 2 END             ---------------- -->
+
+
+<!-- ------------            Field 3 START              ---------------- -->
+<div align="center" id="feld_rot3">
+
+
+<table style="position:absolute;margin-left:0px;margin-top:-2px;" width="65" class="noprint">
+
+<?php for($count2 = 1; $count2 < $zahl2; $count2++){?>
+<tr align="center" height="10">
+<?php 
+for($count = 1; $count < $zahl; $count++){?>
+<td>
+<div id="feld_zahl3"></div>
+</td>
+
+<?php }
+?>
+</tr>
+<?php }?>
+</table>
+
+
+
+
+<table border="0" width="65" class="noprint">
+
+<?php
+
+for($count3 = 1;$count3<$zahl3;$count3++){ ?>
+<?php $a=0;$a<51;$a++; while($a<51){ ?>
+
+<?php if($count3 == $first[0][$a++]  ){
+	
+	echo"<tr  id='numeric' align='center' >";}}?>
+<?php if($zufall_3_1==true && $zufall_3_1 == $count3 || $zufall_3_2==true && $zufall_3_2 == $count3 || $zufall_3_3==true && $zufall_3_3 == $count3 || $zufall_3_4==true && $zufall_3_4 == $count3 || $zufall_3_5==true && $zufall_3_5 == $count3 ){echo"<td   align='center'  style='position:relative;z-index:7;font-size:5px;color:black;'><div  style='position:absolute;width:8px;height:8px;background-color:red;margin-top:-5px;margin-left:-0.5px;'><div style='position:absolute;margin-top:1.4px;margin-left:1.875px;'>$count3</div></div></td>";}else{echo"<td   align='center' style='font-size:5px;'><div><div style='margin-top:0.125px;margin-left:-1px;'>$count3</div></div></td>";}?>
+<?php $a=0;$a<51;$a++; while($a<51){ ?>
+<?php if($count3 == $last[0][$a++]  ){echo"</tr>";}}?>
+<?php  }?>
+
+</tr>
+</table>
+
+
+
+</div>
+<!-- ------------            Field 3 END             ---------------- -->
+
+
+<!-- ------------            Field 4 START              ---------------- -->
+<div align="center" id="feld_rot4">
+
+
+<table style="position:absolute;margin-left:0px;margin-top:-2px;" width="65" class="noprint">
+
+<?php for($count2 = 1; $count2 < $zahl2; $count2++){?>
+<tr align="center" height="10">
+<?php 
+for($count = 1; $count < $zahl; $count++){?>
+<td>
+<div id="feld_zahl4"></div>
+</td>
+
+<?php }
+?>
+</tr>
+<?php }?>
+</table>
+
+
+
+
+<table border="0" width="65" class="noprint">
+
+<?php
+
+for($count3 = 1;$count3<$zahl3;$count3++){ ?>
+<?php $a=0;$a<51;$a++; while($a<51){ ?>
+
+<?php if($count3 == $first[0][$a++]  ){
+	
+	echo"<tr  id='numeric' align='center' >";}}?>
+<?php if($zufall_4_1==true && $zufall_4_1 == $count3 || $zufall_4_2==true && $zufall_4_2 == $count3 || $zufall_4_3==true && $zufall_4_3 == $count3 || $zufall_4_4==true && $zufall_4_4 == $count3 || $zufall_4_5==true && $zufall_4_5 == $count3 ){echo"<td   align='center'  style='position:relative;z-index:7;font-size:5px;color:black;'><div  style='position:absolute;width:8px;height:8px;background-color:red;margin-top:-5px;margin-left:-0.5px;'><div style='position:absolute;margin-top:1.4px;margin-left:1.875px;'>$count3</div></div></td>";}else{echo"<td   align='center' style='font-size:5px;'><div><div style='margin-top:0.125px;margin-left:-1px;'>$count3</div></div></td>";}?>
+<?php $a=0;$a<51;$a++; while($a<51){ ?>
+<?php if($count3 == $last[0][$a++]  ){echo"</tr>";}}?>
+<?php  }?>
+
+</tr>
+</table>
+
+
+
+</div>
+<!-- ------------            Field 4 END             ---------------- -->
+
+
+<!-- ------------            Field 5 START              ---------------- -->
+<div align="center" id="feld_rot5">
+
+
+<table style="position:absolute;margin-left:0px;margin-top:-2px;" width="65" class="noprint">
+
+<?php for($count2 = 1; $count2 < $zahl2; $count2++){?>
+<tr align="center" height="10">
+<?php 
+for($count = 1; $count < $zahl; $count++){?>
+<td>
+<div id="feld_zahl5"></div>
+</td>
+
+<?php }
+?>
+</tr>
+<?php }?>
+</table>
+
+
+
+
+<table border="0" width="65" class="noprint">
+
+<?php
+
+for($count3 = 1;$count3<$zahl3;$count3++){ ?>
+<?php $a=0;$a<51;$a++; while($a<51){ ?>
+
+<?php if($count3 == $first[0][$a++]  ){
+	
+	echo"<tr  id='numeric' align='center' >";}}?>
+<?php if($zufall_5_1==true && $zufall_5_1 == $count3 || $zufall_5_2==true && $zufall_5_2 == $count3 || $zufall_5_3==true && $zufall_5_3 == $count3 || $zufall_5_4==true && $zufall_5_4 == $count3 || $zufall_5_5==true && $zufall_5_5 == $count3 ){echo"<td   align='center'  style='position:relative;z-index:7;font-size:5px;color:black;'><div  style='position:absolute;width:8px;height:8px;background-color:red;margin-top:-5px;margin-left:-0.5px;'><div style='position:absolute;margin-top:1.4px;margin-left:1.875px;'>$count3</div></div></td>";}else{echo"<td   align='center' style='font-size:5px;'><div><div style='margin-top:0.125px;margin-left:-1px;'>$count3</div></div></td>";}?>
+<?php $a=0;$a<51;$a++; while($a<51){ ?>
+<?php if($count3 == $last[0][$a++]  ){echo"</tr>";}}?>
+<?php  }?>
+
+</tr>
+</table>
+
+
+
+</div>
+<!-- ------------            Field 5 END             ---------------- -->
+
+
+<!-- ------------            Field 6 START              ---------------- -->
+<div align="center" id="feld_rot6">
+
+
+<table style="position:absolute;margin-left:0px;margin-top:-2px;" width="65" class="noprint">
+
+<?php for($count2 = 1; $count2 < $zahl2; $count2++){?>
+<tr align="center" height="10">
+<?php 
+for($count = 1; $count < $zahl; $count++){?>
+<td>
+<div id="feld_zahl6"></div>
+</td>
+
+<?php }
+?>
+</tr>
+<?php }?>
+</table>
+
+
+
+
+<table border="0" width="65" class="noprint">
+
+<?php
+
+for($count3 = 1;$count3<$zahl3;$count3++){ ?>
+<?php $a=0;$a<51;$a++; while($a<51){ ?>
+
+<?php if($count3 == $first[0][$a++]  ){
+	
+	echo"<tr  id='numeric' align='center' >";}}?>
+<?php if($zufall_6_1==true && $zufall_6_1 == $count3 || $zufall_6_2==true && $zufall_6_2 == $count3 || $zufall_6_3==true && $zufall_6_3 == $count3 || $zufall_6_4==true && $zufall_6_4 == $count3 || $zufall_6_5==true && $zufall_6_5 == $count3 ){echo"<td   align='center'  style='position:relative;z-index:7;font-size:5px;color:black;'><div  style='position:absolute;width:8px;height:8px;background-color:red;margin-top:-5px;margin-left:-0.5px;'><div style='position:absolute;margin-top:1.4px;margin-left:1.875px;'>$count3</div></div></td>";}else{echo"<td   align='center' style='font-size:5px;'><div><div style='margin-top:0.125px;margin-left:-1px;'>$count3</div></div></td>";}?>
+<?php $a=0;$a<51;$a++; while($a<51){ ?>
+<?php if($count3 == $last[0][$a++]  ){echo"</tr>";}}?>
+<?php  }?>
+
+</tr>
+</table>
+
+
+
+</div>
+<!-- ------------            Field 6 END             ---------------- -->
+
+
+
+</div>
+
+</div>
+
+
+
+<br />
+
+<div id="lotto2"><img src="images/lotto.png" class="noprint" /></div>
+ 
+ 
+<!---------------- *****   ************ 2 Sterne START ******************   ***** ------------->
+
+<!-- Feld 1 START -->
+
+<table align="center"  width="62" height="62" style="position:absolute;z-index:1;padding:2px;border:0px solid;margin-top:208px;margin-left:222px;" class="noprint">
+<tr valign="middle" align="center">
+<td <?php if($zufall_sub_1_1 =='1' || $zufall_sub_1_2 =='1'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_1_1 =='2' || $zufall_sub_1_2 =='2'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_1_1 =='3' || $zufall_sub_1_2 =='3'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+<tr>
+<td <?php if($zufall_sub_1_1 =='4' || $zufall_sub_1_2 =='4'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_1_1 =='5' || $zufall_sub_1_2 =='5'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_1_1 =='6' || $zufall_sub_1_2 =='6'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+<tr>
+<td <?php if($zufall_sub_1_1 =='7' || $zufall_sub_1_2 =='7'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_1_1 =='8' || $zufall_sub_1_2 =='8'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_1_1 =='9' || $zufall_sub_1_2 =='9'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+</table>
+
+<!-- superstars Numbers START -->
+<table align="center"  width="66" height="64" style="position:absolute;z-index:1;padding:2px;border:0px solid;margin-top:208px;margin-left:218px;" class="noprint">
+<tr valign="middle" align="center"  style="position:absolute;margin-top:2px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">1</td><td width="29">2</td><td width="19">3</td></tr>
+<tr valign="middle" align="center"  style="position:absolute;margin-top:20px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">4</td><td width="29">5</td><td width="19">6</td></tr>
+<tr valign="middle" align="center"  style="position:absolute;margin-top:38px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">7</td><td width="29">8</td><td width="19">9</td></tr>
+</table>
+<!-- superstars Numbers ENDE -->
+
+<!-- Feld 1 ENDE -->
+
+
+
+<!-- Feld 2 START -->
+
+<table align="center"  width="62" height="62" style="position:absolute;z-index:1;padding:2px;border:0px solid;margin-top:208px;margin-left:294px;" class="noprint">
+<tr valign="middle" align="center">
+<td <?php if($zufall_sub_2_1 =='1' || $zufall_sub_2_2 =='1'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_2_1 =='2' || $zufall_sub_2_2 =='2'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_2_1 =='3' || $zufall_sub_2_2 =='3'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+<tr>
+<td <?php if($zufall_sub_2_1 =='4' || $zufall_sub_2_2 =='4'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_2_1 =='5' || $zufall_sub_2_2 =='5'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_2_1 =='6' || $zufall_sub_2_2 =='6'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+<tr>
+<td <?php if($zufall_sub_2_1 =='7' || $zufall_sub_2_2 =='7'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_2_1 =='8' || $zufall_sub_2_2 =='8'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_2_1 =='9' || $zufall_sub_2_2 =='9'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+</table>
+
+<!-- superstars Numbers START -->
+<table align="center"  width="66" height="64" style="position:absolute;z-index:1;padding:2px;border:0px solid;margin-top:208px;margin-left:290px;" class="noprint">
+<tr valign="middle" align="center"  style="position:absolute;margin-top:2px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">1</td><td width="29">2</td><td width="19">3</td></tr>
+<tr valign="middle" align="center"  style="position:absolute;margin-top:20px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">4</td><td width="29">5</td><td width="19">6</td></tr>
+<tr valign="middle" align="center"  style="position:absolute;margin-top:38px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">7</td><td width="29">8</td><td width="19">9</td></tr>
+</table>
+<!-- superstars Numbers ENDE -->
+
+<!-- Feld 2 ENDE -->
+
+<!-- Feld 3 START -->
+
+<table align="center"  width="62" height="62" style="position:absolute;z-index:1;padding:2px;border:0px solid;margin-top:208px;margin-left:366px;" class="noprint">
+<tr valign="middle" align="center">
+<td <?php if($zufall_sub_3_1 =='1' || $zufall_sub_3_2 =='1'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_3_1 =='2' || $zufall_sub_3_2 =='2'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_3_1 =='3' || $zufall_sub_3_2 =='3'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+<tr>
+<td <?php if($zufall_sub_3_1 =='4' || $zufall_sub_3_2 =='4'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_3_1 =='5' || $zufall_sub_3_2 =='5'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_3_1 =='6' || $zufall_sub_3_2 =='6'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+<tr>
+<td <?php if($zufall_sub_3_1 =='7' || $zufall_sub_3_2 =='7'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_3_1 =='8' || $zufall_sub_3_2 =='8'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_3_1 =='9' || $zufall_sub_3_2 =='9'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+</table>
+
+<!-- superstars Numbers START -->
+<table align="center"  width="66" height="64" style="position:absolute;z-index:1;padding:2px;border:0px solid;margin-top:208px;margin-left:362px;" class="noprint">
+<tr valign="middle" align="center"  style="position:absolute;margin-top:2px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">1</td><td width="29">2</td><td width="19">3</td></tr>
+<tr valign="middle" align="center"  style="position:absolute;margin-top:20px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">4</td><td width="29">5</td><td width="19">6</td></tr>
+<tr valign="middle" align="center"  style="position:absolute;margin-top:38px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">7</td><td width="29">8</td><td width="19">9</td></tr>
+</table>
+<!-- superstars Numbers ENDE -->
+
+<!-- Feld 3 ENDE -->
+
+<!-- Feld 4 START -->
+
+<table align="center"  width="62" height="62" style="position:absolute;z-index:1;padding:2px;border:0px solid;margin-top:208px;margin-left:438px;" class="noprint">
+<tr valign="middle" align="center">
+<td <?php if($zufall_sub_4_1 =='1' || $zufall_sub_4_2 =='1'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_4_1 =='2' || $zufall_sub_4_2 =='2'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_4_1 =='3' || $zufall_sub_4_2 =='3'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+<tr>
+<td <?php if($zufall_sub_4_1 =='4' || $zufall_sub_4_2 =='4'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_4_1 =='5' || $zufall_sub_4_2 =='5'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_4_1 =='6' || $zufall_sub_4_2 =='6'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+<tr>
+<td <?php if($zufall_sub_4_1 =='7' || $zufall_sub_4_2 =='7'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_4_1 =='8' || $zufall_sub_4_2 =='8'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_4_1 =='9' || $zufall_sub_4_2 =='9'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+</table>
+
+<!-- superstars Numbers START -->
+<table align="center"  width="66" height="64" style="position:absolute;z-index:1;padding:2px;border:0px solid;margin-top:208px;margin-left:434px;" class="noprint">
+<tr valign="middle" align="center"  style="position:absolute;margin-top:2px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">1</td><td width="29">2</td><td width="19">3</td></tr>
+<tr valign="middle" align="center"  style="position:absolute;margin-top:20px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">4</td><td width="29">5</td><td width="19">6</td></tr>
+<tr valign="middle" align="center"  style="position:absolute;margin-top:38px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">7</td><td width="29">8</td><td width="19">9</td></tr>
+</table>
+<!-- superstars Numbers ENDE -->
+
+<!-- Feld 4 ENDE -->
+
+<!-- Feld 5 START -->
+
+<table align="center"  width="62" height="62" style="position:absolute;z-index:1;padding:2px;border:0px solid;margin-top:208px;margin-left:510px;" class="noprint">
+<tr valign="middle" align="center">
+<td <?php if($zufall_sub_5_1 =='1' || $zufall_sub_5_2 =='1'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_5_1 =='2' || $zufall_sub_5_2 =='2'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_5_1 =='3' || $zufall_sub_5_2 =='3'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+<tr>
+<td <?php if($zufall_sub_5_1 =='4' || $zufall_sub_5_2 =='4'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_5_1 =='5' || $zufall_sub_5_2 =='5'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_5_1 =='6' || $zufall_sub_5_2 =='6'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+<tr>
+<td <?php if($zufall_sub_5_1 =='7' || $zufall_sub_5_2 =='7'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_5_1 =='8' || $zufall_sub_5_2 =='8'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_5_1 =='9' || $zufall_sub_5_2 =='9'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+</table>
+
+<!-- superstars Numbers START -->
+<table align="center"  width="66" height="64" style="position:absolute;z-index:1;padding:2px;border:0px solid;margin-top:208px;margin-left:506px;" class="noprint">
+<tr valign="middle" align="center"  style="position:absolute;margin-top:2px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">1</td><td width="29">2</td><td width="19">3</td></tr>
+<tr valign="middle" align="center"  style="position:absolute;margin-top:20px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">4</td><td width="29">5</td><td width="19">6</td></tr>
+<tr valign="middle" align="center"  style="position:absolute;margin-top:38px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">7</td><td width="29">8</td><td width="19">9</td></tr>
+</table>
+<!-- superstars Numbers ENDE -->
+
+<!-- Feld 5 ENDE -->
+
+<!-- Feld 6 START -->
+
+<table align="center"  width="62" height="62" style="position:absolute;z-index:1;padding:2px;border:0px solid;margin-top:208px;margin-left:582px;" class="noprint">
+<tr valign="middle" align="center">
+<td <?php if($zufall_sub_6_1 =='1' || $zufall_sub_6_2 =='1'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_6_1 =='2' || $zufall_sub_6_2 =='2'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_6_1 =='3' || $zufall_sub_6_2 =='3'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+<tr>
+<td <?php if($zufall_sub_6_1 =='4' || $zufall_sub_6_2 =='4'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_6_1 =='5' || $zufall_sub_6_2 =='5'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_6_1 =='6' || $zufall_sub_6_2 =='6'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+<tr>
+<td <?php if($zufall_sub_6_1 =='7' || $zufall_sub_6_2 =='7'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_6_1 =='8' || $zufall_sub_6_2 =='8'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+<td <?php if($zufall_sub_6_1 =='9' || $zufall_sub_6_2 =='9'){?>style="width:15px;height:15px;background-color:red;" <?php }?> ></td>
+</tr>
+</table>
+
+<!-- superstars Numbers START -->
+<table align="center"  width="66" height="64" style="position:absolute;z-index:1;padding:2px;border:0px solid;margin-top:208px;margin-left:578px;" class="noprint">
+<tr valign="middle" align="center"  style="position:absolute;margin-top:2px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">1</td><td width="29">2</td><td width="19">3</td></tr>
+<tr valign="middle" align="center"  style="position:absolute;margin-top:20px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">4</td><td width="29">5</td><td width="19">6</td></tr>
+<tr valign="middle" align="center"  style="position:absolute;margin-top:38px;margin-left:2px;z-index:2;font-size:8px;color:#FFF;"><td width="14">7</td><td width="29">8</td><td width="19">9</td></tr>
+</table>
+<!-- superstars Numbers ENDE -->
+
+<!-- Feld 6 ENDE -->
+
+ 
+<!---------------- *****   ************ 2 Sterne ENDE ******************   ***** ------------->
+ 
+ 
+<!------------------------                      Bogen mit 5 Nummern zu 6 Linien  START                     -------------------------------->
+
+<table class="bogen"><tr><td>
+
+<div class="pos1 , noprint">
+<div id="box1" class="box"><?=$buchstabe_1?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_1_1;?></div></div>
+<div id="box2" class="box"><?=$buchstabe_2?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_1_2;?></div></div>
+<div id="box3" class="box"><?=$buchstabe_3?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_1_3;?></div></div>
+<div id="box4" class="box"><?=$buchstabe_4?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_1_4;?></div></div>
+<div id="box5" class="box"><?=$buchstabe_5?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_1_5;?></div></div>
+
+<!-- Zusatzzahlen  START -->
+<div class="pos_A_sub_1"><?=$zufall_sub_1_1?></div>
+<div class="pos_B_sub_1"><?=$zufall_sub_1_2?></div>
+<!-- Zusatzzahlen  ENDE -->
+
+</div>
+
+<div class="pos2 , noprint">
+<div id="box1" class="box"><?=$buchstabe_1?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_2_1;?></div></div>
+<div id="box2" class="box"><?=$buchstabe_2?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_2_2;?></div></div>
+<div id="box3" class="box"><?=$buchstabe_3?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_2_3;?></div></div>
+<div id="box4" class="box"><?=$buchstabe_4?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_2_4;?></div></div>
+<div id="box5" class="box"><?=$buchstabe_5?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_2_5;?></div></div>
+
+<!-- Zusatzzahlen  START -->
+<div class="pos_A_sub_2"><?=$zufall_sub_2_1?></div>
+<div class="pos_B_sub_2"><?=$zufall_sub_2_2?></div>
+<!-- Zusatzzahlen  ENDE -->
+
+</div>
+
+<div class="pos3 , noprint">
+<div id="box1" class="box"><?=$buchstabe_1?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_3_1;?></div></div>
+<div id="box2" class="box"><?=$buchstabe_2?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_3_2;?></div></div>
+<div id="box3" class="box"><?=$buchstabe_3?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_3_3;?></div></div>
+<div id="box4" class="box"><?=$buchstabe_4?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_3_4;?></div></div>
+<div id="box5" class="box"><?=$buchstabe_5?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_3_5;?></div></div>
+
+<!-- Zusatzzahlen  START -->
+<div class="pos_A_sub_3"><?=$zufall_sub_3_1?></div>
+<div class="pos_B_sub_3"><?=$zufall_sub_3_2?></div>
+<!-- Zusatzzahlen  ENDE -->
+
+</div>
+
+<div class="pos4 , noprint">
+<div id="box1" class="box"><?=$buchstabe_1?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_4_1;?></div></div>
+<div id="box2" class="box"><?=$buchstabe_2?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_4_2;?></div></div>
+<div id="box3" class="box"><?=$buchstabe_3?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_4_3;?></div></div>
+<div id="box4" class="box"><?=$buchstabe_4?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_4_4;?></div></div>
+<div id="box5" class="box"><?=$buchstabe_5?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_4_5;?></div></div>
+
+<!-- Zusatzzahlen  START -->
+<div class="pos_A_sub_4"><?=$zufall_sub_4_1?></div>
+<div class="pos_B_sub_4"><?=$zufall_sub_4_2?></div>
+<!-- Zusatzzahlen  ENDE -->
+
+</div>
+
+<div class="pos5 , noprint">
+<div id="box1" class="box"><?=$buchstabe_1?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_5_1;?></div></div>
+<div id="box2" class="box"><?=$buchstabe_2?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_5_2;?></div></div>
+<div id="box3" class="box"><?=$buchstabe_3?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_5_3;?></div></div>
+<div id="box4" class="box"><?=$buchstabe_4?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_5_4;?></div></div>
+<div id="box5" class="box"><?=$buchstabe_5?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_5_5;?></div></div>
+
+<!-- Zusatzzahlen  START -->
+<div class="pos_A_sub_5"><?=$zufall_sub_5_1?></div>
+<div class="pos_B_sub_5"><?=$zufall_sub_5_2?></div>
+<!-- Zusatzzahlen  ENDE -->
+
+</div>
+
+<div class="pos6 , noprint">
+<div id="box1" class="box"><?=$buchstabe_1?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_6_1;?></div></div>
+<div id="box2" class="box"><?=$buchstabe_2?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_6_2;?></div></div>
+<div id="box3" class="box"><?=$buchstabe_3?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_6_3;?></div></div>
+<div id="box4" class="box"><?=$buchstabe_4?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_6_4;?></div></div>
+<div id="box5" class="box"><?=$buchstabe_5?><div style="color:black;font-size:12px;margin-top:-82px;"><?php echo $zufall_6_5;?></div></div>
+
+<!-- Zusatzzahlen  START -->
+<div class="pos_A_sub_6 , noprint"><?=$zufall_sub_6_1?></div>
+<div class="pos_B_sub_6 , noprint"><?=$zufall_sub_6_2?></div>
+<!-- Zusatzzahlen  ENDE -->
+
+</div>
+<!--  reset numbers START -->
+
+<div align="right" style="margin-top:15px;position:relative;z-index:4;" class="noprint"><form action="?&system=auto&play=close" method="post"><input type="submit" name="no_but" value="donate"  style="font-size:8px;background-color:white;padding:1px;margin-top:-2px;border-width:1px; border-style:dotted;width:36px;" /></form></div>
+
+<!--  reset numbers ENDE -->
+</td></tr></table>
+
+<!------------------------                      Bogen mit 5 Nummern zu 6 Linien  ENDE                      -------------------------------->
+
+<?php
+/*********************************************************************************************************************************************************************************************************/
+
+
+                                                                                   /******************************* 
+			                                                                    	*                             *     
+                                                                                    *  Anleitung / Instructions ! *   
+                                                                                    *        v 0.5 Beta           *
+																					*  2014  ©  by F. Flores      *
+                                                                                    ********************************/
+
+
+if($_GET['play']!='starts' ){?>
+<table width="485" height="80" align="center" style="position:absolute;z-index:5;font-size:9px;color:white;margin-left:203px;margin-top:-96px;background-color:black;"><tr><td>
+<div style="position:absolute;z-index:6;margin-top:-36px;margin-left:420px;"><form action="?&system=auto&play=starts" method="post"><input style="font-size:7px;" type="submit" name="close" value="X SCHLIESSEN"></input></form></div>
+<div style="position:absolute;z-index:5;margin-top:-36px;margin-left:-32px;">
+<div style="margin-left:40px;"><u>Zufallsprinzip  Lotterie Spiel: 5 aus 50 + 2 Sterne</u></div>
+
+
+<ul style="font-size:7px;">Einfaches Spiel:<li>dr&uuml;cke auf los! unter der jeweiligen Linie!</li></ul>
+<ul style="font-size:7px;margin-top:-6px;">Schein Spiel:<li>dr&uuml;cke auf los! ganz rechts unter Alle!</li></ul>
+<ul style="margin-top:-5px;font-size:7px;"><em>dieses spiel ist eine Simulation eines echtes Lotteriespieles nach dem Zufallsprinzip. Es dient einem Spieler dazu, sich seine Zufallszahlen generieren zu lassen um es in einem echten spiel auf die Felder zu &uuml;bertragen beim Ausf&uuml;llen des Lotteriescheines! viel spass!</em><br /><em>eine Version kaufen: 1.- Euro!! <a href="" id="link">hier kaufen</a> copyright &copy; by Francisco Flores V. 0.5 beta</em></ul>
+</div>
+</td></tr></table>
+
+
+
+<?php 
+/*********************************************************************************************************************************************************************************************************/
+}?>
+
+<!-- Zahlen selection START -->
+
+<table style="position:absolute;z-index:6;margin-left:20px;margin-top:-280px;width:160px;height:40px;border-style:dotted;border-color:black;border-width:1px;font-size:9px;">
+<tr>
+<td>
+
+<form action="rotate2.php?" method="get" enctype="multipart/form-data" style="font-size:8px;">
+<input type="hidden" name="system" value="auto" />
+<input type="hidden" name="play" value="starts" />
+<p>Normale Zahlen:</p>
+<input type="text" style="font-size:7px;" maxlength="2" size="3" name="rot_1" />
+<input type="text" style="font-size:7px;" maxlength="2" size="3" name="rot_2" />
+<input type="text" style="font-size:7px;" maxlength="2" size="3" name="rot_3" />
+<input type="text" style="font-size:7px;" maxlength="2" size="3" name="rot_4" />
+<input type="text" style="font-size:7px;" maxlength="2" size="3" name="rot_5" />
+<p>Zusatzzahlen:</p>
+<input type="text" style="font-size:7px;" maxlength="2" size="3" name="rot_6" />
+<input type="text" style="font-size:7px;" maxlength="2" size="3" name="rot_7" /><span> Einheitspreis: </span>
+<input type="text" style="font-size:7px;" maxlength="3" size="3" name="einsatz" /> <br />
+<input type="submit" value="los" />
+</form>
+
+</td>
+</tr>
+</table>
+
+<!-- Zahlen selection END -->
+
+<table style="margin-top:14px;margin-left:200px;border:1px solid;border-color:black;width:491.5px;height:26px;font-size:11px;" class="noprint">
+<tr>
+<td style="position:absolute;margin-left:32px;margin-top:5px;">1.Linie</td>
+<td style="position:absolute;margin-left:103px;margin-top:5px;">2.Linie</td>
+<td style="position:absolute;margin-left:174px;margin-top:5px;">3.Linie</td>
+<td style="position:absolute;margin-left:245px;margin-top:5px;">4.Linie</td>
+<td style="position:absolute;margin-left:316px;margin-top:5px;">5.Linie</td>
+<td style="position:absolute;margin-left:387px;margin-top:5px;">6.Linie</td>
+<td style="position:absolute;margin-left:458px;margin-top:5px;">Alle</td>
+</tr>
+</table>
+
+
+
+
+<table style="margin-top:14px;margin-left:200px;border:1px solid;border-color:black;width:491.5px;height:60px;" class="noprint">
+
+<!--  freeze Button los! START   -->
+<tr>
+
+<td  style="position:absolute;margin-left:32px;margin-top:5px;">
+
+<?php  if($freeze_save_1 =='yes'){?>
+<form method="post">
+<input type="hidden" name="but_1_quot_2_0" value="<?=$count_but_1_2_0_exp?>" />
+<input type="hidden" name="but_1_quot_2_1" value="<?=$count_but_1_2_1_exp?>" />
+<input type="hidden" name="but_1_quot_1_2" value="<?=$count_but_1_1_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_0" value="<?=$count_but_1_3_0_exp?>" />
+<input type="hidden" name="but_1_quot_3_1" value="<?=$count_but_1_3_1_exp?>" />
+<input type="hidden" name="but_1_quot_2_2" value="<?=$count_but_1_2_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_2" value="<?=$count_but_1_3_2_exp?>" />
+<input type="hidden" name="but_1_quot_4_0" value="<?=$count_but_1_4_0_exp?>" />
+<input type="hidden" name="but_1_quot_4_1" value="<?=$count_but_1_4_1_exp?>" />
+<input type="hidden" name="but_1_quot_4_2" value="<?=$count_but_1_4_2_exp?>" />
+<input type="hidden" name="but_1_quot_5_0" value="<?=$count_but_1_5_0_exp?>" />
+<input type="hidden" name="but_1_quot_5_1" value="<?=$count_but_1_5_1_exp?>" />
+<input type="hidden" name="but_1_quot_5_2" value="<?=$count_but_1_5_2_exp?>" />
+
+<input type="hidden" name="but_2_quot_2_0" value="<?=$count_but_2_2_0_exp?>" />
+<input type="hidden" name="but_2_quot_2_1" value="<?=$count_but_2_2_1_exp?>" />
+<input type="hidden" name="but_2_quot_1_2" value="<?=$count_but_2_1_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_0" value="<?=$count_but_2_3_0_exp?>" />
+<input type="hidden" name="but_2_quot_3_1" value="<?=$count_but_2_3_1_exp?>" />
+<input type="hidden" name="but_2_quot_2_2" value="<?=$count_but_2_2_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_2" value="<?=$count_but_2_3_2_exp?>" />
+<input type="hidden" name="but_2_quot_4_0" value="<?=$count_but_2_4_0_exp?>" />
+<input type="hidden" name="but_2_quot_4_1" value="<?=$count_but_2_4_1_exp?>" />
+<input type="hidden" name="but_2_quot_4_2" value="<?=$count_but_2_4_2_exp?>" />
+<input type="hidden" name="but_2_quot_5_0" value="<?=$count_but_2_5_0_exp?>" />
+<input type="hidden" name="but_2_quot_5_1" value="<?=$count_but_2_5_1_exp?>" />
+<input type="hidden" name="but_2_quot_5_2" value="<?=$count_but_2_5_2_exp?>" />
+
+<input type="hidden" name="but_3_quot_2_0" value="<?=$count_but_3_2_0_exp?>" />
+<input type="hidden" name="but_3_quot_2_1" value="<?=$count_but_3_2_1_exp?>" />
+<input type="hidden" name="but_3_quot_1_2" value="<?=$count_but_3_1_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_0" value="<?=$count_but_3_3_0_exp?>" />
+<input type="hidden" name="but_3_quot_3_1" value="<?=$count_but_3_3_1_exp?>" />
+<input type="hidden" name="but_3_quot_2_2" value="<?=$count_but_3_2_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_2" value="<?=$count_but_3_3_2_exp?>" />
+<input type="hidden" name="but_3_quot_4_0" value="<?=$count_but_3_4_0_exp?>" />
+<input type="hidden" name="but_3_quot_4_1" value="<?=$count_but_3_4_1_exp?>" />
+<input type="hidden" name="but_3_quot_4_2" value="<?=$count_but_3_4_2_exp?>" />
+<input type="hidden" name="but_3_quot_5_0" value="<?=$count_but_3_5_0_exp?>" />
+<input type="hidden" name="but_3_quot_5_1" value="<?=$count_but_3_5_1_exp?>" />
+<input type="hidden" name="but_3_quot_5_2" value="<?=$count_but_3_5_2_exp?>" />
+
+<input type="hidden" name="but_4_quot_2_0" value="<?=$count_but_4_2_0_exp?>" />
+<input type="hidden" name="but_4_quot_2_1" value="<?=$count_but_4_2_1_exp?>" />
+<input type="hidden" name="but_4_quot_1_2" value="<?=$count_but_4_1_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_0" value="<?=$count_but_4_3_0_exp?>" />
+<input type="hidden" name="but_4_quot_3_1" value="<?=$count_but_4_3_1_exp?>" />
+<input type="hidden" name="but_4_quot_2_2" value="<?=$count_but_4_2_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_2" value="<?=$count_but_4_3_2_exp?>" />
+<input type="hidden" name="but_4_quot_4_0" value="<?=$count_but_4_4_0_exp?>" />
+<input type="hidden" name="but_4_quot_4_1" value="<?=$count_but_4_4_1_exp?>" />
+<input type="hidden" name="but_4_quot_4_2" value="<?=$count_but_4_4_2_exp?>" />
+<input type="hidden" name="but_4_quot_5_0" value="<?=$count_but_4_5_0_exp?>" />
+<input type="hidden" name="but_4_quot_5_1" value="<?=$count_but_4_5_1_exp?>" />
+<input type="hidden" name="but_4_quot_5_2" value="<?=$count_but_4_5_2_exp?>" />
+
+<input type="hidden" name="but_5_quot_2_0" value="<?=$count_but_5_2_0_exp?>" />
+<input type="hidden" name="but_5_quot_2_1" value="<?=$count_but_5_2_1_exp?>" />
+<input type="hidden" name="but_5_quot_1_2" value="<?=$count_but_5_1_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_0" value="<?=$count_but_5_3_0_exp?>" />
+<input type="hidden" name="but_5_quot_3_1" value="<?=$count_but_5_3_1_exp?>" />
+<input type="hidden" name="but_5_quot_2_2" value="<?=$count_but_5_2_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_2" value="<?=$count_but_5_3_2_exp?>" />
+<input type="hidden" name="but_5_quot_4_0" value="<?=$count_but_5_4_0_exp?>" />
+<input type="hidden" name="but_5_quot_4_1" value="<?=$count_but_5_4_1_exp?>" />
+<input type="hidden" name="but_5_quot_4_2" value="<?=$count_but_5_4_2_exp?>" />
+<input type="hidden" name="but_5_quot_5_0" value="<?=$count_but_5_5_0_exp?>" />
+<input type="hidden" name="but_5_quot_5_1" value="<?=$count_but_5_5_1_exp?>" />
+<input type="hidden" name="but_5_quot_5_2" value="<?=$count_but_5_5_2_exp?>" />
+
+<input type="hidden" name="but_6_quot_2_0" value="<?=$count_but_6_2_0_exp?>" />
+<input type="hidden" name="but_6_quot_2_1" value="<?=$count_but_6_2_1_exp?>" />
+<input type="hidden" name="but_6_quot_1_2" value="<?=$count_but_6_1_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_0" value="<?=$count_but_6_3_0_exp?>" />
+<input type="hidden" name="but_6_quot_3_1" value="<?=$count_but_6_3_1_exp?>" />
+<input type="hidden" name="but_6_quot_2_2" value="<?=$count_but_6_2_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_2" value="<?=$count_but_6_3_2_exp?>" />
+<input type="hidden" name="but_6_quot_4_0" value="<?=$count_but_6_4_0_exp?>" />
+<input type="hidden" name="but_6_quot_4_1" value="<?=$count_but_6_4_1_exp?>" />
+<input type="hidden" name="but_6_quot_4_2" value="<?=$count_but_6_4_2_exp?>" />
+<input type="hidden" name="but_6_quot_5_0" value="<?=$count_but_6_5_0_exp?>" />
+<input type="hidden" name="but_6_quot_5_1" value="<?=$count_but_6_5_1_exp?>" />
+<input type="hidden" name="but_6_quot_5_2" value="<?=$count_but_6_5_2_exp?>" />
+
+<input type="hidden" name="to_freeze_1_1" value="<?=$zufall_1_1?>" />
+<input type="hidden" name="to_freeze_1_2" value="<?=$zufall_1_2?>" />
+<input type="hidden" name="to_freeze_1_3" value="<?=$zufall_1_3?>" />
+<input type="hidden" name="to_freeze_1_4" value="<?=$zufall_1_4?>" />
+<input type="hidden" name="to_freeze_1_5" value="<?=$zufall_1_5?>" />
+<input type="hidden" name="to_freeze_sub_1_1" value="<?=$zufall_sub_1_1?>" />
+<input type="hidden" name="to_freeze_sub_1_2" value="<?=$zufall_sub_1_2?>" />
+<input type="hidden" name="wert_a" value="<?php if($_POST['frez_yes_1']!=true){echo $total_a;}else{echo $max+$einsatz;}?>" />
+<input type="hidden" name="quote_a" value="<?=$quote_a?>" />
+<input type="hidden" name="patzen_a" value="<?=$bar_a+$patzen_a+$patzen_b+$patzen_c+$patzen_d+$patzen_e+$patzen_f?>" />
+
+<input type="submit" name="frez_yes_1" value="defreeze" style="font-size:10px;background-color:#0CF;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:50px;" /></form>
+<?php }?>
+<?php  if($freeze_save_1 =='no'){?>
+<form method="post">
+<input type="hidden" name="but_1_quot_2_0" value="<?=$count_but_1_2_0_exp?>" />
+<input type="hidden" name="but_1_quot_2_1" value="<?=$count_but_1_2_1_exp?>" />
+<input type="hidden" name="but_1_quot_1_2" value="<?=$count_but_1_1_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_0" value="<?=$count_but_1_3_0_exp?>" />
+<input type="hidden" name="but_1_quot_3_1" value="<?=$count_but_1_3_1_exp?>" />
+<input type="hidden" name="but_1_quot_2_2" value="<?=$count_but_1_2_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_2" value="<?=$count_but_1_3_2_exp?>" />
+<input type="hidden" name="but_1_quot_4_0" value="<?=$count_but_1_4_0_exp?>" />
+<input type="hidden" name="but_1_quot_4_1" value="<?=$count_but_1_4_1_exp?>" />
+<input type="hidden" name="but_1_quot_4_2" value="<?=$count_but_1_4_2_exp?>" />
+<input type="hidden" name="but_1_quot_5_0" value="<?=$count_but_1_5_0_exp?>" />
+<input type="hidden" name="but_1_quot_5_1" value="<?=$count_but_1_5_1_exp?>" />
+<input type="hidden" name="but_1_quot_5_2" value="<?=$count_but_1_5_2_exp?>" />
+
+<input type="hidden" name="but_2_quot_2_0" value="<?=$count_but_2_2_0_exp?>" />
+<input type="hidden" name="but_2_quot_2_1" value="<?=$count_but_2_2_1_exp?>" />
+<input type="hidden" name="but_2_quot_1_2" value="<?=$count_but_2_1_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_0" value="<?=$count_but_2_3_0_exp?>" />
+<input type="hidden" name="but_2_quot_3_1" value="<?=$count_but_2_3_1_exp?>" />
+<input type="hidden" name="but_2_quot_2_2" value="<?=$count_but_2_2_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_2" value="<?=$count_but_2_3_2_exp?>" />
+<input type="hidden" name="but_2_quot_4_0" value="<?=$count_but_2_4_0_exp?>" />
+<input type="hidden" name="but_2_quot_4_1" value="<?=$count_but_2_4_1_exp?>" />
+<input type="hidden" name="but_2_quot_4_2" value="<?=$count_but_2_4_2_exp?>" />
+<input type="hidden" name="but_2_quot_5_0" value="<?=$count_but_2_5_0_exp?>" />
+<input type="hidden" name="but_2_quot_5_1" value="<?=$count_but_2_5_1_exp?>" />
+<input type="hidden" name="but_2_quot_5_2" value="<?=$count_but_2_5_2_exp?>" />
+
+<input type="hidden" name="but_3_quot_2_0" value="<?=$count_but_3_2_0_exp?>" />
+<input type="hidden" name="but_3_quot_2_1" value="<?=$count_but_3_2_1_exp?>" />
+<input type="hidden" name="but_3_quot_1_2" value="<?=$count_but_3_1_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_0" value="<?=$count_but_3_3_0_exp?>" />
+<input type="hidden" name="but_3_quot_3_1" value="<?=$count_but_3_3_1_exp?>" />
+<input type="hidden" name="but_3_quot_2_2" value="<?=$count_but_3_2_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_2" value="<?=$count_but_3_3_2_exp?>" />
+<input type="hidden" name="but_3_quot_4_0" value="<?=$count_but_3_4_0_exp?>" />
+<input type="hidden" name="but_3_quot_4_1" value="<?=$count_but_3_4_1_exp?>" />
+<input type="hidden" name="but_3_quot_4_2" value="<?=$count_but_3_4_2_exp?>" />
+<input type="hidden" name="but_3_quot_5_0" value="<?=$count_but_3_5_0_exp?>" />
+<input type="hidden" name="but_3_quot_5_1" value="<?=$count_but_3_5_1_exp?>" />
+<input type="hidden" name="but_3_quot_5_2" value="<?=$count_but_3_5_2_exp?>" />
+
+<input type="hidden" name="but_4_quot_2_0" value="<?=$count_but_4_2_0_exp?>" />
+<input type="hidden" name="but_4_quot_2_1" value="<?=$count_but_4_2_1_exp?>" />
+<input type="hidden" name="but_4_quot_1_2" value="<?=$count_but_4_1_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_0" value="<?=$count_but_4_3_0_exp?>" />
+<input type="hidden" name="but_4_quot_3_1" value="<?=$count_but_4_3_1_exp?>" />
+<input type="hidden" name="but_4_quot_2_2" value="<?=$count_but_4_2_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_2" value="<?=$count_but_4_3_2_exp?>" />
+<input type="hidden" name="but_4_quot_4_0" value="<?=$count_but_4_4_0_exp?>" />
+<input type="hidden" name="but_4_quot_4_1" value="<?=$count_but_4_4_1_exp?>" />
+<input type="hidden" name="but_4_quot_4_2" value="<?=$count_but_4_4_2_exp?>" />
+<input type="hidden" name="but_4_quot_5_0" value="<?=$count_but_4_5_0_exp?>" />
+<input type="hidden" name="but_4_quot_5_1" value="<?=$count_but_4_5_1_exp?>" />
+<input type="hidden" name="but_4_quot_5_2" value="<?=$count_but_4_5_2_exp?>" />
+
+<input type="hidden" name="but_5_quot_2_0" value="<?=$count_but_5_2_0_exp?>" />
+<input type="hidden" name="but_5_quot_2_1" value="<?=$count_but_5_2_1_exp?>" />
+<input type="hidden" name="but_5_quot_1_2" value="<?=$count_but_5_1_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_0" value="<?=$count_but_5_3_0_exp?>" />
+<input type="hidden" name="but_5_quot_3_1" value="<?=$count_but_5_3_1_exp?>" />
+<input type="hidden" name="but_5_quot_2_2" value="<?=$count_but_5_2_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_2" value="<?=$count_but_5_3_2_exp?>" />
+<input type="hidden" name="but_5_quot_4_0" value="<?=$count_but_5_4_0_exp?>" />
+<input type="hidden" name="but_5_quot_4_1" value="<?=$count_but_5_4_1_exp?>" />
+<input type="hidden" name="but_5_quot_4_2" value="<?=$count_but_5_4_2_exp?>" />
+<input type="hidden" name="but_5_quot_5_0" value="<?=$count_but_5_5_0_exp?>" />
+<input type="hidden" name="but_5_quot_5_1" value="<?=$count_but_5_5_1_exp?>" />
+<input type="hidden" name="but_5_quot_5_2" value="<?=$count_but_5_5_2_exp?>" />
+
+<input type="hidden" name="but_6_quot_2_0" value="<?=$count_but_6_2_0_exp?>" />
+<input type="hidden" name="but_6_quot_2_1" value="<?=$count_but_6_2_1_exp?>" />
+<input type="hidden" name="but_6_quot_1_2" value="<?=$count_but_6_1_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_0" value="<?=$count_but_6_3_0_exp?>" />
+<input type="hidden" name="but_6_quot_3_1" value="<?=$count_but_6_3_1_exp?>" />
+<input type="hidden" name="but_6_quot_2_2" value="<?=$count_but_6_2_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_2" value="<?=$count_but_6_3_2_exp?>" />
+<input type="hidden" name="but_6_quot_4_0" value="<?=$count_but_6_4_0_exp?>" />
+<input type="hidden" name="but_6_quot_4_1" value="<?=$count_but_6_4_1_exp?>" />
+<input type="hidden" name="but_6_quot_4_2" value="<?=$count_but_6_4_2_exp?>" />
+<input type="hidden" name="but_6_quot_5_0" value="<?=$count_but_6_5_0_exp?>" />
+<input type="hidden" name="but_6_quot_5_1" value="<?=$count_but_6_5_1_exp?>" />
+<input type="hidden" name="but_6_quot_5_2" value="<?=$count_but_6_5_2_exp?>" />
+
+<input type="hidden" name="to_freeze_1_1" value="<?=$zufall_1_1?>" />
+<input type="hidden" name="to_freeze_1_2" value="<?=$zufall_1_2?>" />
+<input type="hidden" name="to_freeze_1_3" value="<?=$zufall_1_3?>" />
+<input type="hidden" name="to_freeze_1_4" value="<?=$zufall_1_4?>" />
+<input type="hidden" name="to_freeze_1_5" value="<?=$zufall_1_5?>" />
+<input type="hidden" name="to_freeze_sub_1_1" value="<?=$zufall_sub_1_1?>" />
+<input type="hidden" name="to_freeze_sub_1_2" value="<?=$zufall_sub_1_2?>" />
+<input type="hidden" name="wert_a" value="<?php if($_POST['frez_no_1']!=true){echo $total_a;}else{echo $max+$einsatz;}?>" />
+<input type="hidden" name="quote_a" value="<?=$quote_a?>" />
+<input type="hidden" name="patzen_a" value="<?=$bar_a+$patzen_a+$patzen_b+$patzen_c+$patzen_d+$patzen_e+$patzen_f?>" />
+
+<input type="submit" name="frez_no_1" value="freeze" style="font-size:10px;background-color:#FC0;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:50px;" /></form>
+<?php }?>
+
+</td>
+
+<td  style="position:absolute;margin-left:103px;margin-top:5px;">
+<?php  if($freeze_save_2 =='yes'){?>
+<form method="post"><input type="submit" name="frez_yes_2" value="defreeze" style="font-size:10px;background-color:#0CF;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:50px;" /></form>
+<?php }?>
+<?php  if($freeze_save_2 =='no'){?>
+<form method="post"><input type="submit" name="frez_no_2" value="freeze" style="font-size:10px;background-color:#FC0;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:50px;" /></form>
+<?php }?>
+</td>
+<td  style="position:absolute;margin-left:174px;margin-top:5px;">
+<?php  if($freeze_save_3 =='yes'){?>
+<form method="post"><input type="submit" name="frez_yes_3" value="defreeze" style="font-size:10px;background-color:#0CF;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:50px;" /></form>
+<?php }?>
+<?php  if($freeze_save_3 =='no'){?>
+<form method="post"><input type="submit" name="frez_no_3" value="freeze" style="font-size:10px;background-color:#FC0;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:50px;" /></form>
+<?php }?>
+</td>
+<td  style="position:absolute;margin-left:245px;margin-top:5px;">
+<?php  if($freeze_save_4 =='yes'){?>
+<form method="post"><input type="submit" name="frez_yes_4" value="defreeze" style="font-size:10px;background-color:#0CF;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:50px;" /></form>
+<?php }?>
+<?php  if($freeze_save_4 =='no'){?>
+<form method="post"><input type="submit" name="frez_no_4" value="freeze" style="font-size:10px;background-color:#FC0;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:50px;" /></form>
+<?php }?>
+</td>
+<td  style="position:absolute;margin-left:316px;margin-top:5px;">
+<?php  if($freeze_save_5 =='yes'){?>
+<form method="post"><input type="submit" name="frez_yes_5" value="defreeze" style="font-size:10px;background-color:#0CF;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:50px;" /></form>
+<?php }?>
+<?php  if($freeze_save_5 =='no'){?>
+<form method="post"><input type="submit" name="frez_no_5" value="freeze" style="font-size:10px;background-color:#FC0;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:50px;" /></form>
+<?php }?>
+</td>
+<td  style="position:absolute;margin-left:387px;margin-top:5px;">
+<?php  if($freeze_save_6 =='yes'){?>
+<form method="post"><input type="submit" name="frez_yes_6" value="defreeze" style="font-size:10px;background-color:#0CF;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:50px;" /></form>
+<?php }?>
+<?php  if($freeze_save_6 =='no'){?>
+<form  method="post"><input type="submit" name="frez_no_6" value="freeze" style="font-size:10px;background-color:#FC0;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:50px;" /></form>
+<?php }?>
+</td>
+<td  style="position:absolute;margin-left:452px;margin-top:5px;"><form  method="post"><input type="submit" name="no_but" value="clear" style="font-size:10px;background-color:#999;padding:1px;margin-top:-2px; border-style:dashed;border-width:thin;width:30px;" /></form></td>
+</tr>
+<!--  freeze Button los! END   -->
+
+<?php 
+/*$einsatz=3;*/
+if(is_numeric($_GET['einsatz'])==true){$einsatz=$_GET['einsatz'];}else{$einsatz=1;}
+$betrag_a=$_POST['wert_a'];
+$betrag_b=$_POST['wert_b'];
+$betrag_c=$_POST['wert_c'];
+$betrag_d=$_POST['wert_d'];
+$betrag_e=$_POST['wert_e'];
+$betrag_f=$_POST['wert_f'];
+
+
+$quote_a=$_POST['quote_a'];
+$quote_b=$_POST['quote_b'];
+$quote_c=$_POST['quote_c'];
+$quote_d=$_POST['quote_d'];
+$quote_e=$_POST['quote_e'];
+$quote_f=$_POST['quote_f'];
+
+$patzen_a=$_POST['patzen_a'];
+$patzen_b=$_POST['patzen_b'];
+$patzen_c=$_POST['patzen_c'];
+$patzen_d=$_POST['patzen_d'];
+$patzen_e=$_POST['patzen_e'];
+$patzen_f=$_POST['patzen_f'];
+
+
+
+if($betrag_a!=true){$total_a=$einsatz+$quote_a;}
+if($betrag_a==true){$total_a=$einsatz+$betrag_a;}
+
+if($betrag_b!=true){$total_b=$einsatz+$quote_b;}
+if($betrag_b==true){$total_b=$einsatz+$betrag_b;}
+
+if($betrag_c!=true){$total_c=$einsatz+$quote_c;}
+if($betrag_c==true){$total_c=$einsatz+$betrag_c;}
+
+if($betrag_d!=true){$total_d=$einsatz+$quote_d;}
+if($betrag_d==true){$total_d=$einsatz+$betrag_d;}
+
+if($betrag_e!=true){$total_e=$einsatz+$quote_e;}
+if($betrag_e==true){$total_e=$einsatz+$betrag_e;}
+
+if($betrag_f!=true){$total_f=$einsatz+$quote_f;}
+if($betrag_f==true){$total_f=$einsatz+$betrag_f;}
+
+?>
+
+<?php 
+$gewinn_1=$_GET['rot_1']; 
+$gewinn_2=$_GET['rot_2']; 
+$gewinn_3=$_GET['rot_3']; 
+$gewinn_4=$_GET['rot_4']; 
+$gewinn_5=$_GET['rot_5']; 
+$gewinn_6=$_GET['rot_6']; 
+$gewinn_7=$_GET['rot_7']; 
+
+if($gewinn_1==$zufall_1_1){$treffer_1_1=$zufall_1_1;}
+if($gewinn_2==$zufall_1_2){$treffer_1_2=$zufall_1_2;}
+if($gewinn_3==$zufall_1_3){$treffer_1_3=$zufall_1_3;}
+if($gewinn_4==$zufall_1_4){$treffer_1_4=$zufall_1_4;}
+if($gewinn_5==$zufall_1_5){$treffer_1_5=$zufall_1_5;}
+if($gewinn_6==$zufall_sub_1_1){$treffer_1_6=$zufall_sub_1_1;}
+if($gewinn_7==$zufall_sub_1_2){$treffer_1_7=$zufall_sub_1_2;}
+if($treffer_1_1==true){$nr_1a=$zufall_1_1;$nr_1_1_wert=1;}else{$nr_1_1_wert=0;}
+if($treffer_1_2==true){$nr_2a=$zufall_1_2;$nr_1_2_wert=1;}else{$nr_1_2_wert=0;}
+if($treffer_1_3==true){$nr_3a=$zufall_1_3;$nr_1_3_wert=1;}else{$nr_1_3_wert=0;}
+if($treffer_1_4==true){$nr_4a=$zufall_1_4;$nr_1_4_wert=1;}else{$nr_1_4_wert=0;}
+if($treffer_1_5==true){$nr_5a=$zufall_1_5;$nr_1_5_wert=1;}else{$nr_1_5_wert=0;}
+if($treffer_1_6==true){$nr_6a=$zufall_sub_1_1;$nr_1_6_wert=1;}else{$nr_1_6_wert=0;}
+if($treffer_1_7==true){$nr_7a=$zufall_sub_1_2;$nr_1_7_wert=1;}else{$nr_1_7_wert=0;}
+
+
+if($gewinn_1==$zufall_2_1){$treffer_2_1=$zufall_2_1;}
+if($gewinn_2==$zufall_2_2){$treffer_2_2=$zufall_2_2;}
+if($gewinn_3==$zufall_2_3){$treffer_2_3=$zufall_2_3;}
+if($gewinn_4==$zufall_2_4){$treffer_2_4=$zufall_2_4;}
+if($gewinn_5==$zufall_2_5){$treffer_2_5=$zufall_2_5;}
+if($gewinn_6==$zufall_sub_2_1){$treffer_2_6=$zufall_sub_2_1;}
+if($gewinn_7==$zufall_sub_2_2){$treffer_2_7=$zufall_sub_2_2;}
+if($treffer_2_1==true){$nr_1b=$zufall_2_1;$nr_2_1_wert=1;}else{$nr_2_1_wert=0;}
+if($treffer_2_2==true){$nr_2b=$zufall_2_2;$nr_2_2_wert=1;}else{$nr_2_2_wert=0;}
+if($treffer_2_3==true){$nr_3b=$zufall_2_3;$nr_2_3_wert=1;}else{$nr_2_3_wert=0;}
+if($treffer_2_4==true){$nr_4b=$zufall_2_4;$nr_2_4_wert=1;}else{$nr_2_4_wert=0;}
+if($treffer_2_5==true){$nr_5b=$zufall_2_5;$nr_2_5_wert=1;}else{$nr_2_5_wert=0;}
+if($treffer_2_6==true){$nr_6b=$zufall_sub_2_1;$nr_2_6_wert=1;}else{$nr_2_6_wert=0;}
+if($treffer_2_7==true){$nr_7b=$zufall_sub_2_2;$nr_2_7_wert=1;}else{$nr_2_7_wert=0;}
+
+
+if($gewinn_1==$zufall_3_1){$treffer_3_1=$zufall_3_1;}
+if($gewinn_2==$zufall_3_2){$treffer_3_2=$zufall_3_2;}
+if($gewinn_3==$zufall_3_3){$treffer_3_3=$zufall_3_3;}
+if($gewinn_4==$zufall_3_4){$treffer_3_4=$zufall_3_4;}
+if($gewinn_5==$zufall_3_5){$treffer_3_5=$zufall_3_5;}
+if($gewinn_6==$zufall_sub_3_1){$treffer_3_6=$zufall_sub_3_1;}
+if($gewinn_7==$zufall_sub_3_2){$treffer_3_7=$zufall_sub_3_2;}
+if($treffer_3_1==true){$nr_1c=$zufall_3_1;$nr_3_1_wert=1;}else{$nr_3_1_wert=0;}
+if($treffer_3_2==true){$nr_2c=$zufall_3_2;$nr_3_2_wert=1;}else{$nr_3_2_wert=0;}
+if($treffer_3_3==true){$nr_3c=$zufall_3_3;$nr_3_3_wert=1;}else{$nr_3_3_wert=0;}
+if($treffer_3_4==true){$nr_4c=$zufall_3_4;$nr_3_4_wert=1;}else{$nr_3_4_wert=0;}
+if($treffer_3_5==true){$nr_5c=$zufall_3_5;$nr_3_5_wert=1;}else{$nr_3_5_wert=0;}
+if($treffer_3_6==true){$nr_6c=$zufall_sub_3_1;$nr_3_6_wert=1;}else{$nr_3_6_wert=0;}
+if($treffer_3_7==true){$nr_7c=$zufall_sub_3_2;$nr_3_7_wert=1;}else{$nr_3_7_wert=0;}
+
+
+if($gewinn_1==$zufall_4_1){$treffer_4_1=$zufall_4_1;}
+if($gewinn_2==$zufall_4_2){$treffer_4_2=$zufall_4_2;}
+if($gewinn_3==$zufall_4_3){$treffer_4_3=$zufall_4_3;}
+if($gewinn_4==$zufall_4_4){$treffer_4_4=$zufall_4_4;}
+if($gewinn_5==$zufall_4_5){$treffer_4_5=$zufall_4_5;}
+if($gewinn_6==$zufall_sub_4_1){$treffer_4_6=$zufall_sub_4_1;}
+if($gewinn_7==$zufall_sub_4_2){$treffer_4_7=$zufall_sub_4_2;}
+if($treffer_4_1==true){$nr_1d=$zufall_4_1;$nr_4_1_wert=1;}else{$nr_4_1_wert=0;}
+if($treffer_4_2==true){$nr_2d=$zufall_4_2;$nr_4_2_wert=1;}else{$nr_4_2_wert=0;}
+if($treffer_4_3==true){$nr_3d=$zufall_4_3;$nr_4_3_wert=1;}else{$nr_4_3_wert=0;}
+if($treffer_4_4==true){$nr_4d=$zufall_4_4;$nr_4_4_wert=1;}else{$nr_4_4_wert=0;}
+if($treffer_4_5==true){$nr_5d=$zufall_4_5;$nr_4_5_wert=1;}else{$nr_4_5_wert=0;}
+if($treffer_4_6==true){$nr_6d=$zufall_sub_4_1;$nr_4_6_wert=1;}else{$nr_4_6_wert=0;}
+if($treffer_4_7==true){$nr_7d=$zufall_sub_4_2;$nr_4_7_wert=1;}else{$nr_4_7_wert=0;}
+
+
+if($gewinn_1==$zufall_5_1){$treffer_5_1=$zufall_5_1;}
+if($gewinn_2==$zufall_5_2){$treffer_5_2=$zufall_5_2;}
+if($gewinn_3==$zufall_5_3){$treffer_5_3=$zufall_5_3;}
+if($gewinn_4==$zufall_5_4){$treffer_5_4=$zufall_5_4;}
+if($gewinn_5==$zufall_5_5){$treffer_5_5=$zufall_5_5;}
+if($gewinn_6==$zufall_sub_5_1){$treffer_5_6=$zufall_sub_5_1;}
+if($gewinn_7==$zufall_sub_5_2){$treffer_5_7=$zufall_sub_5_2;}
+if($treffer_5_1==true){$nr_1e=$zufall_5_1;$nr_5_1_wert=1;}else{$nr_5_1_wert=0;}
+if($treffer_5_2==true){$nr_2e=$zufall_5_2;$nr_5_2_wert=1;}else{$nr_5_2_wert=0;}
+if($treffer_5_3==true){$nr_3e=$zufall_5_3;$nr_5_3_wert=1;}else{$nr_5_3_wert=0;}
+if($treffer_5_4==true){$nr_4e=$zufall_5_4;$nr_5_4_wert=1;}else{$nr_5_4_wert=0;}
+if($treffer_5_5==true){$nr_5e=$zufall_5_5;$nr_5_5_wert=1;}else{$nr_5_5_wert=0;}
+if($treffer_5_6==true){$nr_6e=$zufall_sub_5_1;$nr_5_6_wert=1;}else{$nr_5_6_wert=0;}
+if($treffer_5_7==true){$nr_7e=$zufall_sub_5_2;$nr_5_7_wert=1;}else{$nr_5_7_wert=0;}
+
+
+if($gewinn_1==$zufall_6_1){$treffer_6_1=$zufall_6_1;}
+if($gewinn_2==$zufall_6_2){$treffer_6_2=$zufall_6_2;}
+if($gewinn_3==$zufall_6_3){$treffer_6_3=$zufall_6_3;}
+if($gewinn_4==$zufall_6_4){$treffer_6_4=$zufall_6_4;}
+if($gewinn_5==$zufall_6_5){$treffer_6_5=$zufall_6_5;}
+if($gewinn_6==$zufall_sub_6_1){$treffer_6_6=$zufall_sub_6_1;}
+if($gewinn_7==$zufall_sub_6_2){$treffer_6_7=$zufall_sub_6_2;}
+if($treffer_6_1==true){$nr_1f=$zufall_6_1;$nr_6_1_wert=1;}else{$nr_6_1_wert=0;}
+if($treffer_6_2==true){$nr_2f=$zufall_6_2;$nr_6_2_wert=1;}else{$nr_6_2_wert=0;}
+if($treffer_6_3==true){$nr_3f=$zufall_6_3;$nr_6_3_wert=1;}else{$nr_6_3_wert=0;}
+if($treffer_6_4==true){$nr_4f=$zufall_6_4;$nr_6_4_wert=1;}else{$nr_6_4_wert=0;}
+if($treffer_6_5==true){$nr_5f=$zufall_6_5;$nr_6_5_wert=1;}else{$nr_6_5_wert=0;}
+if($treffer_6_6==true){$nr_6f=$zufall_sub_6_1;$nr_6_6_wert=1;}else{$nr_6_6_wert=0;}
+if($treffer_6_7==true){$nr_7f=$zufall_sub_6_2;$nr_6_7_wert=1;}else{$nr_6_7_wert=0;}
+
+
+$richtige_treffer_1_1=($nr_1_1_wert+$nr_1_2_wert+$nr_1_3_wert+$nr_1_4_wert+$nr_1_5_wert);
+$richtige_treffer_1_2=($nr_1_6_wert+$nr_1_7_wert);
+
+$richtige_treffer_2_1=($nr_2_1_wert+$nr_2_2_wert+$nr_2_3_wert+$nr_2_4_wert+$nr_2_5_wert);
+$richtige_treffer_2_2=($nr_2_6_wert+$nr_2_7_wert);
+
+$richtige_treffer_3_1=($nr_3_1_wert+$nr_3_2_wert+$nr_3_3_wert+$nr_3_4_wert+$nr_3_5_wert);
+$richtige_treffer_3_2=($nr_3_6_wert+$nr_3_7_wert);
+
+$richtige_treffer_4_1=($nr_4_1_wert+$nr_4_2_wert+$nr_4_3_wert+$nr_4_4_wert+$nr_4_5_wert);
+$richtige_treffer_4_2=($nr_4_6_wert+$nr_4_7_wert);
+
+$richtige_treffer_5_1=($nr_5_1_wert+$nr_5_2_wert+$nr_5_3_wert+$nr_5_4_wert+$nr_5_5_wert);
+$richtige_treffer_5_2=($nr_5_6_wert+$nr_5_7_wert);
+
+$richtige_treffer_6_1=($nr_6_1_wert+$nr_6_2_wert+$nr_6_3_wert+$nr_6_4_wert+$nr_6_5_wert);
+$richtige_treffer_6_2=($nr_6_6_wert+$nr_6_7_wert);
+
+//reel play %
+$win_1=5.75;
+$win_2=14.10;
+$win_3=18.55;
+$win_4=16.40;
+$win_5=25.30;
+$win_6=34.60;
+$win_7=108.10;
+$win_8=144.20;
+$win_9=381.10;
+$win_10=7647.40;
+$win_11=66641.55;
+$win_12=310994.00;
+$win_13=126000000.00;
+
+$win_1 = sprintf("%01.2f", $win_1);
+$win_2 = sprintf("%01.2f", $win_2);
+$win_3 = sprintf("%01.2f", $win_3);
+$win_4 = sprintf("%01.2f", $win_4);
+$win_5 = sprintf("%01.2f", $win_5);
+$win_6 = sprintf("%01.2f", $win_6);
+$win_7 = sprintf("%01.2f", $win_7);
+$win_8 = sprintf("%01.2f", $win_8);
+$win_9 = sprintf("%01.2f", $win_9);
+$win_10 = sprintf("%01.2f", $win_10);
+$win_11 = sprintf("%01.2f", $win_11);
+$win_12 = sprintf("%01.2f", $win_12);
+$win_13 = sprintf("%01.2f", $win_13);
+
+
+
+/* joke mini
+$win_1=0.10;
+$win_2=0.30;
+$win_3=0.35;
+$win_4=0.40;
+$win_5=0.50;
+$win_6=0.60;
+$win_7=4.08;
+$win_8=3.25;
+$win_9=8.00;
+$win_10=150.00;
+$win_11=725.00;
+$win_12=1500.00;
+$win_13=6300.00;
+*/
+
+
+$but_1_quot_2_0=$_POST['but_1_quot_2_0'];
+if($richtige_treffer_1_1 ==2 && $richtige_treffer_1_2==0){$count_but_1_2_0_exp=$but_1_quot_2_0+1;}else{$count_but_1_2_0_exp=$but_1_quot_2_0+0;}
+
+$but_1_quot_2_1=$_POST['but_1_quot_2_1'];
+if($richtige_treffer_1_1 ==2 && $richtige_treffer_1_2==1){$count_but_1_2_1_exp=$but_1_quot_2_1+1;}else{$count_but_1_2_1_exp=$but_1_quot_2_1+0;}
+
+$but_1_quot_1_2=$_POST['but_1_quot_1_2'];
+if($richtige_treffer_1_1 ==1 && $richtige_treffer_1_2==2){$count_but_1_1_2_exp=$but_1_quot_1_2+1;}else{$count_but_1_1_2_exp=$but_1_quot_1_2+0;}
+
+$but_1_quot_3_0=$_POST['but_1_quot_3_0'];
+if($richtige_treffer_1_1 ==3 && $richtige_treffer_1_2==0){$count_but_1_3_0_exp=$but_1_quot_3_0+1;}else{$count_but_1_3_0_exp=$but_1_quot_3_0+0;}
+
+$but_1_quot_3_1=$_POST['but_1_quot_3_1'];
+if($richtige_treffer_1_1 ==3 && $richtige_treffer_1_2==1){$count_but_1_3_1_exp=$but_1_quot_3_1+1;}else{$count_but_1_3_1_exp=$but_1_quot_3_1+0;}
+
+$but_1_quot_2_2=$_POST['but_1_quot_2_2'];
+if($richtige_treffer_1_1 ==2 && $richtige_treffer_1_2==2){$count_but_1_2_2_exp=$but_1_quot_2_2+1;}else{$count_but_1_2_2_exp=$but_1_quot_2_2+0;}
+
+$but_1_quot_3_2=$_POST['but_1_quot_3_2'];
+if($richtige_treffer_1_1 ==3 && $richtige_treffer_1_2==2){$count_but_1_3_2_exp=$but_1_quot_3_2+1;}else{$count_but_1_3_2_exp=$but_1_quot_3_2+0;}
+
+$but_1_quot_4_0=$_POST['but_1_quot_4_0'];
+if($richtige_treffer_1_1 ==4 && $richtige_treffer_1_2==0){$count_but_1_4_0_exp=$but_1_quot_4_0+1;}else{$count_but_1_4_0_exp=$but_1_quot_4_0+0;}
+
+$but_1_quot_4_1=$_POST['but_1_quot_4_1'];
+if($richtige_treffer_1_1 ==4 && $richtige_treffer_1_2==1){$count_but_1_4_1_exp=$but_1_quot_4_1+1;}else{$count_but_1_4_1_exp=$but_1_quot_4_1+0;}
+
+$but_1_quot_4_2=$_POST['but_1_quot_4_2'];
+if($richtige_treffer_1_1 ==4 && $richtige_treffer_1_2==2){$count_but_1_4_2_exp=$but_1_quot_4_2+1;}else{$count_but_1_4_2_exp=$but_1_quot_4_2+0;}
+
+$but_1_quot_5_0=$_POST['but_1_quot_5_0'];
+if($richtige_treffer_1_1 ==5 && $richtige_treffer_1_2==0){$count_but_1_5_0_exp=$but_1_quot_5_0+1;}else{$count_but_1_5_0_exp=$but_1_quot_5_0+0;}
+
+$but_1_quot_5_1=$_POST['but_1_quot_5_1'];
+if($richtige_treffer_1_1 ==5 && $richtige_treffer_1_2==1){$count_but_1_5_1_exp=$but_1_quot_5_1+1;}else{$count_but_1_5_1_exp=$but_1_quot_5_1+0;}
+
+$but_1_quot_5_2=$_POST['but_1_quot_5_2'];
+if($richtige_treffer_1_1 ==5 && $richtige_treffer_1_2==2){$count_but_1_5_2_exp=$but_1_quot_5_2+1;}else{$count_but_1_5_2_exp=$but_1_quot_5_2+0;}
+
+
+
+$but_2_quot_2_0=$_POST['but_2_quot_2_0'];
+if($richtige_treffer_2_1 ==2 && $richtige_treffer_2_2==0){$count_but_2_2_0_exp=$but_2_quot_2_0+1;}else{$count_but_2_2_0_exp=$but_2_quot_2_0+0;}
+
+$but_2_quot_2_1=$_POST['but_2_quot_2_1'];
+if($richtige_treffer_2_1 ==2 && $richtige_treffer_2_2==1){$count_but_2_2_1_exp=$but_2_quot_2_1+1;}else{$count_but_2_2_1_exp=$but_2_quot_2_1+0;}
+
+$but_2_quot_1_2=$_POST['but_2_quot_1_2'];
+if($richtige_treffer_2_1 ==1 && $richtige_treffer_2_2==2){$count_but_2_1_2_exp=$but_2_quot_1_2+1;}else{$count_but_2_1_2_exp=$but_2_quot_1_2+0;}
+
+$but_2_quot_3_0=$_POST['but_2_quot_3_0'];
+if($richtige_treffer_2_1 ==3 && $richtige_treffer_2_2==0){$count_but_2_3_0_exp=$but_2_quot_3_0+1;}else{$count_but_2_3_0_exp=$but_2_quot_3_0+0;}
+
+$but_2_quot_3_1=$_POST['but_2_quot_3_1'];
+if($richtige_treffer_2_1 ==3 && $richtige_treffer_2_2==1){$count_but_2_3_1_exp=$but_2_quot_3_1+1;}else{$count_but_2_3_1_exp=$but_2_quot_3_1+0;}
+
+$but_2_quot_2_2=$_POST['but_2_quot_2_2'];
+if($richtige_treffer_2_1 ==2 && $richtige_treffer_2_2==2){$count_but_2_2_2_exp=$but_2_quot_2_2+1;}else{$count_but_2_2_2_exp=$but_2_quot_2_2+0;}
+
+$but_2_quot_3_2=$_POST['but_2_quot_3_2'];
+if($richtige_treffer_2_1 ==3 && $richtige_treffer_2_2==2){$count_but_2_3_2_exp=$but_2_quot_3_2+1;}else{$count_but_2_3_2_exp=$but_2_quot_3_2+0;}
+
+$but_2_quot_4_0=$_POST['but_2_quot_4_0'];
+if($richtige_treffer_2_1 ==4 && $richtige_treffer_2_2==0){$count_but_2_4_0_exp=$but_2_quot_4_0+1;}else{$count_but_2_4_0_exp=$but_2_quot_4_0+0;}
+
+$but_2_quot_4_1=$_POST['but_2_quot_4_1'];
+if($richtige_treffer_2_1 ==4 && $richtige_treffer_2_2==1){$count_but_2_4_1_exp=$but_2_quot_4_1+1;}else{$count_but_2_4_1_exp=$but_2_quot_4_1+0;}
+
+$but_2_quot_4_2=$_POST['but_2_quot_4_2'];
+if($richtige_treffer_2_1 ==4 && $richtige_treffer_2_2==2){$count_but_2_4_2_exp=$but_2_quot_4_2+1;}else{$count_but_2_4_2_exp=$but_2_quot_4_2+0;}
+
+$but_2_quot_5_0=$_POST['but_2_quot_5_0'];
+if($richtige_treffer_2_1 ==5 && $richtige_treffer_2_2==0){$count_but_2_5_0_exp=$but_2_quot_5_0+1;}else{$count_but_2_5_0_exp=$but_2_quot_5_0+0;}
+
+$but_2_quot_5_1=$_POST['but_2_quot_5_1'];
+if($richtige_treffer_2_1 ==5 && $richtige_treffer_2_2==1){$count_but_2_5_1_exp=$but_2_quot_5_1+1;}else{$count_but_2_5_1_exp=$but_2_quot_5_1+0;}
+
+$but_2_quot_5_2=$_POST['but_2_quot_5_2'];
+if($richtige_treffer_2_1 ==5 && $richtige_treffer_2_2==2){$count_but_2_5_2_exp=$but_2_quot_5_2+1;}else{$count_but_2_5_2_exp=$but_2_quot_5_2+0;}
+
+
+
+$but_3_quot_2_0=$_POST['but_3_quot_2_0'];
+if($richtige_treffer_3_1 ==2 && $richtige_treffer_3_2==0){$count_but_3_2_0_exp=$but_3_quot_2_0+1;}else{$count_but_3_2_0_exp=$but_3_quot_2_0+0;}
+
+$but_3_quot_2_1=$_POST['but_3_quot_2_1'];
+if($richtige_treffer_3_1 ==2 && $richtige_treffer_3_2==1){$count_but_3_2_1_exp=$but_3_quot_2_1+1;}else{$count_but_3_2_1_exp=$but_3_quot_2_1+0;}
+
+$but_3_quot_1_2=$_POST['but_3_quot_1_2'];
+if($richtige_treffer_3_1 ==1 && $richtige_treffer_3_2==2){$count_but_3_1_2_exp=$but_3_quot_1_2+1;}else{$count_but_3_1_2_exp=$but_3_quot_1_2+0;}
+
+$but_3_quot_3_0=$_POST['but_3_quot_3_0'];
+if($richtige_treffer_3_1 ==3 && $richtige_treffer_3_2==0){$count_but_3_3_0_exp=$but_3_quot_3_0+1;}else{$count_but_3_3_0_exp=$but_3_quot_3_0+0;}
+
+$but_3_quot_3_1=$_POST['but_3_quot_3_1'];
+if($richtige_treffer_3_1 ==3 && $richtige_treffer_3_2==1){$count_but_3_3_1_exp=$but_3_quot_3_1+1;}else{$count_but_3_3_1_exp=$but_3_quot_3_1+0;}
+
+$but_3_quot_2_2=$_POST['but_3_quot_2_2'];
+if($richtige_treffer_3_1 ==2 && $richtige_treffer_3_2==2){$count_but_3_2_2_exp=$but_3_quot_2_2+1;}else{$count_but_3_2_2_exp=$but_3_quot_2_2+0;}
+
+$but_3_quot_3_2=$_POST['but_3_quot_3_2'];
+if($richtige_treffer_3_1 ==3 && $richtige_treffer_3_2==2){$count_but_3_3_2_exp=$but_3_quot_3_2+1;}else{$count_but_3_3_2_exp=$but_3_quot_3_2+0;}
+
+$but_3_quot_4_0=$_POST['but_3_quot_4_0'];
+if($richtige_treffer_3_1 ==4 && $richtige_treffer_3_2==0){$count_but_3_4_0_exp=$but_3_quot_4_0+1;}else{$count_but_3_4_0_exp=$but_3_quot_4_0+0;}
+
+$but_3_quot_4_1=$_POST['but_3_quot_4_1'];
+if($richtige_treffer_3_1 ==4 && $richtige_treffer_3_2==1){$count_but_3_4_1_exp=$but_3_quot_4_1+1;}else{$count_but_3_4_1_exp=$but_3_quot_4_1+0;}
+
+$but_3_quot_4_2=$_POST['but_3_quot_4_2'];
+if($richtige_treffer_3_1 ==4 && $richtige_treffer_3_2==2){$count_but_3_4_2_exp=$but_3_quot_4_2+1;}else{$count_but_3_4_2_exp=$but_3_quot_4_2+0;}
+
+$but_3_quot_5_0=$_POST['but_3_quot_5_0'];
+if($richtige_treffer_3_1 ==5 && $richtige_treffer_3_2==0){$count_but_3_5_0_exp=$but_3_quot_5_0+1;}else{$count_but_3_5_0_exp=$but_3_quot_5_0+0;}
+
+$but_3_quot_5_1=$_POST['but_3_quot_5_1'];
+if($richtige_treffer_3_1 ==5 && $richtige_treffer_3_2==1){$count_but_3_5_1_exp=$but_3_quot_5_1+1;}else{$count_but_3_5_1_exp=$but_3_quot_5_1+0;}
+
+$but_3_quot_5_2=$_POST['but_3_quot_5_2'];
+if($richtige_treffer_3_1 ==5 && $richtige_treffer_3_2==2){$count_but_3_5_2_exp=$but_3_quot_5_2+1;}else{$count_but_3_5_2_exp=$but_3_quot_5_2+0;}
+
+
+
+$but_4_quot_2_0=$_POST['but_4_quot_2_0'];
+if($richtige_treffer_4_1 ==2 && $richtige_treffer_4_2==0){$count_but_4_2_0_exp=$but_4_quot_2_0+1;}else{$count_but_4_2_0_exp=$but_4_quot_2_0+0;}
+
+$but_4_quot_2_1=$_POST['but_4_quot_2_1'];
+if($richtige_treffer_4_1 ==2 && $richtige_treffer_4_2==1){$count_but_4_2_1_exp=$but_4_quot_2_1+1;}else{$count_but_4_2_1_exp=$but_4_quot_2_1+0;}
+
+$but_4_quot_1_2=$_POST['but_4_quot_1_2'];
+if($richtige_treffer_4_1 ==1 && $richtige_treffer_4_2==2){$count_but_4_1_2_exp=$but_4_quot_1_2+1;}else{$count_but_4_1_2_exp=$but_4_quot_1_2+0;}
+
+$but_4_quot_3_0=$_POST['but_4_quot_3_0'];
+if($richtige_treffer_4_1 ==3 && $richtige_treffer_4_2==0){$count_but_4_3_0_exp=$but_4_quot_3_0+1;}else{$count_but_4_3_0_exp=$but_4_quot_3_0+0;}
+
+$but_4_quot_3_1=$_POST['but_4_quot_3_1'];
+if($richtige_treffer_4_1 ==3 && $richtige_treffer_4_2==1){$count_but_4_3_1_exp=$but_4_quot_3_1+1;}else{$count_but_4_3_1_exp=$but_4_quot_3_1+0;}
+
+$but_4_quot_2_2=$_POST['but_4_quot_2_2'];
+if($richtige_treffer_4_1 ==2 && $richtige_treffer_4_2==2){$count_but_4_2_2_exp=$but_4_quot_2_2+1;}else{$count_but_4_2_2_exp=$but_4_quot_2_2+0;}
+
+$but_4_quot_3_2=$_POST['but_4_quot_3_2'];
+if($richtige_treffer_4_1 ==3 && $richtige_treffer_4_2==2){$count_but_4_3_2_exp=$but_4_quot_3_2+1;}else{$count_but_4_3_2_exp=$but_4_quot_3_2+0;}
+
+$but_4_quot_4_0=$_POST['but_4_quot_4_0'];
+if($richtige_treffer_4_1 ==4 && $richtige_treffer_4_2==0){$count_but_4_4_0_exp=$but_4_quot_4_0+1;}else{$count_but_4_4_0_exp=$but_4_quot_4_0+0;}
+
+$but_4_quot_4_1=$_POST['but_4_quot_4_1'];
+if($richtige_treffer_4_1 ==4 && $richtige_treffer_4_2==1){$count_but_4_4_1_exp=$but_4_quot_4_1+1;}else{$count_but_4_4_1_exp=$but_4_quot_4_1+0;}
+
+$but_4_quot_4_2=$_POST['but_4_quot_4_2'];
+if($richtige_treffer_4_1 ==4 && $richtige_treffer_4_2==2){$count_but_4_4_2_exp=$but_4_quot_4_2+1;}else{$count_but_4_4_2_exp=$but_4_quot_4_2+0;}
+
+$but_4_quot_5_0=$_POST['but_4_quot_5_0'];
+if($richtige_treffer_4_1 ==5 && $richtige_treffer_4_2==0){$count_but_4_5_0_exp=$but_4_quot_5_0+1;}else{$count_but_4_5_0_exp=$but_4_quot_5_0+0;}
+
+$but_4_quot_5_1=$_POST['but_4_quot_5_1'];
+if($richtige_treffer_4_1 ==5 && $richtige_treffer_4_2==1){$count_but_4_5_1_exp=$but_4_quot_5_1+1;}else{$count_but_4_5_1_exp=$but_4_quot_5_1+0;}
+
+$but_4_quot_5_2=$_POST['but_4_quot_5_2'];
+if($richtige_treffer_4_1 ==5 && $richtige_treffer_4_2==2){$count_but_4_5_2_exp=$but_4_quot_5_2+1;}else{$count_but_4_5_2_exp=$but_4_quot_5_2+0;}
+
+
+
+$but_5_quot_2_0=$_POST['but_5_quot_2_0'];
+if($richtige_treffer_5_1 ==2 && $richtige_treffer_5_2==0){$count_but_5_2_0_exp=$but_5_quot_2_0+1;}else{$count_but_5_2_0_exp=$but_5_quot_2_0+0;}
+
+$but_5_quot_2_1=$_POST['but_5_quot_2_1'];
+if($richtige_treffer_5_1 ==2 && $richtige_treffer_5_2==1){$count_but_5_2_1_exp=$but_5_quot_2_1+1;}else{$count_but_5_2_1_exp=$but_5_quot_2_1+0;}
+
+$but_5_quot_1_2=$_POST['but_5_quot_1_2'];
+if($richtige_treffer_5_1 ==1 && $richtige_treffer_5_2==2){$count_but_5_1_2_exp=$but_5_quot_1_2+1;}else{$count_but_5_1_2_exp=$but_5_quot_1_2+0;}
+
+$but_5_quot_3_0=$_POST['but_5_quot_3_0'];
+if($richtige_treffer_5_1 ==3 && $richtige_treffer_5_2==0){$count_but_5_3_0_exp=$but_5_quot_3_0+1;}else{$count_but_5_3_0_exp=$but_5_quot_3_0+0;}
+
+$but_5_quot_3_1=$_POST['but_5_quot_3_1'];
+if($richtige_treffer_5_1 ==3 && $richtige_treffer_5_2==1){$count_but_5_3_1_exp=$but_5_quot_3_1+1;}else{$count_but_5_3_1_exp=$but_5_quot_3_1+0;}
+
+$but_5_quot_2_2=$_POST['but_5_quot_2_2'];
+if($richtige_treffer_5_1 ==2 && $richtige_treffer_5_2==2){$count_but_5_2_2_exp=$but_5_quot_2_2+1;}else{$count_but_5_2_2_exp=$but_5_quot_2_2+0;}
+
+$but_5_quot_3_2=$_POST['but_5_quot_3_2'];
+if($richtige_treffer_5_1 ==3 && $richtige_treffer_5_2==2){$count_but_5_3_2_exp=$but_5_quot_3_2+1;}else{$count_but_5_3_2_exp=$but_5_quot_3_2+0;}
+
+$but_5_quot_4_0=$_POST['but_5_quot_4_0'];
+if($richtige_treffer_5_1 ==4 && $richtige_treffer_5_2==0){$count_but_5_4_0_exp=$but_5_quot_4_0+1;}else{$count_but_5_4_0_exp=$but_5_quot_4_0+0;}
+
+$but_5_quot_4_1=$_POST['but_5_quot_4_1'];
+if($richtige_treffer_5_1 ==4 && $richtige_treffer_5_2==1){$count_but_5_4_1_exp=$but_5_quot_4_1+1;}else{$count_but_5_4_1_exp=$but_5_quot_4_1+0;}
+
+$but_5_quot_4_2=$_POST['but_5_quot_4_2'];
+if($richtige_treffer_5_1 ==4 && $richtige_treffer_5_2==2){$count_but_5_4_2_exp=$but_5_quot_4_2+1;}else{$count_but_5_4_2_exp=$but_5_quot_4_2+0;}
+
+$but_5_quot_5_0=$_POST['but_5_quot_5_0'];
+if($richtige_treffer_5_1 ==5 && $richtige_treffer_5_2==0){$count_but_5_5_0_exp=$but_5_quot_5_0+1;}else{$count_but_5_5_0_exp=$but_5_quot_5_0+0;}
+
+$but_5_quot_5_1=$_POST['but_5_quot_5_1'];
+if($richtige_treffer_5_1 ==5 && $richtige_treffer_5_2==1){$count_but_5_5_1_exp=$but_5_quot_5_1+1;}else{$count_but_5_5_1_exp=$but_5_quot_5_1+0;}
+
+$but_5_quot_5_2=$_POST['but_5_quot_5_2'];
+if($richtige_treffer_5_1 ==5 && $richtige_treffer_5_2==2){$count_but_5_5_2_exp=$but_5_quot_5_2+1;}else{$count_but_5_5_2_exp=$but_5_quot_5_2+0;}
+
+
+
+$but_6_quot_2_0=$_POST['but_6_quot_2_0'];
+if($richtige_treffer_6_1 ==2 && $richtige_treffer_6_2==0){$count_but_6_2_0_exp=$but_6_quot_2_0+1;}else{$count_but_6_2_0_exp=$but_6_quot_2_0+0;}
+
+$but_6_quot_2_1=$_POST['but_6_quot_2_1'];
+if($richtige_treffer_6_1 ==2 && $richtige_treffer_6_2==1){$count_but_6_2_1_exp=$but_6_quot_2_1+1;}else{$count_but_6_2_1_exp=$but_6_quot_2_1+0;}
+
+$but_6_quot_1_2=$_POST['but_6_quot_1_2'];
+if($richtige_treffer_6_1 ==1 && $richtige_treffer_6_2==2){$count_but_6_1_2_exp=$but_6_quot_1_2+1;}else{$count_but_6_1_2_exp=$but_6_quot_1_2+0;}
+
+$but_6_quot_3_0=$_POST['but_6_quot_3_0'];
+if($richtige_treffer_6_1 ==3 && $richtige_treffer_6_2==0){$count_but_6_3_0_exp=$but_6_quot_3_0+1;}else{$count_but_6_3_0_exp=$but_6_quot_3_0+0;}
+
+$but_6_quot_3_1=$_POST['but_6_quot_3_1'];
+if($richtige_treffer_6_1 ==3 && $richtige_treffer_6_2==1){$count_but_6_3_1_exp=$but_6_quot_3_1+1;}else{$count_but_6_3_1_exp=$but_6_quot_3_1+0;}
+
+$but_6_quot_2_2=$_POST['but_6_quot_2_2'];
+if($richtige_treffer_6_1 ==2 && $richtige_treffer_6_2==2){$count_but_6_2_2_exp=$but_6_quot_2_2+1;}else{$count_but_6_2_2_exp=$but_6_quot_2_2+0;}
+
+$but_6_quot_3_2=$_POST['but_6_quot_3_2'];
+if($richtige_treffer_6_1 ==3 && $richtige_treffer_6_2==2){$count_but_6_3_2_exp=$but_6_quot_3_2+1;}else{$count_but_6_3_2_exp=$but_6_quot_3_2+0;}
+
+$but_6_quot_4_0=$_POST['but_6_quot_4_0'];
+if($richtige_treffer_6_1 ==4 && $richtige_treffer_6_2==0){$count_but_6_4_0_exp=$but_6_quot_4_0+1;}else{$count_but_6_4_0_exp=$but_6_quot_4_0+0;}
+
+$but_6_quot_4_1=$_POST['but_6_quot_4_1'];
+if($richtige_treffer_6_1 ==4 && $richtige_treffer_6_2==1){$count_but_6_4_1_exp=$but_6_quot_4_1+1;}else{$count_but_6_4_1_exp=$but_6_quot_4_1+0;}
+
+$but_6_quot_4_2=$_POST['but_6_quot_4_2'];
+if($richtige_treffer_6_1 ==4 && $richtige_treffer_6_2==2){$count_but_6_4_2_exp=$but_6_quot_4_2+1;}else{$count_but_6_4_2_exp=$but_6_quot_4_2+0;}
+
+$but_6_quot_5_0=$_POST['but_6_quot_5_0'];
+if($richtige_treffer_6_1 ==5 && $richtige_treffer_6_2==0){$count_but_6_5_0_exp=$but_6_quot_5_0+1;}else{$count_but_6_5_0_exp=$but_6_quot_5_0+0;}
+
+$but_6_quot_5_1=$_POST['but_6_quot_5_1'];
+if($richtige_treffer_6_1 ==5 && $richtige_treffer_6_2==1){$count_but_6_5_1_exp=$but_6_quot_5_1+1;}else{$count_but_6_5_1_exp=$but_6_quot_5_1+0;}
+
+$but_6_quot_5_2=$_POST['but_6_quot_5_2'];
+if($richtige_treffer_6_1 ==5 && $richtige_treffer_6_2==2){$count_but_6_5_2_exp=$but_6_quot_5_2+1;}else{$count_but_6_5_2_exp=$but_6_quot_5_2+0;}
+/*
+$i=1;
+while($i<7){
+
+
+${'but_'}.$i.{'_quot_'}.$i.{'_1'}=$_POST['{'but_'}.$i.{'_quot_'}.$i.{'_1'}'];print($_POST['{'but_'}.$i.{'_quot_'}.$i.{'_1'}]');
+if(${'richtige_treffer_'}.$i.${'_1'} ==2 && ${'richtige_treffer_'}.$i.${'_2'}==1){${'count_but_'}.$i.${'_'}.$i.${'_1_exp'}=${'but_'}.$i.${'_quot_'}.$i.${'_1'}+1;}else{${'count_but_'}.$i.${'_'}.$i.${'_1_exp'}=${'but_'}.$i.${'_quot_'}.$i.${'_1'}+0;}$i++;
+
+}
+*/
+/*
+$but_2_quot_2_1=$_POST['but_2_quot_2_1'];
+if($richtige_treffer_2_1 ==2 && $richtige_treffer_2_2==1){$count_but_2_2_1_exp=$but_2_quot_2_1+1;}else{$count_but_2_2_1_exp=$but_2_quot_2_1+0;}
+
+$but_2_quot_1_2=$_POST['but_2_quot_1_2'];
+if($richtige_treffer_2_1 ==1 && $richtige_treffer_2_2==2){$count_but_2_1_2_exp=$but_2_quot_1_2+1;}else{$count_but_2_1_2_exp=$but_2_quot_1_2+0;}
+
+$but_2_quot_3_0=$_POST['but_2_quot_3_0'];
+if($richtige_treffer_2_1 ==3 && $richtige_treffer_2_2==0){$count_but_2_3_0_exp=$but_2_quot_3_0+1;}else{$count_but_2_3_0_exp=$but_2_quot_1_3+0;}
+
+$but_2_quot_3_1=$_POST['but_2_quot_3_1'];
+if($richtige_treffer_2_1 ==3 && $richtige_treffer_2_2==1){$count_but_2_3_1_exp=$but_2_quot_3_1+1;}else{$count_but_2_3_1_exp=$but_2_quot_3_1+0;}
+
+$but_2_quot_2_2=$_POST['but_2_quot_2_2'];
+if($richtige_treffer_2_1 ==2 && $richtige_treffer_2_2==2){$count_but_2_2_2_exp=$but_2_quot_2_2+1;}else{$count_but_2_2_2_exp=$but_2_quot_2_2+0;}
+
+$but_2_quot_3_2=$_POST['but_2_quot_3_2'];
+if($richtige_treffer_2_1 ==3 && $richtige_treffer_2_2==2){$count_but_2_3_2_exp=$but_2_quot_3_2+1;}else{$count_but_2_3_2_exp=$but_2_quot_3_2+0;}
+
+$but_2_quot_4_0=$_POST['but_2_quot_4_0'];
+if($richtige_treffer_2_1 ==4 && $richtige_treffer_2_2==0){$count_but_2_4_0_exp=$but_2_quot_4_0+1;}else{$count_but_2_4_0_exp=$but_2_quot_4_0+0;}
+
+$but_2_quot_4_1=$_POST['but_2_quot_4_1'];
+if($richtige_treffer_2_1 ==4 && $richtige_treffer_2_2==1){$count_but_2_4_1_exp=$but_2_quot_4_1+1;}else{$count_but_2_4_1_exp=$but_2_quot_4_1+0;}
+
+$but_2_quot_4_2=$_POST['but_2_quot_4_2'];
+if($richtige_treffer_2_1 ==4 && $richtige_treffer_2_2==2){$count_but_2_4_2_exp=$but_2_quot_4_2+1;}else{$count_but_2_4_2_exp=$but_2_quot_4_2+0;}
+
+$but_2_quot_5_0=$_POST['but_2_quot_5_0'];
+if($richtige_treffer_2_1 ==5 && $richtige_treffer_2_2==0){$count_but_2_5_0_exp=$but_2_quot_5_0+1;}else{$count_but_2_5_0_exp=$but_2_quot_5_0+0;}
+
+$but_2_quot_5_1=$_POST['but_2_quot_5_1'];
+if($richtige_treffer_2_1 ==5 && $richtige_treffer_2_2==1){$count_but_2_5_1_exp=$but_2_quot_5_1+1;}else{$count_but_2_5_1_exp=$but_2_quot_5_1+0;}
+
+$but_2_quot_5_2=$_POST['but_2_quot_5_2'];
+if($richtige_treffer_2_1 ==5 && $richtige_treffer_2_2==2){$count_but_2_5_2_exp=$but_2_quot_5_2+1;}else{$count_but_2_5_2_exp=$but_2_quot_5_2+0;}
+
+
+$i++;
+}*/
+$i=1;
+while($i<7){
+$count_2_0[$i]=${'count_but_'.$i.'_2_0_exp'};
+$sum_2_0+=$count_2_0[$i];
+$i++;	
+	}
+$i=1;
+while($i<7){
+$count_2_1[$i]=${'count_but_'.$i.'_2_1_exp'};
+$sum_2_1+=$count_2_1[$i];
+$i++;	
+	}
+$i=1;
+while($i<7){
+$count_1_2[$i]=${'count_but_'.$i.'_1_2_exp'};
+$sum_1_2+=$count_1_2[$i];
+$i++;	
+	}
+$i=1;	
+while($i<7){
+$count_3_0[$i]=${'count_but_'.$i.'_3_0_exp'};
+$sum_3_0+=$count_3_0[$i];
+$i++;	
+	}
+$i=1;	
+while($i<7){
+$count_3_1[$i]=${'count_but_'.$i.'_3_1_exp'};
+$sum_3_1+=$count_3_1[$i];
+$i++;	
+	}	
+$i=1;	
+while($i<7){
+$count_2_2[$i]=${'count_but_'.$i.'_2_2_exp'};
+$sum_2_2+=$count_2_2[$i];
+$i++;	
+	}
+$i=1;	
+while($i<7){
+$count_3_2[$i]=${'count_but_'.$i.'_3_2_exp'};
+$sum_3_2+=$count_3_2[$i];
+$i++;	
+	}
+$i=1;	
+while($i<7){
+$count_4_0[$i]=${'count_but_'.$i.'_4_0_exp'};
+$sum_4_0+=$count_4_0[$i];
+$i++;	
+	}
+$i=1;	
+while($i<7){
+$count_4_1[$i]=${'count_but_'.$i.'_4_1_exp'};
+$sum_4_1+=$count_4_1[$i];
+$i++;	
+	}
+$i=1;	
+while($i<7){
+$count_4_2[$i]=${'count_but_'.$i.'_4_2_exp'};
+$sum_4_2+=$count_4_2[$i];
+$i++;	
+	}
+$i=1;	
+while($i<7){
+$count_5_0[$i]=${'count_but_'.$i.'_5_0_exp'};
+$sum_5_0+=$count_5_0[$i];
+$i++;	
+	}
+$i=1;	
+while($i<7){
+$count_5_1[$i]=${'count_but_'.$i.'_5_1_exp'};
+$sum_5_1+=$count_5_1[$i];
+$i++;	
+	}
+$i=1;	
+while($i<7){
+$count_5_2[$i]=${'count_but_'.$i.'_5_2_exp'};
+$sum_5_2+=$count_5_2[$i];
+$i++;	
+	}	
+echo'<div style="position:absolute;margin-left:50px;font-size:9px;width:110px;">';	
+echo  '2:0&nbsp;&nbsp;&nbsp;'.$win_1. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_2_0.'</b><br>';
+echo  '2:1&nbsp;&nbsp;&nbsp;'.$win_2. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_2_1.'</b><br>';
+echo  '1:2&nbsp;&nbsp;&nbsp;'.$win_3. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_1_2.'</b><br>';
+echo  '3:0&nbsp;&nbsp;&nbsp;'.$win_4. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_3_0.'</b><br>';
+echo  '3:1&nbsp;&nbsp;&nbsp;'.$win_5. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_3_1.'</b><br>';
+echo  '2:2&nbsp;&nbsp;&nbsp;'.$win_6. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_2_2.'</b><br>';
+echo  '3:2&nbsp;&nbsp;&nbsp;'.$win_7. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_3_2.'</b><br>';
+echo  '4:0&nbsp;&nbsp;&nbsp;'.$win_8. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_4_0.'</b><br>';
+echo  '4:1&nbsp;&nbsp;&nbsp;'.$win_9. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_4_1.'</b><br>';
+echo  '4:2&nbsp;&nbsp;&nbsp;'.$win_10. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_4_2.'</b><br>';
+echo  '5:0&nbsp;&nbsp;&nbsp;'.$win_11. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_5_0.'</b><br>';
+echo  '5:1&nbsp;&nbsp;&nbsp;'.$win_12. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_5_1.'</b><br>';
+echo  '5:2&nbsp;&nbsp;&nbsp;'.$win_13. '.-&nbsp;x&nbsp;&nbsp;<b style="float:right;">' .$sum_5_2.'</b>';
+echo'</div>';
+/*
+echo $count_but_1_2_0_exp;
+echo $count_but_1_2_1_exp;
+echo $count_but_1_1_2_exp;
+echo $count_but_1_3_0_exp;
+echo $count_but_1_3_1_exp;
+echo $count_but_1_2_2_exp;
+echo $count_but_1_3_2_exp;
+echo $count_but_1_4_0_exp;
+echo $count_but_1_4_1_exp;
+echo $count_but_1_4_2_exp;
+echo $count_but_1_5_0_exp;
+echo $count_but_1_5_1_exp;
+echo $count_but_1_5_2_exp;
+*/
+/*
+echo $count_but_1_2_0_exp;
+echo $count_but_2_2_0_exp;
+echo $count_but_3_2_0_exp;
+echo $count_but_4_2_0_exp;
+echo $count_but_5_2_0_exp;
+echo $count_but_6_2_0_exp;
+*/
+if($richtige_treffer_1_1 ==2 && $richtige_treffer_1_2==0){$notice_1="Sie haben gewonnen!";$bar_a=$win_1;}
+if($richtige_treffer_1_1 ==2 && $richtige_treffer_1_2==1){$notice_1="Sie haben gewonnen!";$bar_a=$win_2;}
+if($richtige_treffer_1_1 ==1 && $richtige_treffer_1_2==2){$notice_1="Sie haben gewonnen!";$bar_a=$win_3;}
+if($richtige_treffer_1_1 ==3 && $richtige_treffer_1_2==0){$notice_1="Sie haben gewonnen!";$bar_a=$win_4;}
+if($richtige_treffer_1_1 ==3 && $richtige_treffer_1_2==1){$notice_1="Sie haben gewonnen!";$bar_a=$win_5;}
+if($richtige_treffer_1_1 ==2 && $richtige_treffer_1_2==2){$notice_1="Sie haben gewonnen!";$bar_a=$win_6;}
+if($richtige_treffer_1_1 ==3 && $richtige_treffer_1_2==2){$notice_1="Sie haben gewonnen!";$bar_a=$win_7;}
+if($richtige_treffer_1_1 ==4 && $richtige_treffer_1_2==0){$notice_1="Sie haben gewonnen!";$bar_a=$win_8;}
+if($richtige_treffer_1_1 ==4 && $richtige_treffer_1_2==1){$notice_1="Sie haben gewonnen!";$bar_a=$win_9;}
+if($richtige_treffer_1_1 ==4 && $richtige_treffer_1_2==2){$notice_1="Sie haben gewonnen!";$bar_a=$win_10;}
+if($richtige_treffer_1_1 ==5 && $richtige_treffer_1_2==0){$notice_1="Sie haben gewonnen!";$bar_a=$win_11;}
+if($richtige_treffer_1_1 ==5 && $richtige_treffer_1_2==1){$notice_1="Sie haben gewonnen!";$bar_a=$win_12;}
+if($richtige_treffer_1_1 ==5 && $richtige_treffer_1_2==2){$notice_1="Sie haben gewonnen!";$bar_a=$win_13;}
+
+
+if($richtige_treffer_2_1 ==2 && $richtige_treffer_2_2==0){$notice_2="Sie haben gewonnen!";$bar_b=$win_1;}
+if($richtige_treffer_2_1 ==2 && $richtige_treffer_2_2==1){$notice_2="Sie haben gewonnen!";$bar_b=$win_2;}
+if($richtige_treffer_2_1 ==1 && $richtige_treffer_2_2==2){$notice_2="Sie haben gewonnen!";$bar_b=$win_3;}
+if($richtige_treffer_2_1 ==3 && $richtige_treffer_2_2==0){$notice_2="Sie haben gewonnen!";$bar_b=$win_4;}
+if($richtige_treffer_2_1 ==3 && $richtige_treffer_2_2==1){$notice_2="Sie haben gewonnen!";$bar_b=$win_5;}
+if($richtige_treffer_2_1 ==2 && $richtige_treffer_2_2==2){$notice_2="Sie haben gewonnen!";$bar_b=$win_6;}
+if($richtige_treffer_2_1 ==3 && $richtige_treffer_2_2==2){$notice_2="Sie haben gewonnen!";$bar_b=$win_7;}
+if($richtige_treffer_2_1 ==4 && $richtige_treffer_2_2==0){$notice_2="Sie haben gewonnen!";$bar_b=$win_8;}
+if($richtige_treffer_2_1 ==4 && $richtige_treffer_2_2==1){$notice_2="Sie haben gewonnen!";$bar_b=$win_9;}
+if($richtige_treffer_2_1 ==4 && $richtige_treffer_2_2==2){$notice_2="Sie haben gewonnen!";$bar_b=$win_10;}
+if($richtige_treffer_2_1 ==5 && $richtige_treffer_2_2==0){$notice_2="Sie haben gewonnen!";$bar_b=$win_11;}
+if($richtige_treffer_2_1 ==5 && $richtige_treffer_2_2==1){$notice_2="Sie haben gewonnen!";$bar_b=$win_12;}
+if($richtige_treffer_2_1 ==5 && $richtige_treffer_2_2==2){$notice_2="Sie haben gewonnen!";$bar_b=$win_13;}
+
+
+if($richtige_treffer_3_1 ==2 && $richtige_treffer_3_2==0){$notice_3="Sie haben gewonnen!";$bar_c=$win_1;}
+if($richtige_treffer_3_1 ==2 && $richtige_treffer_3_2==1){$notice_3="Sie haben gewonnen!";$bar_c=$win_2;}
+if($richtige_treffer_3_1 ==1 && $richtige_treffer_3_2==2){$notice_3="Sie haben gewonnen!";$bar_c=$win_3;}
+if($richtige_treffer_3_1 ==3 && $richtige_treffer_3_2==0){$notice_3="Sie haben gewonnen!";$bar_c=$win_4;}
+if($richtige_treffer_3_1 ==3 && $richtige_treffer_3_2==1){$notice_3="Sie haben gewonnen!";$bar_c=$win_5;}
+if($richtige_treffer_3_1 ==2 && $richtige_treffer_3_2==2){$notice_3="Sie haben gewonnen!";$bar_c=$win_6;}
+if($richtige_treffer_3_1 ==3 && $richtige_treffer_3_2==2){$notice_3="Sie haben gewonnen!";$bar_c=$win_7;}
+if($richtige_treffer_3_1 ==4 && $richtige_treffer_3_2==0){$notice_3="Sie haben gewonnen!";$bar_c=$win_8;}
+if($richtige_treffer_3_1 ==4 && $richtige_treffer_3_2==1){$notice_3="Sie haben gewonnen!";$bar_c=$win_9;}
+if($richtige_treffer_3_1 ==4 && $richtige_treffer_3_2==2){$notice_3="Sie haben gewonnen!";$bar_c=$win_10;}
+if($richtige_treffer_3_1 ==5 && $richtige_treffer_3_2==0){$notice_3="Sie haben gewonnen!";$bar_c=$win_11;}
+if($richtige_treffer_3_1 ==5 && $richtige_treffer_3_2==1){$notice_3="Sie haben gewonnen!";$bar_c=$win_12;}
+if($richtige_treffer_3_1 ==5 && $richtige_treffer_3_2==2){$notice_3="Sie haben gewonnen!";$bar_c=$win_13;}
+
+
+if($richtige_treffer_4_1 ==2 && $richtige_treffer_4_2==0){$notice_4="Sie haben gewonnen!";$bar_d=$win_1;}
+if($richtige_treffer_4_1 ==2 && $richtige_treffer_4_2==1){$notice_4="Sie haben gewonnen!";$bar_d=$win_2;}
+if($richtige_treffer_4_1 ==1 && $richtige_treffer_4_2==2){$notice_4="Sie haben gewonnen!";$bar_d=$win_3;}
+if($richtige_treffer_4_1 ==3 && $richtige_treffer_4_2==0){$notice_4="Sie haben gewonnen!";$bar_d=$win_4;}
+if($richtige_treffer_4_1 ==3 && $richtige_treffer_4_2==1){$notice_4="Sie haben gewonnen!";$bar_d=$win_5;}
+if($richtige_treffer_4_1 ==2 && $richtige_treffer_4_2==2){$notice_4="Sie haben gewonnen!";$bar_d=$win_6;}
+if($richtige_treffer_4_1 ==3 && $richtige_treffer_4_2==2){$notice_4="Sie haben gewonnen!";$bar_d=$win_7;}
+if($richtige_treffer_4_1 ==4 && $richtige_treffer_4_2==0){$notice_4="Sie haben gewonnen!";$bar_d=$win_8;}
+if($richtige_treffer_4_1 ==4 && $richtige_treffer_4_2==1){$notice_4="Sie haben gewonnen!";$bar_d=$win_9;}
+if($richtige_treffer_4_1 ==4 && $richtige_treffer_4_2==2){$notice_4="Sie haben gewonnen!";$bar_d=$win_10;}
+if($richtige_treffer_4_1 ==5 && $richtige_treffer_4_2==0){$notice_4="Sie haben gewonnen!";$bar_d=$win_11;}
+if($richtige_treffer_4_1 ==5 && $richtige_treffer_4_2==1){$notice_4="Sie haben gewonnen!";$bar_d=$win_12;}
+if($richtige_treffer_4_1 ==5 && $richtige_treffer_4_2==2){$notice_4="Sie haben gewonnen!";$bar_d=$win_13;}
+
+
+if($richtige_treffer_5_1 ==2 && $richtige_treffer_5_2==0){$notice_5="Sie haben gewonnen!";$bar_e=$win_1;}
+if($richtige_treffer_5_1 ==2 && $richtige_treffer_5_2==1){$notice_5="Sie haben gewonnen!";$bar_e=$win_2;}
+if($richtige_treffer_5_1 ==1 && $richtige_treffer_5_2==2){$notice_5="Sie haben gewonnen!";$bar_e=$win_3;}
+if($richtige_treffer_5_1 ==3 && $richtige_treffer_5_2==0){$notice_5="Sie haben gewonnen!";$bar_e=$win_4;}
+if($richtige_treffer_5_1 ==3 && $richtige_treffer_5_2==1){$notice_5="Sie haben gewonnen!";$bar_e=$win_5;}
+if($richtige_treffer_5_1 ==2 && $richtige_treffer_5_2==2){$notice_5="Sie haben gewonnen!";$bar_e=$win_6;}
+if($richtige_treffer_5_1 ==3 && $richtige_treffer_5_2==2){$notice_5="Sie haben gewonnen!";$bar_e=$win_7;}
+if($richtige_treffer_5_1 ==4 && $richtige_treffer_5_2==0){$notice_5="Sie haben gewonnen!";$bar_e=$win_8;}
+if($richtige_treffer_5_1 ==4 && $richtige_treffer_5_2==1){$notice_5="Sie haben gewonnen!";$bar_e=$win_9;}
+if($richtige_treffer_5_1 ==4 && $richtige_treffer_5_2==2){$notice_5="Sie haben gewonnen!";$bar_e=$win_10;}
+if($richtige_treffer_5_1 ==5 && $richtige_treffer_5_2==0){$notice_5="Sie haben gewonnen!";$bar_e=$win_11;}
+if($richtige_treffer_5_1 ==5 && $richtige_treffer_5_2==1){$notice_5="Sie haben gewonnen!";$bar_e=$win_12;}
+if($richtige_treffer_5_1 ==5 && $richtige_treffer_5_2==2){$notice_5="Sie haben gewonnen!";$bar_e=$win_13;}
+
+
+if($richtige_treffer_6_1 ==2 && $richtige_treffer_6_2==0){$notice_6="Sie haben gewonnen!";$bar_f=$win_1;}
+if($richtige_treffer_6_1 ==2 && $richtige_treffer_6_2==1){$notice_6="Sie haben gewonnen!";$bar_f=$win_2;}
+if($richtige_treffer_6_1 ==1 && $richtige_treffer_6_2==2){$notice_6="Sie haben gewonnen!";$bar_f=$win_3;}
+if($richtige_treffer_6_1 ==3 && $richtige_treffer_6_2==0){$notice_6="Sie haben gewonnen!";$bar_f=$win_4;}
+if($richtige_treffer_6_1 ==3 && $richtige_treffer_6_2==1){$notice_6="Sie haben gewonnen!";$bar_f=$win_5;}
+if($richtige_treffer_6_1 ==2 && $richtige_treffer_6_2==2){$notice_6="Sie haben gewonnen!";$bar_f=$win_6;}
+if($richtige_treffer_6_1 ==3 && $richtige_treffer_6_2==2){$notice_6="Sie haben gewonnen!";$bar_f=$win_7;}
+if($richtige_treffer_6_1 ==4 && $richtige_treffer_6_2==0){$notice_6="Sie haben gewonnen!";$bar_f=$win_8;}
+if($richtige_treffer_6_1 ==4 && $richtige_treffer_6_2==1){$notice_6="Sie haben gewonnen!";$bar_f=$win_9;}
+if($richtige_treffer_6_1 ==4 && $richtige_treffer_6_2==2){$notice_6="Sie haben gewonnen!";$bar_f=$win_10;}
+if($richtige_treffer_6_1 ==5 && $richtige_treffer_6_2==0){$notice_6="Sie haben gewonnen!";$bar_f=$win_11;}
+if($richtige_treffer_6_1 ==5 && $richtige_treffer_6_2==1){$notice_6="Sie haben gewonnen!";$bar_f=$win_12;}
+if($richtige_treffer_6_1 ==5 && $richtige_treffer_6_2==2){$notice_6="Sie haben gewonnen!";$bar_f=$win_13;}
+
+
+if($patzen_a==0){$gewonnen_a=0;}
+if($patzen_a==true){$gewonnen_a=$patzen_a+$bar_a;}
+$gewonnen_a = sprintf("%01.2f", $gewonnen_a);
+
+if($patzen_b==0){$gewonnen_b=0;}
+if($patzen_b==true){$gewonnen_b=$patzen_b+$bar_b;}
+$gewonnen_b = sprintf("%01.2f", $gewonnen_b);
+
+if($patzen_c==0){$gewonnen_c=0;}
+if($patzen_c==true){$gewonnen_c=$patzen_c+$bar_c;}
+$gewonnen_c = sprintf("%01.2f", $gewonnen_c);
+
+if($patzen_d==0){$gewonnen_d=0;}
+if($patzen_d==true){$gewonnen_d=$patzen_d+$bar_d;}
+$gewonnen_d = sprintf("%01.2f", $gewonnen_d);
+
+if($patzen_e==0){$gewonnen_e=0;}
+if($patzen_e==true){$gewonnen_e=$patzen_e+$bar_e;}
+$gewonnen_e = sprintf("%01.2f", $gewonnen_e);
+
+
+if($patzen_f==0){$gewonnen_f=0;}
+if($patzen_f==true){$gewonnen_f=$patzen_f+$bar_f;}
+$gewonnen_f = sprintf("%01.2f", $gewonnen_f);
+?>
+
+<?php 
+if($freeze_save_1 =='yes'){$total_a=$total_a-$einsatz;}
+if($freeze_save_2 =='yes'){$total_a=$total_a-$einsatz;}
+if($freeze_save_3 =='yes'){$total_a=$total_a-$einsatz;}
+if($freeze_save_4 =='yes'){$total_a=$total_a-$einsatz;}
+if($freeze_save_5 =='yes'){$total_a=$total_a-$einsatz;}
+if($freeze_save_6 =='yes'){$total_a=$total_a-$einsatz;}
+
+if($betrag_a!=true){echo"";}else{$tot_a=$total_a-$einsatz;}
+if($betrag_b!=true){echo"";}else{$tot_b=$total_b-$einsatz;}
+if($betrag_c!=true){echo"";}else{$tot_c=$total_c-$einsatz;}
+if($betrag_d!=true){echo"";}else{$tot_d=$total_d-$einsatz;}
+if($betrag_e!=true){echo"";}else{$tot_e=$total_e-$einsatz;}
+if($betrag_f!=true){echo"";}else{$tot_f=$total_f-$einsatz;}
+
+
+
+$per_win=$bar_a+$bar_b+$bar_c+$bar_d+$bar_e+$bar_f;
+$max=$tot_a+$tot_b+$tot_c+$tot_d+$tot_e+$tot_f;
+$win=$gewonnen_a+$gewonnen_b+$gewonnen_c+$gewonnen_d+$gewonnen_e+$gewonnen_f;
+
+
+
+
+
+?>
+<!--  green Button los! START   -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div id="testdiv">
+<tr>
+<td  style="position:absolute;margin-left:32px;margin-top:5px;"><form method="post"  return false;>
+<input type="hidden" name="but_1_quot_2_0" value="<?=$count_but_1_2_0_exp?>" />
+<input type="hidden" name="but_1_quot_2_1" value="<?=$count_but_1_2_1_exp?>" />
+<input type="hidden" name="but_1_quot_1_2" value="<?=$count_but_1_1_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_0" value="<?=$count_but_1_3_0_exp?>" />
+<input type="hidden" name="but_1_quot_3_1" value="<?=$count_but_1_3_1_exp?>" />
+<input type="hidden" name="but_1_quot_2_2" value="<?=$count_but_1_2_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_2" value="<?=$count_but_1_3_2_exp?>" />
+<input type="hidden" name="but_1_quot_4_0" value="<?=$count_but_1_4_0_exp?>" />
+<input type="hidden" name="but_1_quot_4_1" value="<?=$count_but_1_4_1_exp?>" />
+<input type="hidden" name="but_1_quot_4_2" value="<?=$count_but_1_4_2_exp?>" />
+<input type="hidden" name="but_1_quot_5_0" value="<?=$count_but_1_5_0_exp?>" />
+<input type="hidden" name="but_1_quot_5_1" value="<?=$count_but_1_5_1_exp?>" />
+<input type="hidden" name="but_1_quot_5_2" value="<?=$count_but_1_5_2_exp?>" />
+
+<input type="hidden" name="but_2_quot_2_0" value="<?=$count_but_2_2_0_exp?>" />
+<input type="hidden" name="but_2_quot_2_1" value="<?=$count_but_2_2_1_exp?>" />
+<input type="hidden" name="but_2_quot_1_2" value="<?=$count_but_2_1_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_0" value="<?=$count_but_2_3_0_exp?>" />
+<input type="hidden" name="but_2_quot_3_1" value="<?=$count_but_2_3_1_exp?>" />
+<input type="hidden" name="but_2_quot_2_2" value="<?=$count_but_2_2_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_2" value="<?=$count_but_2_3_2_exp?>" />
+<input type="hidden" name="but_2_quot_4_0" value="<?=$count_but_2_4_0_exp?>" />
+<input type="hidden" name="but_2_quot_4_1" value="<?=$count_but_2_4_1_exp?>" />
+<input type="hidden" name="but_2_quot_4_2" value="<?=$count_but_2_4_2_exp?>" />
+<input type="hidden" name="but_2_quot_5_0" value="<?=$count_but_2_5_0_exp?>" />
+<input type="hidden" name="but_2_quot_5_1" value="<?=$count_but_2_5_1_exp?>" />
+<input type="hidden" name="but_2_quot_5_2" value="<?=$count_but_2_5_2_exp?>" />
+
+<input type="hidden" name="but_3_quot_2_0" value="<?=$count_but_3_2_0_exp?>" />
+<input type="hidden" name="but_3_quot_2_1" value="<?=$count_but_3_2_1_exp?>" />
+<input type="hidden" name="but_3_quot_1_2" value="<?=$count_but_3_1_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_0" value="<?=$count_but_3_3_0_exp?>" />
+<input type="hidden" name="but_3_quot_3_1" value="<?=$count_but_3_3_1_exp?>" />
+<input type="hidden" name="but_3_quot_2_2" value="<?=$count_but_3_2_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_2" value="<?=$count_but_3_3_2_exp?>" />
+<input type="hidden" name="but_3_quot_4_0" value="<?=$count_but_3_4_0_exp?>" />
+<input type="hidden" name="but_3_quot_4_1" value="<?=$count_but_3_4_1_exp?>" />
+<input type="hidden" name="but_3_quot_4_2" value="<?=$count_but_3_4_2_exp?>" />
+<input type="hidden" name="but_3_quot_5_0" value="<?=$count_but_3_5_0_exp?>" />
+<input type="hidden" name="but_3_quot_5_1" value="<?=$count_but_3_5_1_exp?>" />
+<input type="hidden" name="but_3_quot_5_2" value="<?=$count_but_3_5_2_exp?>" />
+
+<input type="hidden" name="but_4_quot_2_0" value="<?=$count_but_4_2_0_exp?>" />
+<input type="hidden" name="but_4_quot_2_1" value="<?=$count_but_4_2_1_exp?>" />
+<input type="hidden" name="but_4_quot_1_2" value="<?=$count_but_4_1_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_0" value="<?=$count_but_4_3_0_exp?>" />
+<input type="hidden" name="but_4_quot_3_1" value="<?=$count_but_4_3_1_exp?>" />
+<input type="hidden" name="but_4_quot_2_2" value="<?=$count_but_4_2_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_2" value="<?=$count_but_4_3_2_exp?>" />
+<input type="hidden" name="but_4_quot_4_0" value="<?=$count_but_4_4_0_exp?>" />
+<input type="hidden" name="but_4_quot_4_1" value="<?=$count_but_4_4_1_exp?>" />
+<input type="hidden" name="but_4_quot_4_2" value="<?=$count_but_4_4_2_exp?>" />
+<input type="hidden" name="but_4_quot_5_0" value="<?=$count_but_4_5_0_exp?>" />
+<input type="hidden" name="but_4_quot_5_1" value="<?=$count_but_4_5_1_exp?>" />
+<input type="hidden" name="but_4_quot_5_2" value="<?=$count_but_4_5_2_exp?>" />
+
+<input type="hidden" name="but_5_quot_2_0" value="<?=$count_but_5_2_0_exp?>" />
+<input type="hidden" name="but_5_quot_2_1" value="<?=$count_but_5_2_1_exp?>" />
+<input type="hidden" name="but_5_quot_1_2" value="<?=$count_but_5_1_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_0" value="<?=$count_but_5_3_0_exp?>" />
+<input type="hidden" name="but_5_quot_3_1" value="<?=$count_but_5_3_1_exp?>" />
+<input type="hidden" name="but_5_quot_2_2" value="<?=$count_but_5_2_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_2" value="<?=$count_but_5_3_2_exp?>" />
+<input type="hidden" name="but_5_quot_4_0" value="<?=$count_but_5_4_0_exp?>" />
+<input type="hidden" name="but_5_quot_4_1" value="<?=$count_but_5_4_1_exp?>" />
+<input type="hidden" name="but_5_quot_4_2" value="<?=$count_but_5_4_2_exp?>" />
+<input type="hidden" name="but_5_quot_5_0" value="<?=$count_but_5_5_0_exp?>" />
+<input type="hidden" name="but_5_quot_5_1" value="<?=$count_but_5_5_1_exp?>" />
+<input type="hidden" name="but_5_quot_5_2" value="<?=$count_but_5_5_2_exp?>" />
+
+<input type="hidden" name="but_6_quot_2_0" value="<?=$count_but_6_2_0_exp?>" />
+<input type="hidden" name="but_6_quot_2_1" value="<?=$count_but_6_2_1_exp?>" />
+<input type="hidden" name="but_6_quot_1_2" value="<?=$count_but_6_1_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_0" value="<?=$count_but_6_3_0_exp?>" />
+<input type="hidden" name="but_6_quot_3_1" value="<?=$count_but_6_3_1_exp?>" />
+<input type="hidden" name="but_6_quot_2_2" value="<?=$count_but_6_2_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_2" value="<?=$count_but_6_3_2_exp?>" />
+<input type="hidden" name="but_6_quot_4_0" value="<?=$count_but_6_4_0_exp?>" />
+<input type="hidden" name="but_6_quot_4_1" value="<?=$count_but_6_4_1_exp?>" />
+<input type="hidden" name="but_6_quot_4_2" value="<?=$count_but_6_4_2_exp?>" />
+<input type="hidden" name="but_6_quot_5_0" value="<?=$count_but_6_5_0_exp?>" />
+<input type="hidden" name="but_6_quot_5_1" value="<?=$count_but_6_5_1_exp?>" />
+<input type="hidden" name="but_6_quot_5_2" value="<?=$count_but_6_5_2_exp?>" />
+
+<input type="hidden" name="to_freeze_1_1" value="<?=$zufall_1_1?>" />
+<input type="hidden" name="to_freeze_1_2" value="<?=$zufall_1_2?>" />
+<input type="hidden" name="to_freeze_1_3" value="<?=$zufall_1_3?>" />
+<input type="hidden" name="to_freeze_1_4" value="<?=$zufall_1_4?>" />
+<input type="hidden" name="to_freeze_1_5" value="<?=$zufall_1_5?>" />
+<input type="hidden" name="to_freeze_sub_1_1" value="<?=$zufall_sub_1_1?>" />
+<input type="hidden" name="to_freeze_sub_1_2" value="<?=$zufall_sub_1_2?>" />
+<input type="hidden" name="wert_a" value="<?php if($_POST['but_x']!=true){echo $total_a;}else{echo $max+$einsatz;}?>" />
+<input type="hidden" name="quote_a" value="<?=$quote_a?>" />
+<input type="hidden" name="patzen_a" value="<?=$bar_a+$patzen_a+$patzen_b+$patzen_c+$patzen_d+$patzen_e+$patzen_f?>" />
+
+<input type="submit" name="but_1" value="los" style="font-size:10px;background-color:green;padding:1px;margin-top:-2px; border-style:dotted;width:30px;" /></form></td>
+<td  style="position:absolute;margin-left:103px;margin-top:5px;"><form method="post">
+<input type="hidden" name="but_1_quot_2_0" value="<?=$count_but_1_2_0_exp?>" />
+<input type="hidden" name="but_1_quot_2_1" value="<?=$count_but_1_2_1_exp?>" />
+<input type="hidden" name="but_1_quot_1_2" value="<?=$count_but_1_1_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_0" value="<?=$count_but_1_3_0_exp?>" />
+<input type="hidden" name="but_1_quot_3_1" value="<?=$count_but_1_3_1_exp?>" />
+<input type="hidden" name="but_1_quot_2_2" value="<?=$count_but_1_2_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_2" value="<?=$count_but_1_3_2_exp?>" />
+<input type="hidden" name="but_1_quot_4_0" value="<?=$count_but_1_4_0_exp?>" />
+<input type="hidden" name="but_1_quot_4_1" value="<?=$count_but_1_4_1_exp?>" />
+<input type="hidden" name="but_1_quot_4_2" value="<?=$count_but_1_4_2_exp?>" />
+<input type="hidden" name="but_1_quot_5_0" value="<?=$count_but_1_5_0_exp?>" />
+<input type="hidden" name="but_1_quot_5_1" value="<?=$count_but_1_5_1_exp?>" />
+<input type="hidden" name="but_1_quot_5_2" value="<?=$count_but_1_5_2_exp?>" />
+
+<input type="hidden" name="but_2_quot_2_0" value="<?=$count_but_2_2_0_exp?>" />
+<input type="hidden" name="but_2_quot_2_1" value="<?=$count_but_2_2_1_exp?>" />
+<input type="hidden" name="but_2_quot_1_2" value="<?=$count_but_2_1_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_0" value="<?=$count_but_2_3_0_exp?>" />
+<input type="hidden" name="but_2_quot_3_1" value="<?=$count_but_2_3_1_exp?>" />
+<input type="hidden" name="but_2_quot_2_2" value="<?=$count_but_2_2_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_2" value="<?=$count_but_2_3_2_exp?>" />
+<input type="hidden" name="but_2_quot_4_0" value="<?=$count_but_2_4_0_exp?>" />
+<input type="hidden" name="but_2_quot_4_1" value="<?=$count_but_2_4_1_exp?>" />
+<input type="hidden" name="but_2_quot_4_2" value="<?=$count_but_2_4_2_exp?>" />
+<input type="hidden" name="but_2_quot_5_0" value="<?=$count_but_2_5_0_exp?>" />
+<input type="hidden" name="but_2_quot_5_1" value="<?=$count_but_2_5_1_exp?>" />
+<input type="hidden" name="but_2_quot_5_2" value="<?=$count_but_2_5_2_exp?>" />
+
+<input type="hidden" name="but_3_quot_2_0" value="<?=$count_but_3_2_0_exp?>" />
+<input type="hidden" name="but_3_quot_2_1" value="<?=$count_but_3_2_1_exp?>" />
+<input type="hidden" name="but_3_quot_1_2" value="<?=$count_but_3_1_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_0" value="<?=$count_but_3_3_0_exp?>" />
+<input type="hidden" name="but_3_quot_3_1" value="<?=$count_but_3_3_1_exp?>" />
+<input type="hidden" name="but_3_quot_2_2" value="<?=$count_but_3_2_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_2" value="<?=$count_but_3_3_2_exp?>" />
+<input type="hidden" name="but_3_quot_4_0" value="<?=$count_but_3_4_0_exp?>" />
+<input type="hidden" name="but_3_quot_4_1" value="<?=$count_but_3_4_1_exp?>" />
+<input type="hidden" name="but_3_quot_4_2" value="<?=$count_but_3_4_2_exp?>" />
+<input type="hidden" name="but_3_quot_5_0" value="<?=$count_but_3_5_0_exp?>" />
+<input type="hidden" name="but_3_quot_5_1" value="<?=$count_but_3_5_1_exp?>" />
+<input type="hidden" name="but_3_quot_5_2" value="<?=$count_but_3_5_2_exp?>" />
+
+<input type="hidden" name="but_4_quot_2_0" value="<?=$count_but_4_2_0_exp?>" />
+<input type="hidden" name="but_4_quot_2_1" value="<?=$count_but_4_2_1_exp?>" />
+<input type="hidden" name="but_4_quot_1_2" value="<?=$count_but_4_1_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_0" value="<?=$count_but_4_3_0_exp?>" />
+<input type="hidden" name="but_4_quot_3_1" value="<?=$count_but_4_3_1_exp?>" />
+<input type="hidden" name="but_4_quot_2_2" value="<?=$count_but_4_2_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_2" value="<?=$count_but_4_3_2_exp?>" />
+<input type="hidden" name="but_4_quot_4_0" value="<?=$count_but_4_4_0_exp?>" />
+<input type="hidden" name="but_4_quot_4_1" value="<?=$count_but_4_4_1_exp?>" />
+<input type="hidden" name="but_4_quot_4_2" value="<?=$count_but_4_4_2_exp?>" />
+<input type="hidden" name="but_4_quot_5_0" value="<?=$count_but_4_5_0_exp?>" />
+<input type="hidden" name="but_4_quot_5_1" value="<?=$count_but_4_5_1_exp?>" />
+<input type="hidden" name="but_4_quot_5_2" value="<?=$count_but_4_5_2_exp?>" />
+
+<input type="hidden" name="but_5_quot_2_0" value="<?=$count_but_5_2_0_exp?>" />
+<input type="hidden" name="but_5_quot_2_1" value="<?=$count_but_5_2_1_exp?>" />
+<input type="hidden" name="but_5_quot_1_2" value="<?=$count_but_5_1_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_0" value="<?=$count_but_5_3_0_exp?>" />
+<input type="hidden" name="but_5_quot_3_1" value="<?=$count_but_5_3_1_exp?>" />
+<input type="hidden" name="but_5_quot_2_2" value="<?=$count_but_5_2_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_2" value="<?=$count_but_5_3_2_exp?>" />
+<input type="hidden" name="but_5_quot_4_0" value="<?=$count_but_5_4_0_exp?>" />
+<input type="hidden" name="but_5_quot_4_1" value="<?=$count_but_5_4_1_exp?>" />
+<input type="hidden" name="but_5_quot_4_2" value="<?=$count_but_5_4_2_exp?>" />
+<input type="hidden" name="but_5_quot_5_0" value="<?=$count_but_5_5_0_exp?>" />
+<input type="hidden" name="but_5_quot_5_1" value="<?=$count_but_5_5_1_exp?>" />
+<input type="hidden" name="but_5_quot_5_2" value="<?=$count_but_5_5_2_exp?>" />
+
+<input type="hidden" name="but_6_quot_2_0" value="<?=$count_but_6_2_0_exp?>" />
+<input type="hidden" name="but_6_quot_2_1" value="<?=$count_but_6_2_1_exp?>" />
+<input type="hidden" name="but_6_quot_1_2" value="<?=$count_but_6_1_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_0" value="<?=$count_but_6_3_0_exp?>" />
+<input type="hidden" name="but_6_quot_3_1" value="<?=$count_but_6_3_1_exp?>" />
+<input type="hidden" name="but_6_quot_2_2" value="<?=$count_but_6_2_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_2" value="<?=$count_but_6_3_2_exp?>" />
+<input type="hidden" name="but_6_quot_4_0" value="<?=$count_but_6_4_0_exp?>" />
+<input type="hidden" name="but_6_quot_4_1" value="<?=$count_but_6_4_1_exp?>" />
+<input type="hidden" name="but_6_quot_4_2" value="<?=$count_but_6_4_2_exp?>" />
+<input type="hidden" name="but_6_quot_5_0" value="<?=$count_but_6_5_0_exp?>" />
+<input type="hidden" name="but_6_quot_5_1" value="<?=$count_but_6_5_1_exp?>" />
+<input type="hidden" name="but_6_quot_5_2" value="<?=$count_but_6_5_2_exp?>" />
+<input type="hidden" name="to_freeze_2_1" value="<?=$zufall_2_1?>" />
+<input type="hidden" name="to_freeze_2_2" value="<?=$zufall_2_2?>" />
+<input type="hidden" name="to_freeze_2_3" value="<?=$zufall_2_3?>" />
+<input type="hidden" name="to_freeze_2_4" value="<?=$zufall_2_4?>" />
+<input type="hidden" name="to_freeze_2_5" value="<?=$zufall_2_5?>" />
+<input type="hidden" name="to_freeze_sub_2_1" value="<?=$zufall_sub_2_1?>" />
+<input type="hidden" name="to_freeze_sub_2_2" value="<?=$zufall_sub_2_2?>" />
+<input type="hidden" name="wert_a" value="<?php if($_POST['but_x']!=true){echo $total_a;}else{echo $max+$einsatz;}?>" />
+<input type="hidden" name="quote_b" value="<?=$quote_b?>" />
+<input type="hidden" name="patzen_a" value="<?=$bar_b+$patzen_a+$patzen_b+$patzen_c+$patzen_d+$patzen_e+$patzen_f?>" />
+<input type="submit" name="but_2" value="los" style="font-size:10px;background-color:green;padding:1px;margin-top:-2px; border-style:dotted;width:30px;"  /></form></td>
+<td  style="position:absolute;margin-left:174px;margin-top:5px;"><form method="post">
+<input type="hidden" name="but_1_quot_2_0" value="<?=$count_but_1_2_0_exp?>" />
+<input type="hidden" name="but_1_quot_2_1" value="<?=$count_but_1_2_1_exp?>" />
+<input type="hidden" name="but_1_quot_1_2" value="<?=$count_but_1_1_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_0" value="<?=$count_but_1_3_0_exp?>" />
+<input type="hidden" name="but_1_quot_3_1" value="<?=$count_but_1_3_1_exp?>" />
+<input type="hidden" name="but_1_quot_2_2" value="<?=$count_but_1_2_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_2" value="<?=$count_but_1_3_2_exp?>" />
+<input type="hidden" name="but_1_quot_4_0" value="<?=$count_but_1_4_0_exp?>" />
+<input type="hidden" name="but_1_quot_4_1" value="<?=$count_but_1_4_1_exp?>" />
+<input type="hidden" name="but_1_quot_4_2" value="<?=$count_but_1_4_2_exp?>" />
+<input type="hidden" name="but_1_quot_5_0" value="<?=$count_but_1_5_0_exp?>" />
+<input type="hidden" name="but_1_quot_5_1" value="<?=$count_but_1_5_1_exp?>" />
+<input type="hidden" name="but_1_quot_5_2" value="<?=$count_but_1_5_2_exp?>" />
+
+<input type="hidden" name="but_2_quot_2_0" value="<?=$count_but_2_2_0_exp?>" />
+<input type="hidden" name="but_2_quot_2_1" value="<?=$count_but_2_2_1_exp?>" />
+<input type="hidden" name="but_2_quot_1_2" value="<?=$count_but_2_1_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_0" value="<?=$count_but_2_3_0_exp?>" />
+<input type="hidden" name="but_2_quot_3_1" value="<?=$count_but_2_3_1_exp?>" />
+<input type="hidden" name="but_2_quot_2_2" value="<?=$count_but_2_2_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_2" value="<?=$count_but_2_3_2_exp?>" />
+<input type="hidden" name="but_2_quot_4_0" value="<?=$count_but_2_4_0_exp?>" />
+<input type="hidden" name="but_2_quot_4_1" value="<?=$count_but_2_4_1_exp?>" />
+<input type="hidden" name="but_2_quot_4_2" value="<?=$count_but_2_4_2_exp?>" />
+<input type="hidden" name="but_2_quot_5_0" value="<?=$count_but_2_5_0_exp?>" />
+<input type="hidden" name="but_2_quot_5_1" value="<?=$count_but_2_5_1_exp?>" />
+<input type="hidden" name="but_2_quot_5_2" value="<?=$count_but_2_5_2_exp?>" />
+
+<input type="hidden" name="but_3_quot_2_0" value="<?=$count_but_3_2_0_exp?>" />
+<input type="hidden" name="but_3_quot_2_1" value="<?=$count_but_3_2_1_exp?>" />
+<input type="hidden" name="but_3_quot_1_2" value="<?=$count_but_3_1_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_0" value="<?=$count_but_3_3_0_exp?>" />
+<input type="hidden" name="but_3_quot_3_1" value="<?=$count_but_3_3_1_exp?>" />
+<input type="hidden" name="but_3_quot_2_2" value="<?=$count_but_3_2_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_2" value="<?=$count_but_3_3_2_exp?>" />
+<input type="hidden" name="but_3_quot_4_0" value="<?=$count_but_3_4_0_exp?>" />
+<input type="hidden" name="but_3_quot_4_1" value="<?=$count_but_3_4_1_exp?>" />
+<input type="hidden" name="but_3_quot_4_2" value="<?=$count_but_3_4_2_exp?>" />
+<input type="hidden" name="but_3_quot_5_0" value="<?=$count_but_3_5_0_exp?>" />
+<input type="hidden" name="but_3_quot_5_1" value="<?=$count_but_3_5_1_exp?>" />
+<input type="hidden" name="but_3_quot_5_2" value="<?=$count_but_3_5_2_exp?>" />
+
+<input type="hidden" name="but_4_quot_2_0" value="<?=$count_but_4_2_0_exp?>" />
+<input type="hidden" name="but_4_quot_2_1" value="<?=$count_but_4_2_1_exp?>" />
+<input type="hidden" name="but_4_quot_1_2" value="<?=$count_but_4_1_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_0" value="<?=$count_but_4_3_0_exp?>" />
+<input type="hidden" name="but_4_quot_3_1" value="<?=$count_but_4_3_1_exp?>" />
+<input type="hidden" name="but_4_quot_2_2" value="<?=$count_but_4_2_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_2" value="<?=$count_but_4_3_2_exp?>" />
+<input type="hidden" name="but_4_quot_4_0" value="<?=$count_but_4_4_0_exp?>" />
+<input type="hidden" name="but_4_quot_4_1" value="<?=$count_but_4_4_1_exp?>" />
+<input type="hidden" name="but_4_quot_4_2" value="<?=$count_but_4_4_2_exp?>" />
+<input type="hidden" name="but_4_quot_5_0" value="<?=$count_but_4_5_0_exp?>" />
+<input type="hidden" name="but_4_quot_5_1" value="<?=$count_but_4_5_1_exp?>" />
+<input type="hidden" name="but_4_quot_5_2" value="<?=$count_but_4_5_2_exp?>" />
+
+<input type="hidden" name="but_5_quot_2_0" value="<?=$count_but_5_2_0_exp?>" />
+<input type="hidden" name="but_5_quot_2_1" value="<?=$count_but_5_2_1_exp?>" />
+<input type="hidden" name="but_5_quot_1_2" value="<?=$count_but_5_1_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_0" value="<?=$count_but_5_3_0_exp?>" />
+<input type="hidden" name="but_5_quot_3_1" value="<?=$count_but_5_3_1_exp?>" />
+<input type="hidden" name="but_5_quot_2_2" value="<?=$count_but_5_2_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_2" value="<?=$count_but_5_3_2_exp?>" />
+<input type="hidden" name="but_5_quot_4_0" value="<?=$count_but_5_4_0_exp?>" />
+<input type="hidden" name="but_5_quot_4_1" value="<?=$count_but_5_4_1_exp?>" />
+<input type="hidden" name="but_5_quot_4_2" value="<?=$count_but_5_4_2_exp?>" />
+<input type="hidden" name="but_5_quot_5_0" value="<?=$count_but_5_5_0_exp?>" />
+<input type="hidden" name="but_5_quot_5_1" value="<?=$count_but_5_5_1_exp?>" />
+<input type="hidden" name="but_5_quot_5_2" value="<?=$count_but_5_5_2_exp?>" />
+
+<input type="hidden" name="but_6_quot_2_0" value="<?=$count_but_6_2_0_exp?>" />
+<input type="hidden" name="but_6_quot_2_1" value="<?=$count_but_6_2_1_exp?>" />
+<input type="hidden" name="but_6_quot_1_2" value="<?=$count_but_6_1_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_0" value="<?=$count_but_6_3_0_exp?>" />
+<input type="hidden" name="but_6_quot_3_1" value="<?=$count_but_6_3_1_exp?>" />
+<input type="hidden" name="but_6_quot_2_2" value="<?=$count_but_6_2_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_2" value="<?=$count_but_6_3_2_exp?>" />
+<input type="hidden" name="but_6_quot_4_0" value="<?=$count_but_6_4_0_exp?>" />
+<input type="hidden" name="but_6_quot_4_1" value="<?=$count_but_6_4_1_exp?>" />
+<input type="hidden" name="but_6_quot_4_2" value="<?=$count_but_6_4_2_exp?>" />
+<input type="hidden" name="but_6_quot_5_0" value="<?=$count_but_6_5_0_exp?>" />
+<input type="hidden" name="but_6_quot_5_1" value="<?=$count_but_6_5_1_exp?>" />
+<input type="hidden" name="but_6_quot_5_2" value="<?=$count_but_6_5_2_exp?>" />
+<input type="hidden" name="to_freeze_3_1" value="<?=$zufall_3_1?>" />
+<input type="hidden" name="to_freeze_3_2" value="<?=$zufall_3_2?>" />
+<input type="hidden" name="to_freeze_3_3" value="<?=$zufall_3_3?>" />
+<input type="hidden" name="to_freeze_3_4" value="<?=$zufall_3_4?>" />
+<input type="hidden" name="to_freeze_3_5" value="<?=$zufall_3_5?>" />
+<input type="hidden" name="to_freeze_sub_3_1" value="<?=$zufall_sub_3_1?>" />
+<input type="hidden" name="to_freeze_sub_3_2" value="<?=$zufall_sub_3_2?>" />
+<input type="hidden" name="wert_a" value="<?php if($_POST['but_x']!=true){echo $total_a;}else{echo $max+$einsatz;}?>" />
+<input type="hidden" name="quote_c" value="<?=$quote_c?>" />
+<input type="hidden" name="patzen_a" value="<?=$bar_c+$patzen_a+$patzen_b+$patzen_c+$patzen_d+$patzen_e+$patzen_f?>" />
+<input type="submit" name="but_3" value="los" style="font-size:10px;background-color:green;padding:1px;margin-top:-2px; border-style:dotted;width:30px;"  /></form></td>
+<td  style="position:absolute;margin-left:245px;margin-top:5px;"><form method="post">
+<input type="hidden" name="but_1_quot_2_0" value="<?=$count_but_1_2_0_exp?>" />
+<input type="hidden" name="but_1_quot_2_1" value="<?=$count_but_1_2_1_exp?>" />
+<input type="hidden" name="but_1_quot_1_2" value="<?=$count_but_1_1_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_0" value="<?=$count_but_1_3_0_exp?>" />
+<input type="hidden" name="but_1_quot_3_1" value="<?=$count_but_1_3_1_exp?>" />
+<input type="hidden" name="but_1_quot_2_2" value="<?=$count_but_1_2_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_2" value="<?=$count_but_1_3_2_exp?>" />
+<input type="hidden" name="but_1_quot_4_0" value="<?=$count_but_1_4_0_exp?>" />
+<input type="hidden" name="but_1_quot_4_1" value="<?=$count_but_1_4_1_exp?>" />
+<input type="hidden" name="but_1_quot_4_2" value="<?=$count_but_1_4_2_exp?>" />
+<input type="hidden" name="but_1_quot_5_0" value="<?=$count_but_1_5_0_exp?>" />
+<input type="hidden" name="but_1_quot_5_1" value="<?=$count_but_1_5_1_exp?>" />
+<input type="hidden" name="but_1_quot_5_2" value="<?=$count_but_1_5_2_exp?>" />
+
+<input type="hidden" name="but_2_quot_2_0" value="<?=$count_but_2_2_0_exp?>" />
+<input type="hidden" name="but_2_quot_2_1" value="<?=$count_but_2_2_1_exp?>" />
+<input type="hidden" name="but_2_quot_1_2" value="<?=$count_but_2_1_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_0" value="<?=$count_but_2_3_0_exp?>" />
+<input type="hidden" name="but_2_quot_3_1" value="<?=$count_but_2_3_1_exp?>" />
+<input type="hidden" name="but_2_quot_2_2" value="<?=$count_but_2_2_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_2" value="<?=$count_but_2_3_2_exp?>" />
+<input type="hidden" name="but_2_quot_4_0" value="<?=$count_but_2_4_0_exp?>" />
+<input type="hidden" name="but_2_quot_4_1" value="<?=$count_but_2_4_1_exp?>" />
+<input type="hidden" name="but_2_quot_4_2" value="<?=$count_but_2_4_2_exp?>" />
+<input type="hidden" name="but_2_quot_5_0" value="<?=$count_but_2_5_0_exp?>" />
+<input type="hidden" name="but_2_quot_5_1" value="<?=$count_but_2_5_1_exp?>" />
+<input type="hidden" name="but_2_quot_5_2" value="<?=$count_but_2_5_2_exp?>" />
+
+<input type="hidden" name="but_3_quot_2_0" value="<?=$count_but_3_2_0_exp?>" />
+<input type="hidden" name="but_3_quot_2_1" value="<?=$count_but_3_2_1_exp?>" />
+<input type="hidden" name="but_3_quot_1_2" value="<?=$count_but_3_1_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_0" value="<?=$count_but_3_3_0_exp?>" />
+<input type="hidden" name="but_3_quot_3_1" value="<?=$count_but_3_3_1_exp?>" />
+<input type="hidden" name="but_3_quot_2_2" value="<?=$count_but_3_2_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_2" value="<?=$count_but_3_3_2_exp?>" />
+<input type="hidden" name="but_3_quot_4_0" value="<?=$count_but_3_4_0_exp?>" />
+<input type="hidden" name="but_3_quot_4_1" value="<?=$count_but_3_4_1_exp?>" />
+<input type="hidden" name="but_3_quot_4_2" value="<?=$count_but_3_4_2_exp?>" />
+<input type="hidden" name="but_3_quot_5_0" value="<?=$count_but_3_5_0_exp?>" />
+<input type="hidden" name="but_3_quot_5_1" value="<?=$count_but_3_5_1_exp?>" />
+<input type="hidden" name="but_3_quot_5_2" value="<?=$count_but_3_5_2_exp?>" />
+
+<input type="hidden" name="but_4_quot_2_0" value="<?=$count_but_4_2_0_exp?>" />
+<input type="hidden" name="but_4_quot_2_1" value="<?=$count_but_4_2_1_exp?>" />
+<input type="hidden" name="but_4_quot_1_2" value="<?=$count_but_4_1_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_0" value="<?=$count_but_4_3_0_exp?>" />
+<input type="hidden" name="but_4_quot_3_1" value="<?=$count_but_4_3_1_exp?>" />
+<input type="hidden" name="but_4_quot_2_2" value="<?=$count_but_4_2_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_2" value="<?=$count_but_4_3_2_exp?>" />
+<input type="hidden" name="but_4_quot_4_0" value="<?=$count_but_4_4_0_exp?>" />
+<input type="hidden" name="but_4_quot_4_1" value="<?=$count_but_4_4_1_exp?>" />
+<input type="hidden" name="but_4_quot_4_2" value="<?=$count_but_4_4_2_exp?>" />
+<input type="hidden" name="but_4_quot_5_0" value="<?=$count_but_4_5_0_exp?>" />
+<input type="hidden" name="but_4_quot_5_1" value="<?=$count_but_4_5_1_exp?>" />
+<input type="hidden" name="but_4_quot_5_2" value="<?=$count_but_4_5_2_exp?>" />
+
+<input type="hidden" name="but_5_quot_2_0" value="<?=$count_but_5_2_0_exp?>" />
+<input type="hidden" name="but_5_quot_2_1" value="<?=$count_but_5_2_1_exp?>" />
+<input type="hidden" name="but_5_quot_1_2" value="<?=$count_but_5_1_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_0" value="<?=$count_but_5_3_0_exp?>" />
+<input type="hidden" name="but_5_quot_3_1" value="<?=$count_but_5_3_1_exp?>" />
+<input type="hidden" name="but_5_quot_2_2" value="<?=$count_but_5_2_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_2" value="<?=$count_but_5_3_2_exp?>" />
+<input type="hidden" name="but_5_quot_4_0" value="<?=$count_but_5_4_0_exp?>" />
+<input type="hidden" name="but_5_quot_4_1" value="<?=$count_but_5_4_1_exp?>" />
+<input type="hidden" name="but_5_quot_4_2" value="<?=$count_but_5_4_2_exp?>" />
+<input type="hidden" name="but_5_quot_5_0" value="<?=$count_but_5_5_0_exp?>" />
+<input type="hidden" name="but_5_quot_5_1" value="<?=$count_but_5_5_1_exp?>" />
+<input type="hidden" name="but_5_quot_5_2" value="<?=$count_but_5_5_2_exp?>" />
+
+<input type="hidden" name="but_6_quot_2_0" value="<?=$count_but_6_2_0_exp?>" />
+<input type="hidden" name="but_6_quot_2_1" value="<?=$count_but_6_2_1_exp?>" />
+<input type="hidden" name="but_6_quot_1_2" value="<?=$count_but_6_1_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_0" value="<?=$count_but_6_3_0_exp?>" />
+<input type="hidden" name="but_6_quot_3_1" value="<?=$count_but_6_3_1_exp?>" />
+<input type="hidden" name="but_6_quot_2_2" value="<?=$count_but_6_2_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_2" value="<?=$count_but_6_3_2_exp?>" />
+<input type="hidden" name="but_6_quot_4_0" value="<?=$count_but_6_4_0_exp?>" />
+<input type="hidden" name="but_6_quot_4_1" value="<?=$count_but_6_4_1_exp?>" />
+<input type="hidden" name="but_6_quot_4_2" value="<?=$count_but_6_4_2_exp?>" />
+<input type="hidden" name="but_6_quot_5_0" value="<?=$count_but_6_5_0_exp?>" />
+<input type="hidden" name="but_6_quot_5_1" value="<?=$count_but_6_5_1_exp?>" />
+<input type="hidden" name="but_6_quot_5_2" value="<?=$count_but_6_5_2_exp?>" />
+<input type="hidden" name="to_freeze_4_1" value="<?=$zufall_4_1?>" />
+<input type="hidden" name="to_freeze_4_2" value="<?=$zufall_4_2?>" />
+<input type="hidden" name="to_freeze_4_3" value="<?=$zufall_4_3?>" />
+<input type="hidden" name="to_freeze_4_4" value="<?=$zufall_4_4?>" />
+<input type="hidden" name="to_freeze_4_5" value="<?=$zufall_4_5?>" />
+<input type="hidden" name="to_freeze_sub_4_1" value="<?=$zufall_sub_4_1?>" />
+<input type="hidden" name="to_freeze_sub_4_2" value="<?=$zufall_sub_4_2?>" />
+<input type="hidden" name="wert_a" value="<?php if($_POST['but_x']!=true){echo $total_a;}else{echo $max+$einsatz;}?>" />
+<input type="hidden" name="quote_d" value="<?=$quote_d?>" />
+<input type="hidden" name="patzen_a" value="<?=$bar_d+$patzen_a+$patzen_b+$patzen_c+$patzen_d+$patzen_e+$patzen_f?>" />
+<input type="submit" name="but_4" value="los" style="font-size:10px;background-color:green;padding:1px;margin-top:-2px; border-style:dotted;width:30px;" /></form></td>
+<td  style="position:absolute;margin-left:316px;margin-top:5px;"><form method="post">
+<input type="hidden" name="but_1_quot_2_0" value="<?=$count_but_1_2_0_exp?>" />
+<input type="hidden" name="but_1_quot_2_1" value="<?=$count_but_1_2_1_exp?>" />
+<input type="hidden" name="but_1_quot_1_2" value="<?=$count_but_1_1_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_0" value="<?=$count_but_1_3_0_exp?>" />
+<input type="hidden" name="but_1_quot_3_1" value="<?=$count_but_1_3_1_exp?>" />
+<input type="hidden" name="but_1_quot_2_2" value="<?=$count_but_1_2_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_2" value="<?=$count_but_1_3_2_exp?>" />
+<input type="hidden" name="but_1_quot_4_0" value="<?=$count_but_1_4_0_exp?>" />
+<input type="hidden" name="but_1_quot_4_1" value="<?=$count_but_1_4_1_exp?>" />
+<input type="hidden" name="but_1_quot_4_2" value="<?=$count_but_1_4_2_exp?>" />
+<input type="hidden" name="but_1_quot_5_0" value="<?=$count_but_1_5_0_exp?>" />
+<input type="hidden" name="but_1_quot_5_1" value="<?=$count_but_1_5_1_exp?>" />
+<input type="hidden" name="but_1_quot_5_2" value="<?=$count_but_1_5_2_exp?>" />
+
+<input type="hidden" name="but_2_quot_2_0" value="<?=$count_but_2_2_0_exp?>" />
+<input type="hidden" name="but_2_quot_2_1" value="<?=$count_but_2_2_1_exp?>" />
+<input type="hidden" name="but_2_quot_1_2" value="<?=$count_but_2_1_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_0" value="<?=$count_but_2_3_0_exp?>" />
+<input type="hidden" name="but_2_quot_3_1" value="<?=$count_but_2_3_1_exp?>" />
+<input type="hidden" name="but_2_quot_2_2" value="<?=$count_but_2_2_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_2" value="<?=$count_but_2_3_2_exp?>" />
+<input type="hidden" name="but_2_quot_4_0" value="<?=$count_but_2_4_0_exp?>" />
+<input type="hidden" name="but_2_quot_4_1" value="<?=$count_but_2_4_1_exp?>" />
+<input type="hidden" name="but_2_quot_4_2" value="<?=$count_but_2_4_2_exp?>" />
+<input type="hidden" name="but_2_quot_5_0" value="<?=$count_but_2_5_0_exp?>" />
+<input type="hidden" name="but_2_quot_5_1" value="<?=$count_but_2_5_1_exp?>" />
+<input type="hidden" name="but_2_quot_5_2" value="<?=$count_but_2_5_2_exp?>" />
+
+<input type="hidden" name="but_3_quot_2_0" value="<?=$count_but_3_2_0_exp?>" />
+<input type="hidden" name="but_3_quot_2_1" value="<?=$count_but_3_2_1_exp?>" />
+<input type="hidden" name="but_3_quot_1_2" value="<?=$count_but_3_1_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_0" value="<?=$count_but_3_3_0_exp?>" />
+<input type="hidden" name="but_3_quot_3_1" value="<?=$count_but_3_3_1_exp?>" />
+<input type="hidden" name="but_3_quot_2_2" value="<?=$count_but_3_2_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_2" value="<?=$count_but_3_3_2_exp?>" />
+<input type="hidden" name="but_3_quot_4_0" value="<?=$count_but_3_4_0_exp?>" />
+<input type="hidden" name="but_3_quot_4_1" value="<?=$count_but_3_4_1_exp?>" />
+<input type="hidden" name="but_3_quot_4_2" value="<?=$count_but_3_4_2_exp?>" />
+<input type="hidden" name="but_3_quot_5_0" value="<?=$count_but_3_5_0_exp?>" />
+<input type="hidden" name="but_3_quot_5_1" value="<?=$count_but_3_5_1_exp?>" />
+<input type="hidden" name="but_3_quot_5_2" value="<?=$count_but_3_5_2_exp?>" />
+
+<input type="hidden" name="but_4_quot_2_0" value="<?=$count_but_4_2_0_exp?>" />
+<input type="hidden" name="but_4_quot_2_1" value="<?=$count_but_4_2_1_exp?>" />
+<input type="hidden" name="but_4_quot_1_2" value="<?=$count_but_4_1_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_0" value="<?=$count_but_4_3_0_exp?>" />
+<input type="hidden" name="but_4_quot_3_1" value="<?=$count_but_4_3_1_exp?>" />
+<input type="hidden" name="but_4_quot_2_2" value="<?=$count_but_4_2_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_2" value="<?=$count_but_4_3_2_exp?>" />
+<input type="hidden" name="but_4_quot_4_0" value="<?=$count_but_4_4_0_exp?>" />
+<input type="hidden" name="but_4_quot_4_1" value="<?=$count_but_4_4_1_exp?>" />
+<input type="hidden" name="but_4_quot_4_2" value="<?=$count_but_4_4_2_exp?>" />
+<input type="hidden" name="but_4_quot_5_0" value="<?=$count_but_4_5_0_exp?>" />
+<input type="hidden" name="but_4_quot_5_1" value="<?=$count_but_4_5_1_exp?>" />
+<input type="hidden" name="but_4_quot_5_2" value="<?=$count_but_4_5_2_exp?>" />
+
+<input type="hidden" name="but_5_quot_2_0" value="<?=$count_but_5_2_0_exp?>" />
+<input type="hidden" name="but_5_quot_2_1" value="<?=$count_but_5_2_1_exp?>" />
+<input type="hidden" name="but_5_quot_1_2" value="<?=$count_but_5_1_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_0" value="<?=$count_but_5_3_0_exp?>" />
+<input type="hidden" name="but_5_quot_3_1" value="<?=$count_but_5_3_1_exp?>" />
+<input type="hidden" name="but_5_quot_2_2" value="<?=$count_but_5_2_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_2" value="<?=$count_but_5_3_2_exp?>" />
+<input type="hidden" name="but_5_quot_4_0" value="<?=$count_but_5_4_0_exp?>" />
+<input type="hidden" name="but_5_quot_4_1" value="<?=$count_but_5_4_1_exp?>" />
+<input type="hidden" name="but_5_quot_4_2" value="<?=$count_but_5_4_2_exp?>" />
+<input type="hidden" name="but_5_quot_5_0" value="<?=$count_but_5_5_0_exp?>" />
+<input type="hidden" name="but_5_quot_5_1" value="<?=$count_but_5_5_1_exp?>" />
+<input type="hidden" name="but_5_quot_5_2" value="<?=$count_but_5_5_2_exp?>" />
+
+<input type="hidden" name="but_6_quot_2_0" value="<?=$count_but_6_2_0_exp?>" />
+<input type="hidden" name="but_6_quot_2_1" value="<?=$count_but_6_2_1_exp?>" />
+<input type="hidden" name="but_6_quot_1_2" value="<?=$count_but_6_1_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_0" value="<?=$count_but_6_3_0_exp?>" />
+<input type="hidden" name="but_6_quot_3_1" value="<?=$count_but_6_3_1_exp?>" />
+<input type="hidden" name="but_6_quot_2_2" value="<?=$count_but_6_2_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_2" value="<?=$count_but_6_3_2_exp?>" />
+<input type="hidden" name="but_6_quot_4_0" value="<?=$count_but_6_4_0_exp?>" />
+<input type="hidden" name="but_6_quot_4_1" value="<?=$count_but_6_4_1_exp?>" />
+<input type="hidden" name="but_6_quot_4_2" value="<?=$count_but_6_4_2_exp?>" />
+<input type="hidden" name="but_6_quot_5_0" value="<?=$count_but_6_5_0_exp?>" />
+<input type="hidden" name="but_6_quot_5_1" value="<?=$count_but_6_5_1_exp?>" />
+<input type="hidden" name="but_6_quot_5_2" value="<?=$count_but_6_5_2_exp?>" />
+<input type="hidden" name="to_freeze_5_1" value="<?=$zufall_5_1?>" />
+<input type="hidden" name="to_freeze_5_2" value="<?=$zufall_5_2?>" />
+<input type="hidden" name="to_freeze_5_3" value="<?=$zufall_5_3?>" />
+<input type="hidden" name="to_freeze_5_4" value="<?=$zufall_5_4?>" />
+<input type="hidden" name="to_freeze_5_5" value="<?=$zufall_5_5?>" />
+<input type="hidden" name="to_freeze_sub_5_1" value="<?=$zufall_sub_5_1?>" />
+<input type="hidden" name="to_freeze_sub_5_2" value="<?=$zufall_sub_5_2?>" />
+<input type="hidden" name="wert_a" value="<?php if($_POST['but_x']!=true){echo $total_a;}else{echo $max+$einsatz;}?>" />
+<input type="hidden" name="quote_e" value="<?=$quote_e?>" />
+<input type="hidden" name="patzen_a" value="<?=$bar_e+$patzen_a+$patzen_b+$patzen_c+$patzen_d+$patzen_e+$patzen_f?>" />
+<input type="submit" name="but_5" value="los" style="font-size:10px;background-color:green;padding:1px;margin-top:-2px; border-style:dotted;width:30px;" /></form></td>
+<td  style="position:absolute;margin-left:387px;margin-top:5px;"><form method="post">
+<input type="hidden" name="but_1_quot_2_0" value="<?=$count_but_1_2_0_exp?>" />
+<input type="hidden" name="but_1_quot_2_1" value="<?=$count_but_1_2_1_exp?>" />
+<input type="hidden" name="but_1_quot_1_2" value="<?=$count_but_1_1_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_0" value="<?=$count_but_1_3_0_exp?>" />
+<input type="hidden" name="but_1_quot_3_1" value="<?=$count_but_1_3_1_exp?>" />
+<input type="hidden" name="but_1_quot_2_2" value="<?=$count_but_1_2_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_2" value="<?=$count_but_1_3_2_exp?>" />
+<input type="hidden" name="but_1_quot_4_0" value="<?=$count_but_1_4_0_exp?>" />
+<input type="hidden" name="but_1_quot_4_1" value="<?=$count_but_1_4_1_exp?>" />
+<input type="hidden" name="but_1_quot_4_2" value="<?=$count_but_1_4_2_exp?>" />
+<input type="hidden" name="but_1_quot_5_0" value="<?=$count_but_1_5_0_exp?>" />
+<input type="hidden" name="but_1_quot_5_1" value="<?=$count_but_1_5_1_exp?>" />
+<input type="hidden" name="but_1_quot_5_2" value="<?=$count_but_1_5_2_exp?>" />
+
+<input type="hidden" name="but_2_quot_2_0" value="<?=$count_but_2_2_0_exp?>" />
+<input type="hidden" name="but_2_quot_2_1" value="<?=$count_but_2_2_1_exp?>" />
+<input type="hidden" name="but_2_quot_1_2" value="<?=$count_but_2_1_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_0" value="<?=$count_but_2_3_0_exp?>" />
+<input type="hidden" name="but_2_quot_3_1" value="<?=$count_but_2_3_1_exp?>" />
+<input type="hidden" name="but_2_quot_2_2" value="<?=$count_but_2_2_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_2" value="<?=$count_but_2_3_2_exp?>" />
+<input type="hidden" name="but_2_quot_4_0" value="<?=$count_but_2_4_0_exp?>" />
+<input type="hidden" name="but_2_quot_4_1" value="<?=$count_but_2_4_1_exp?>" />
+<input type="hidden" name="but_2_quot_4_2" value="<?=$count_but_2_4_2_exp?>" />
+<input type="hidden" name="but_2_quot_5_0" value="<?=$count_but_2_5_0_exp?>" />
+<input type="hidden" name="but_2_quot_5_1" value="<?=$count_but_2_5_1_exp?>" />
+<input type="hidden" name="but_2_quot_5_2" value="<?=$count_but_2_5_2_exp?>" />
+
+<input type="hidden" name="but_3_quot_2_0" value="<?=$count_but_3_2_0_exp?>" />
+<input type="hidden" name="but_3_quot_2_1" value="<?=$count_but_3_2_1_exp?>" />
+<input type="hidden" name="but_3_quot_1_2" value="<?=$count_but_3_1_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_0" value="<?=$count_but_3_3_0_exp?>" />
+<input type="hidden" name="but_3_quot_3_1" value="<?=$count_but_3_3_1_exp?>" />
+<input type="hidden" name="but_3_quot_2_2" value="<?=$count_but_3_2_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_2" value="<?=$count_but_3_3_2_exp?>" />
+<input type="hidden" name="but_3_quot_4_0" value="<?=$count_but_3_4_0_exp?>" />
+<input type="hidden" name="but_3_quot_4_1" value="<?=$count_but_3_4_1_exp?>" />
+<input type="hidden" name="but_3_quot_4_2" value="<?=$count_but_3_4_2_exp?>" />
+<input type="hidden" name="but_3_quot_5_0" value="<?=$count_but_3_5_0_exp?>" />
+<input type="hidden" name="but_3_quot_5_1" value="<?=$count_but_3_5_1_exp?>" />
+<input type="hidden" name="but_3_quot_5_2" value="<?=$count_but_3_5_2_exp?>" />
+
+<input type="hidden" name="but_4_quot_2_0" value="<?=$count_but_4_2_0_exp?>" />
+<input type="hidden" name="but_4_quot_2_1" value="<?=$count_but_4_2_1_exp?>" />
+<input type="hidden" name="but_4_quot_1_2" value="<?=$count_but_4_1_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_0" value="<?=$count_but_4_3_0_exp?>" />
+<input type="hidden" name="but_4_quot_3_1" value="<?=$count_but_4_3_1_exp?>" />
+<input type="hidden" name="but_4_quot_2_2" value="<?=$count_but_4_2_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_2" value="<?=$count_but_4_3_2_exp?>" />
+<input type="hidden" name="but_4_quot_4_0" value="<?=$count_but_4_4_0_exp?>" />
+<input type="hidden" name="but_4_quot_4_1" value="<?=$count_but_4_4_1_exp?>" />
+<input type="hidden" name="but_4_quot_4_2" value="<?=$count_but_4_4_2_exp?>" />
+<input type="hidden" name="but_4_quot_5_0" value="<?=$count_but_4_5_0_exp?>" />
+<input type="hidden" name="but_4_quot_5_1" value="<?=$count_but_4_5_1_exp?>" />
+<input type="hidden" name="but_4_quot_5_2" value="<?=$count_but_4_5_2_exp?>" />
+
+<input type="hidden" name="but_5_quot_2_0" value="<?=$count_but_5_2_0_exp?>" />
+<input type="hidden" name="but_5_quot_2_1" value="<?=$count_but_5_2_1_exp?>" />
+<input type="hidden" name="but_5_quot_1_2" value="<?=$count_but_5_1_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_0" value="<?=$count_but_5_3_0_exp?>" />
+<input type="hidden" name="but_5_quot_3_1" value="<?=$count_but_5_3_1_exp?>" />
+<input type="hidden" name="but_5_quot_2_2" value="<?=$count_but_5_2_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_2" value="<?=$count_but_5_3_2_exp?>" />
+<input type="hidden" name="but_5_quot_4_0" value="<?=$count_but_5_4_0_exp?>" />
+<input type="hidden" name="but_5_quot_4_1" value="<?=$count_but_5_4_1_exp?>" />
+<input type="hidden" name="but_5_quot_4_2" value="<?=$count_but_5_4_2_exp?>" />
+<input type="hidden" name="but_5_quot_5_0" value="<?=$count_but_5_5_0_exp?>" />
+<input type="hidden" name="but_5_quot_5_1" value="<?=$count_but_5_5_1_exp?>" />
+<input type="hidden" name="but_5_quot_5_2" value="<?=$count_but_5_5_2_exp?>" />
+
+<input type="hidden" name="but_6_quot_2_0" value="<?=$count_but_6_2_0_exp?>" />
+<input type="hidden" name="but_6_quot_2_1" value="<?=$count_but_6_2_1_exp?>" />
+<input type="hidden" name="but_6_quot_1_2" value="<?=$count_but_6_1_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_0" value="<?=$count_but_6_3_0_exp?>" />
+<input type="hidden" name="but_6_quot_3_1" value="<?=$count_but_6_3_1_exp?>" />
+<input type="hidden" name="but_6_quot_2_2" value="<?=$count_but_6_2_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_2" value="<?=$count_but_6_3_2_exp?>" />
+<input type="hidden" name="but_6_quot_4_0" value="<?=$count_but_6_4_0_exp?>" />
+<input type="hidden" name="but_6_quot_4_1" value="<?=$count_but_6_4_1_exp?>" />
+<input type="hidden" name="but_6_quot_4_2" value="<?=$count_but_6_4_2_exp?>" />
+<input type="hidden" name="but_6_quot_5_0" value="<?=$count_but_6_5_0_exp?>" />
+<input type="hidden" name="but_6_quot_5_1" value="<?=$count_but_6_5_1_exp?>" />
+<input type="hidden" name="but_6_quot_5_2" value="<?=$count_but_6_5_2_exp?>" />
+<input type="hidden" name="to_freeze_6_1" value="<?=$zufall_6_1?>" />
+<input type="hidden" name="to_freeze_6_2" value="<?=$zufall_6_2?>" />
+<input type="hidden" name="to_freeze_6_3" value="<?=$zufall_6_3?>" />
+<input type="hidden" name="to_freeze_6_4" value="<?=$zufall_6_4?>" />
+<input type="hidden" name="to_freeze_6_5" value="<?=$zufall_6_5?>" />
+<input type="hidden" name="to_freeze_sub_6_1" value="<?=$zufall_sub_6_1?>" />
+<input type="hidden" name="to_freeze_sub_6_2" value="<?=$zufall_sub_6_2?>" />
+<input type="hidden" name="wert_a" value="<?php if($_POST['but_x']!=true){echo $total_a;}else{echo $max+$einsatz;}?>" />
+<input type="hidden" name="quote_f" value="<?=$quote_f?>" />
+<input type="hidden" name="patzen_a" value="<?=$bar_f+$patzen_a+$patzen_b+$patzen_c+$patzen_d+$patzen_e+$patzen_f?>" />
+<input type="submit" name="but_6" value="los" style="font-size:10px;background-color:green;padding:1px;margin-top:-2px; border-style:dotted;width:30px;" /></form></td>
+<td  style="position:absolute;margin-left:452px;margin-top:5px;"><form method="post"  name="ajaxform" action="" onSubmit="javascript:send();return false; " >
+<input type="hidden" name="but_1_quot_2_0" value="<?=$count_but_1_2_0_exp?>" />
+<input type="hidden" name="but_1_quot_2_1" value="<?=$count_but_1_2_1_exp?>" />
+<input type="hidden" name="but_1_quot_1_2" value="<?=$count_but_1_1_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_0" value="<?=$count_but_1_3_0_exp?>" />
+<input type="hidden" name="but_1_quot_3_1" value="<?=$count_but_1_3_1_exp?>" />
+<input type="hidden" name="but_1_quot_2_2" value="<?=$count_but_1_2_2_exp?>" />
+<input type="hidden" name="but_1_quot_3_2" value="<?=$count_but_1_3_2_exp?>" />
+<input type="hidden" name="but_1_quot_4_0" value="<?=$count_but_1_4_0_exp?>" />
+<input type="hidden" name="but_1_quot_4_1" value="<?=$count_but_1_4_1_exp?>" />
+<input type="hidden" name="but_1_quot_4_2" value="<?=$count_but_1_4_2_exp?>" />
+<input type="hidden" name="but_1_quot_5_0" value="<?=$count_but_1_5_0_exp?>" />
+<input type="hidden" name="but_1_quot_5_1" value="<?=$count_but_1_5_1_exp?>" />
+<input type="hidden" name="but_1_quot_5_2" value="<?=$count_but_1_5_2_exp?>" />
+
+<input type="hidden" name="but_2_quot_2_0" value="<?=$count_but_2_2_0_exp?>" />
+<input type="hidden" name="but_2_quot_2_1" value="<?=$count_but_2_2_1_exp?>" />
+<input type="hidden" name="but_2_quot_1_2" value="<?=$count_but_2_1_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_0" value="<?=$count_but_2_3_0_exp?>" />
+<input type="hidden" name="but_2_quot_3_1" value="<?=$count_but_2_3_1_exp?>" />
+<input type="hidden" name="but_2_quot_2_2" value="<?=$count_but_2_2_2_exp?>" />
+<input type="hidden" name="but_2_quot_3_2" value="<?=$count_but_2_3_2_exp?>" />
+<input type="hidden" name="but_2_quot_4_0" value="<?=$count_but_2_4_0_exp?>" />
+<input type="hidden" name="but_2_quot_4_1" value="<?=$count_but_2_4_1_exp?>" />
+<input type="hidden" name="but_2_quot_4_2" value="<?=$count_but_2_4_2_exp?>" />
+<input type="hidden" name="but_2_quot_5_0" value="<?=$count_but_2_5_0_exp?>" />
+<input type="hidden" name="but_2_quot_5_1" value="<?=$count_but_2_5_1_exp?>" />
+<input type="hidden" name="but_2_quot_5_2" value="<?=$count_but_2_5_2_exp?>" />
+
+<input type="hidden" name="but_3_quot_2_0" value="<?=$count_but_3_2_0_exp?>" />
+<input type="hidden" name="but_3_quot_2_1" value="<?=$count_but_3_2_1_exp?>" />
+<input type="hidden" name="but_3_quot_1_2" value="<?=$count_but_3_1_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_0" value="<?=$count_but_3_3_0_exp?>" />
+<input type="hidden" name="but_3_quot_3_1" value="<?=$count_but_3_3_1_exp?>" />
+<input type="hidden" name="but_3_quot_2_2" value="<?=$count_but_3_2_2_exp?>" />
+<input type="hidden" name="but_3_quot_3_2" value="<?=$count_but_3_3_2_exp?>" />
+<input type="hidden" name="but_3_quot_4_0" value="<?=$count_but_3_4_0_exp?>" />
+<input type="hidden" name="but_3_quot_4_1" value="<?=$count_but_3_4_1_exp?>" />
+<input type="hidden" name="but_3_quot_4_2" value="<?=$count_but_3_4_2_exp?>" />
+<input type="hidden" name="but_3_quot_5_0" value="<?=$count_but_3_5_0_exp?>" />
+<input type="hidden" name="but_3_quot_5_1" value="<?=$count_but_3_5_1_exp?>" />
+<input type="hidden" name="but_3_quot_5_2" value="<?=$count_but_3_5_2_exp?>" />
+
+<input type="hidden" name="but_4_quot_2_0" value="<?=$count_but_4_2_0_exp?>" />
+<input type="hidden" name="but_4_quot_2_1" value="<?=$count_but_4_2_1_exp?>" />
+<input type="hidden" name="but_4_quot_1_2" value="<?=$count_but_4_1_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_0" value="<?=$count_but_4_3_0_exp?>" />
+<input type="hidden" name="but_4_quot_3_1" value="<?=$count_but_4_3_1_exp?>" />
+<input type="hidden" name="but_4_quot_2_2" value="<?=$count_but_4_2_2_exp?>" />
+<input type="hidden" name="but_4_quot_3_2" value="<?=$count_but_4_3_2_exp?>" />
+<input type="hidden" name="but_4_quot_4_0" value="<?=$count_but_4_4_0_exp?>" />
+<input type="hidden" name="but_4_quot_4_1" value="<?=$count_but_4_4_1_exp?>" />
+<input type="hidden" name="but_4_quot_4_2" value="<?=$count_but_4_4_2_exp?>" />
+<input type="hidden" name="but_4_quot_5_0" value="<?=$count_but_4_5_0_exp?>" />
+<input type="hidden" name="but_4_quot_5_1" value="<?=$count_but_4_5_1_exp?>" />
+<input type="hidden" name="but_4_quot_5_2" value="<?=$count_but_4_5_2_exp?>" />
+
+<input type="hidden" name="but_5_quot_2_0" value="<?=$count_but_5_2_0_exp?>" />
+<input type="hidden" name="but_5_quot_2_1" value="<?=$count_but_5_2_1_exp?>" />
+<input type="hidden" name="but_5_quot_1_2" value="<?=$count_but_5_1_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_0" value="<?=$count_but_5_3_0_exp?>" />
+<input type="hidden" name="but_5_quot_3_1" value="<?=$count_but_5_3_1_exp?>" />
+<input type="hidden" name="but_5_quot_2_2" value="<?=$count_but_5_2_2_exp?>" />
+<input type="hidden" name="but_5_quot_3_2" value="<?=$count_but_5_3_2_exp?>" />
+<input type="hidden" name="but_5_quot_4_0" value="<?=$count_but_5_4_0_exp?>" />
+<input type="hidden" name="but_5_quot_4_1" value="<?=$count_but_5_4_1_exp?>" />
+<input type="hidden" name="but_5_quot_4_2" value="<?=$count_but_5_4_2_exp?>" />
+<input type="hidden" name="but_5_quot_5_0" value="<?=$count_but_5_5_0_exp?>" />
+<input type="hidden" name="but_5_quot_5_1" value="<?=$count_but_5_5_1_exp?>" />
+<input type="hidden" name="but_5_quot_5_2" value="<?=$count_but_5_5_2_exp?>" />
+
+<input type="hidden" name="but_6_quot_2_0" value="<?=$count_but_6_2_0_exp?>" />
+<input type="hidden" name="but_6_quot_2_1" value="<?=$count_but_6_2_1_exp?>" />
+<input type="hidden" name="but_6_quot_1_2" value="<?=$count_but_6_1_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_0" value="<?=$count_but_6_3_0_exp?>" />
+<input type="hidden" name="but_6_quot_3_1" value="<?=$count_but_6_3_1_exp?>" />
+<input type="hidden" name="but_6_quot_2_2" value="<?=$count_but_6_2_2_exp?>" />
+<input type="hidden" name="but_6_quot_3_2" value="<?=$count_but_6_3_2_exp?>" />
+<input type="hidden" name="but_6_quot_4_0" value="<?=$count_but_6_4_0_exp?>" />
+<input type="hidden" name="but_6_quot_4_1" value="<?=$count_but_6_4_1_exp?>" />
+<input type="hidden" name="but_6_quot_4_2" value="<?=$count_but_6_4_2_exp?>" />
+<input type="hidden" name="but_6_quot_5_0" value="<?=$count_but_6_5_0_exp?>" />
+<input type="hidden" name="but_6_quot_5_1" value="<?=$count_but_6_5_1_exp?>" />
+<input type="hidden" name="but_6_quot_5_2" value="<?=$count_but_6_5_2_exp?>" />
+<input type="hidden" name="wert_a" value="<?=$max+($einsatz*6)?>" />
+<input type="hidden" name="quote_a" value="<?=$quote_a+$quote_b+$quote_c+$quote_d+$quote_e+$quote_f?>" />
+<input type="hidden" name="patzen_a" value="<?=$bar_a+$patzen_a+$bar_b+$patzen_b+$bar_c+$patzen_c+$bar_d+$patzen_d+$bar_e+$patzen_e+$bar_f+$patzen_f?>" />
+<input type="submit" name="but_x" id="but_x" value="los"  style="font-size:10px;background-color:green;padding:1px;margin-top:-2px; border-style:dotted;width:30px;" /></form></td>
+</tr>
+</div>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<div class="ud_box">
+ <form id="ud_form">
+    <input type="text" id="name" name="name" placeholder="Name">
+    <input type="text" id="nachname" name="nachname" placeholder="Nachname">
+    <input type="submit" name="senden" id="senden" value="Abschicken">
+ </form>
+</div>
+
+<div id="ud_output">TEst</div>
+
+<script>
+$(document).ready(function(){
+ $("#but_x").click(function(){
+  var name = $("#name").val();
+  var nachname = $("#nachname").val();
+  $.ajax({
+   type: "post",
+   url: "rotate2.php?system=auto&play=starts&rot_1=1&rot_2=2&rot_3=3&rot_4=4&rot_5=5&rot_6=2&rot_7=4&einsatz=3",
+   data: {name:name,nachname:nachname},
+   cache: false,
+  /*
+  * Meldung vom Zielscript ausgeben
+  */
+   success: function(value){ alert(value);
+ /* success: function send(but_x) {
+	new_post(textbox.value);
+	textbox.value = "";
+	textbox.focus();
+	//return false;
+
+*/
+   }
+  });
+ /*
+  * Seitenreload unterbinden
+ */
+ event.preventDefault();
+ });
+});
+</script>  
+</body>
+<!-- <script type="text/javascript">
+function send(textbox) {
+	new_post(textbox.value);
+	textbox.value = "";
+	textbox.focus();
+	return false;
+}
+
+function new_post(text){
+  xmlHttpObject.open('get','chat_db.php?do=post&text='+text);
+  xmlHttpObject.send(null);
+}
+</script>
+<!-- <script type="text/javascript">
+function
+submitDetailsForm(){
+	$("#all_six").submit();
+	}
+	</script>
+    -->
+<!--  green Button los! END   -->
+
+</table>
+
+<table align="center" style="position:absolute;margin-left:240px;margin-top:-220px;width:430px;height:20px;">
+<tr style="font-size:10px;">
+<td width="67"><?php if($zufall_1_1==true){echo $richtige_treffer_1_1."&nbsp;|&nbsp;".$richtige_treffer_1_2;}?></td>
+<td width="67"><?php if($zufall_2_1==true){echo $richtige_treffer_2_1."&nbsp;|&nbsp;".$richtige_treffer_2_2;}?></td>
+<td width="67"><?php if($zufall_3_1==true){echo $richtige_treffer_3_1."&nbsp;|&nbsp;".$richtige_treffer_3_2;}?></td>
+<td width="67"><?php if($zufall_4_1==true){echo $richtige_treffer_4_1."&nbsp;|&nbsp;".$richtige_treffer_4_2;}?></td>
+<td width="67"><?php if($zufall_5_1==true){echo $richtige_treffer_5_1."&nbsp;|&nbsp;".$richtige_treffer_5_2;}?></td>
+<td width="67"><?php if($zufall_6_1==true){echo $richtige_treffer_6_1."&nbsp;|&nbsp;".$richtige_treffer_6_2;}?></td>
+</tr>
+</table>
+
+<!-- compare numbers START -->
+<?php 
+
+?>
+<table style="position:absolute;border-width:1px;border-style:dotted;border-color:black;margin-left:20px;width:160px;height:150px;padding:5px;margin-top:-295px;font-size:10px;">
+
+<tr><td colspan="8">Die Gewinn Zahlen:</td></tr>
+<tr>
+<td align="right"><?=$gewinn_1?></td>
+<td align="right"><?=$gewinn_2?></td>
+<td align="right"><?=$gewinn_3?></td>
+<td align="right"><?=$gewinn_4?></td>
+<td align="right"><?=$gewinn_5?></td>
+<td>&nbsp;|&nbsp;</td>
+<td align="right"><?=$gewinn_6?></td>
+<td align="right"><?=$gewinn_7?></td>
+</tr>
+
+
+<tr><td colspan="4">Ausgaben:</td><td colspan="4">Einnahmen:</td></tr>                                  <!-- $total_a-3;  -->                                                                    							<!-- $gewonnen_a  -->
+<tr><td colspan="4"><?php if($betrag_a!=true){echo"";}else{echo "<span style='color:red;'>".sprintf("%01.2f", ($max)).".-</span>";}?></td><td colspan="4"><?php if($patzen_a!=true){echo"";}else{echo "<span style='color:green;'>".sprintf("%01.2f", ($win)).".-</span>";}?></td></tr>
+<tr height="30" align="center"><td colspan="8"><?php if($notice_1==true || $notice_2==true || $notice_3==true || $notice_4==true || $notice_5==true || $notice_6==true){echo"Sie haben ".sprintf("%01.2f", ($per_win)).".- CHF gewonnen!";}?></td></tr>
+<tr><td colspan="8">Preis Pro Kolone: <?=$einsatz?>.-</td></tr>
+<tr><td colspan="8">gespielte Felder: <?php if($einsatz>0){echo $max/$einsatz;}else{echo 0;}?></td></tr>
+</table>
+
+<!-- compare numbers END -->
+
+
+<!-- align="center" style=" background-color:#0FF;border-width:2px;border-style:dotted;color:black;margin-left:-180px;width:480px;height:110px;padding:5px;margin-top:5px;" -->
+<table align="left"><tr><td>
+<div style=" background-color:#09F;border-width:1px;border-style:dotted;border-color:black;margin-left:198px;width:480px;height:110px;padding:5px;margin-top:5px;" class="resultsnumbers"> 
+<?php require_once('results.php');?>
+ </div>
+</td></tr></table>
+
+</body>
+</html>
+</div>
